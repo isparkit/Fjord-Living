@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "page_width": 1380,
     "section_vertical_spacing": "medium",
     "button_border_radius": 60,
     "input_border_radius": 8,
@@ -20,10 +21,10 @@
     "success_color": "#ca9f71",
     "warning_color": "#e37e16",
     "error_color": "#aa2826",
-    "header_background": "#f0f0f0",
+    "header_background": "#fae4d4",
     "header_text_color": "#1a1a1a",
     "footer_background": "#ca9f71",
-    "footer_text_color": "#272727",
+    "footer_text_color": "#fcfaf6",
     "primary_button_background": "#ca9f71",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#00a341",
@@ -39,6 +40,8 @@
     "product_color_display": "swatch",
     "product_info_alignment": "start",
     "cart_icon": "shopping_basket",
+    "social_facebook": "https://www.facebook.com/",
+    "social_instagram": "https://www.instagram.com",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": []

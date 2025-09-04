@@ -15,13 +15,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner2800x1000.jpg",
-            "mobile_image": "shopify://shop_images/bannermobile.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Velkommen til",
-            "title": "FJORDLIVING",
+            "subheading": "",
+            "title": "",
             "heading_tag": "h0",
             "button_text": "",
             "button_link": "",
@@ -60,6 +58,7 @@
         "slide-1",
         "slide-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
@@ -162,7 +161,7 @@
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "text": "Promotion text",
         "text_size": "large",
         "text_style": "fill",
@@ -226,7 +225,7 @@
         "collection-3"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_collections": false,
         "collections_per_row_mobile": "1",
         "collections_per_row": 3,

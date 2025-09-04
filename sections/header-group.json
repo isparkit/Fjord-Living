@@ -38,7 +38,7 @@
         "message_44w8Xc": {
           "type": "message",
           "settings": {
-            "text": "★★★★★ Fremragende",
+            "text": "Fremragende",
             "url": ""
           }
         },
@@ -64,7 +64,7 @@
         "cycle_speed": 4,
         "scrolling_speed": 10,
         "text_size": "text-xs",
-        "background": "#1a1a1a",
+        "background": "#885f41",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -82,7 +82,7 @@
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_center_navigation_inline",
+        "layout": "logo_left_navigation_center",
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": true,
