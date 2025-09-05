@@ -92,8 +92,8 @@
           "type": "text",
           "settings": {
             "tex_img": "shopify://shop_images/Logo.png",
-            "title": "",
-            "content": "<p>Tilmeld dig vores nyhedsbrev<br/>Bliv den første til at få besked omkring gode tilbud, nye produkter osv. Vi sender kun mails 1-2 gange om måneden og du kan altid afmelde dig igen.<br/><br/></p>",
+            "title": "Tilmeld dig vores nyhedsbrev",
+            "content": "<p>Bliv den første til at få besked omkring gode tilbud, nye produkter osv. Vi sender kun mails 1-2 gange om måneden og du kan altid afmelde dig igen.</p>",
             "enable_follow_on_shop": true
           }
         },
@@ -110,8 +110,8 @@
           "type": "text",
           "settings": {
             "title": "Kontakt",
-            "content": "<p>Man-fredag: 08:00 - 20:30<br/>Mail: info@fjordliving.dk<br/>CVR: 33443099<br/>Adresse: 1307 København K<br/><br/></p>",
-            "enable_follow_on_shop": true
+            "content": "<p><strong>Man-fredag:</strong> 08:00 - 20:30<br/><strong>Mail: </strong>info@fjordliving.dk<br/><strong>CVR:</strong> 33443099<br/><strong>Adresse:</strong> 1307 København K</p>",
+            "enable_follow_on_shop": false
           }
         },
         "links": {
@@ -136,7 +136,9 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": true,
-        "show_locale_selector": true
+        "show_locale_selector": true,
+        "padding_top": 100,
+        "padding_bottom": 8
       }
     }
   },

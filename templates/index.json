@@ -78,8 +78,9 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/box.png",
+            "stretch_image": false,
+            "link_text": "Gratis fragt",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -90,8 +91,9 @@
         "1664424046b00c932c-1": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/track.png",
+            "stretch_image": false,
+            "link_text": "Hurtig levering",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -102,8 +104,9 @@
         "1664424046b00c932c-2": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/smile.png",
+            "stretch_image": false,
+            "link_text": "Tilfredshedsgaranti",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -114,20 +117,9 @@
         "1664424046b00c932c-3": {
           "type": "item",
           "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
+            "image": "shopify://shop_images/lock.png",
+            "stretch_image": false,
+            "link_text": "Sikker betaling",
             "link_url": "",
             "background": "",
             "text_color": "#ffffff",
@@ -140,9 +132,9 @@
         "1664424046b00c932c-0",
         "1664424046b00c932c-1",
         "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
+        "1664424046b00c932c-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "block_size": "medium",
@@ -156,6 +148,120 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "multi_column_BwtTnq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_JpMULJ": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KWfwK9": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V6VtUG": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_JpMULJ",
+        "item_KWfwK9",
+        "item_V6VtUG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "press_88JJDV": {
+      "type": "press",
+      "blocks": {
+        "quote_aQKbGf": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_36JhTn": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_tgBzKc": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_aQKbGf",
+        "quote_36JhTn",
+        "quote_tgBzKc"
+      ],
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "scrolling-text": {
@@ -764,11 +870,73 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "testimonials_xfi6K6": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_MHHLXc": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_zjY34E": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_J7chUD": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_MHHLXc",
+        "testimonial_zjY34E",
+        "testimonial_J7chUD"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "image-link-blocks",
+    "multi_column_BwtTnq",
+    "press_88JJDV",
     "scrolling-text",
     "collection-list",
     "featured-collection",
@@ -780,6 +948,7 @@
     "hot-spots",
     "multiple-images-with-text",
     "featured-product",
-    "faq"
+    "faq",
+    "testimonials_xfi6K6"
   ]
 }
