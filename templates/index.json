@@ -156,11 +156,12 @@
         "item_JpMULJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/box.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Gratis fragt",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Vi tilbyder gratis fragt på alle ordrer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -169,11 +170,12 @@
         "item_KWfwK9": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/track.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Hurtig levering",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>1-4 dages levering</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -182,11 +184,26 @@
         "item_V6VtUG": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/smile.png",
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Tilfredshedsgaranti",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>30 dages tilfredshedsgaranti</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RcWUDR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/lock.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Sikker betaling",
+            "heading_tag": "h4",
+            "content": "<p>Du kan trygt købe hos os, vi benytter 3D secure.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -196,17 +213,19 @@
       "block_order": [
         "item_JpMULJ",
         "item_KWfwK9",
-        "item_V6VtUG"
+        "item_V6VtUG",
+        "item_RcWUDR"
       ],
       "name": "Multi-column",
       "settings": {
-        "full_width": true,
+        "custom-multi": "custom-multi",
+        "full_width": false,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
