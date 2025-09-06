@@ -10244,6 +10244,7 @@ shopify-accelerated-checkout-cart {
   font-size: var(--text-h6);
   line-height: 1.4;
 }
+
 @media screen and (min-width: 700px) {
   .sm\:text-xxs {
     font-size: 10px;

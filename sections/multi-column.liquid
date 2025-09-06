@@ -30,7 +30,7 @@
             {%- when 'item' -%}
               <div
                 class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start"
-                style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}"
+                style="--multi-column-item-column-count: span 3"
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.video != blank -%}
@@ -65,7 +65,7 @@
                 -%}
                   <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
                     {%- if block.settings.title != blank -%}
-                      <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                      <h4 class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</h4>
                     {%- endif -%}
 
                     {%- if block.settings.content != blank or block.settings.link_text != blank -%}
@@ -394,3 +394,50 @@
 }
 {% endschema %}
 
+<style>
+  .custom-multi .multi-column__item.justify-start.snap-start {
+    border: 1px solid #885f41;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #f7f3f0;
+  }
+  .custom-multi .multi-column__item.justify-start.snap-start img {
+    margin: 0 auto;
+  }
+
+  .custom-multi .multi-column__item .v-stack.gap-4.text-start h4 {
+    text-align: center;
+  }
+
+  .custom-multi .multi-column__item .v-stack.gap-4.text-start p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+  .custom-multi .multi-column {
+    gap: 20px;
+  }
+  .custom-multi .h4 {
+    font-size: 24px;
+    line-height: 1em;
+    letter-spacing: 0px;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  .custom-multi .section {
+  }
+  .section.section-blends.section-full {
+    background-color: #ffff;
+  }
+
+  @media (max-width: 767px) {
+    .custom-multi .multi-column {
+      grid: unset;
+    }
+  }
+</style>

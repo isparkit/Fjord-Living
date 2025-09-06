@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "custom_image_with_text_tKwjJE": {
+      "type": "custom-image-with-text",
+      "name": "Two Column Hero Section",
+      "settings": {
+        "cus_class": "first-img-text",
+        "background_color": "#fae4d4",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "subheading": "Velkommen Til",
+        "heading": "FJORDLIVING",
+        "content": "Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.",
+        "button_link": "#",
+        "button_text": "Se vores udvalg",
+        "right_image": "shopify://shop_images/productImage_1.png"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -70,84 +86,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
-      }
-    },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/box.png",
-            "stretch_image": false,
-            "link_text": "Gratis fragt",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/track.png",
-            "stretch_image": false,
-            "link_text": "Hurtig levering",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/smile.png",
-            "stretch_image": false,
-            "link_text": "Tilfredshedsgaranti",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/lock.png",
-            "stretch_image": false,
-            "link_text": "Sikker betaling",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "multi_column_BwtTnq": {
@@ -221,14 +159,30 @@
         "custom-multi": "custom-multi",
         "full_width": false,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "start",
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "custom_image_with_text_RhC7d9": {
+      "type": "custom-image-with-text",
+      "name": "Two Column Hero Section",
+      "settings": {
+        "cus_class": "sec-img-text",
+        "background_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "subheading": "",
+        "heading": "Pladsbesparende og elegant",
+        "content": "SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.",
+        "button_link": "#",
+        "button_text": "Læs mere",
+        "right_image": "shopify://shop_images/Group_3.png"
       }
     },
     "press_88JJDV": {
@@ -349,6 +303,7 @@
         "collection-2",
         "collection-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_collections": false,
@@ -369,6 +324,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products": [],
@@ -455,6 +411,7 @@
         "1664424230c4756b0e-1",
         "1664424230c4756b0e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -952,9 +909,10 @@
     }
   },
   "order": [
+    "custom_image_with_text_tKwjJE",
     "slideshow",
-    "image-link-blocks",
     "multi_column_BwtTnq",
+    "custom_image_with_text_RhC7d9",
     "press_88JJDV",
     "scrolling-text",
     "collection-list",
