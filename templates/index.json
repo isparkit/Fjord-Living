@@ -13,7 +13,7 @@
       "type": "custom-image-with-text",
       "name": "Two Column Hero Section",
       "settings": {
-        "cus_class": "",
+        "cus_class": "fir-img-text",
         "background_color": "#f8f3ef",
         "padding_top": 40,
         "padding_bottom": 40,
@@ -21,7 +21,8 @@
         "heading": "FJORDLIVING",
         "content": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP.",
         "button_link": "",
-        "button_text": "Se vores udvalg"
+        "button_text": "Se vores udvalg",
+        "right_image": "shopify://shop_images/productImage_1.png"
       }
     },
     "slideshow": {
@@ -172,15 +173,16 @@
       "type": "custom-image-with-text",
       "name": "Two Column Hero Section",
       "settings": {
-        "cus_class": "",
+        "cus_class": "sec-img-text",
         "background_color": "#f8f3ef",
         "padding_top": 40,
         "padding_bottom": 40,
-        "subheading": "Velkommen Til",
-        "heading": "FJORDLIVING",
-        "content": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP.",
-        "button_link": "",
-        "button_text": "Se vores udvalg"
+        "subheading": "",
+        "heading": "Pladsbesparende og elegant",
+        "content": "SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.",
+        "button_link": "#",
+        "button_text": "Læs mere",
+        "right_image": "shopify://shop_images/Group_3.png"
       }
     },
     "press_88JJDV": {
@@ -322,14 +324,13 @@
     },
     "featured-collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "",
+        "collection": "collection",
         "products": [],
-        "full_width": true,
+        "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
-        "products_count": 6,
+        "products_count": 3,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
@@ -344,6 +345,197 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "multi_column_D83U47": {
+      "type": "multi-column",
+      "blocks": {
+        "item_tCnbJz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_10.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Kvalitet og holdbarhed",
+            "heading_tag": "h4",
+            "content": "<p>Vi fokuserer på at tilbyde produkter af høj kvalitet, der ikke kun er funktionelle, men også holdbare og pålidelige.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mw896d": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_10_1.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Kundeservice",
+            "heading_tag": "h4",
+            "content": "<p>Vi sætter en ære i at levere en fremragende kundeservice. Vores dedikerede team er her for at besvare dine spørgsmål og sikre, at du er tilfreds med dit køb.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9F3feK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_10_2.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Bæredygtighed",
+            "heading_tag": "h4",
+            "content": "<p>Hos FjordLiving er vi opmærksomme på vores miljømæssige ansvar. Vi stræber efter at tilbyde bæredygtige produkter og minimere vores påvirkning på planeten.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RnjgVG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Frame_10_3.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Innovation",
+            "heading_tag": "h4",
+            "content": "<p>Vi holder os opdateret med de seneste trends og teknologier for at sikre, at vores sortiment altid afspejler det bedste inden for innovation og design.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_tCnbJz",
+        "item_mw896d",
+        "item_9F3feK",
+        "item_RnjgVG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "sec-multi-colum",
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Hvorfor vælge FjordLiving",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_faq_DMQerW": {
+      "type": "custom-faq",
+      "blocks": {
+        "faq_xF6QJm": {
+          "type": "faq",
+          "settings": {
+            "question": "Vil armene i træ modstå fugt? Smitter de af?",
+            "answer": "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+          }
+        },
+        "faq_LTdqJc": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan samler jeg SmartRack?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point"
+          }
+        },
+        "faq_8VwCd7": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvorfor vælge Fjordliving SmartRack?",
+            "answer": "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+          }
+        },
+        "faq_iWHre8": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg er glad for mit stativ – kan jeg sende jer et billede til inspiration?",
+            "answer": "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+          }
+        },
+        "faq_LBBfyU": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg vil give det som gave i weekenden. Kan det nå frem inden da?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
+          }
+        },
+        "faq_3DRxfF": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg justere antallet af arme på SmartRack?",
+            "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected"
+          }
+        },
+        "faq_tGbiDH": {
+          "type": "faq",
+          "settings": {
+            "question": "Bør man tørre tøj indenfor?",
+            "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the"
+          }
+        },
+        "faq_mLptFG": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvor meget fylder stativet?",
+            "answer": "combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+          }
+        },
+        "faq_TKRRbj": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan får jeg benene til at blive inde i stativet?",
+            "answer": "voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "faq_kknTFX": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan SmartRack bruges udendørs?",
+            "answer": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+          }
+        },
+        "faq_c9ckVE": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg tørre kjoler på stativet?",
+            "answer": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness"
+          }
+        },
+        "faq_DCnk4h": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvad vejer SmartRack?",
+            "answer": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+          }
+        }
+      },
+      "block_order": [
+        "faq_xF6QJm",
+        "faq_LTdqJc",
+        "faq_8VwCd7",
+        "faq_iWHre8",
+        "faq_LBBfyU",
+        "faq_3DRxfF",
+        "faq_tGbiDH",
+        "faq_mLptFG",
+        "faq_TKRRbj",
+        "faq_kknTFX",
+        "faq_c9ckVE",
+        "faq_DCnk4h"
+      ],
+      "name": "Custom FAQ Section",
+      "settings": {
+        "heading": "Spørgsmål & svar",
+        "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30. Gennemsnitlig svartid: 4 timer</p>",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "impact-text": {
@@ -916,6 +1108,8 @@
     "scrolling-text",
     "collection-list",
     "featured-collection",
+    "multi_column_D83U47",
+    "custom_faq_DMQerW",
     "impact-text",
     "image-with-text-overlay",
     "media-grid",
