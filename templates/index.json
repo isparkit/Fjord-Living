@@ -14,13 +14,14 @@
       "name": "Two Column Hero Section",
       "settings": {
         "cus_class": "fir-img-text",
-        "background_color": "#f8f3ef",
+        "background_color": "#f9e9dd",
         "padding_top": 40,
         "padding_bottom": 40,
         "subheading": "Velkommen Til",
         "heading": "FJORDLIVING",
-        "content": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP.",
-        "button_link": "",
+        "content": "Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.",
+        "star_image": "shopify://shop_images/Bedomt_1.png",
+        "button_link": "#",
         "button_text": "Se vores udvalg",
         "right_image": "shopify://shop_images/productImage_1.png"
       }
@@ -224,6 +225,7 @@
         "quote_36JhTn",
         "quote_tgBzKc"
       ],
+      "disabled": true,
       "name": "Press",
       "settings": {
         "full_width": true,
@@ -239,6 +241,7 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "text": "Promotion text",
@@ -538,6 +541,99 @@
         "padding_bottom": 40
       }
     },
+    "custom_testimonial_slider_D3gCmh": {
+      "type": "custom-testimonial-slider",
+      "blocks": {
+        "testimonial_kQ7RNV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_t7QhLb": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_qXeEtq": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_jXrxiV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_dnrEqz": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_JheppE": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_aAARXk": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_mkcwCm": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super godt produkt...",
+            "author": "Jens I."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_kQ7RNV",
+        "testimonial_t7QhLb",
+        "testimonial_qXeEtq",
+        "testimonial_jXrxiV",
+        "testimonial_dnrEqz",
+        "testimonial_JheppE",
+        "testimonial_aAARXk",
+        "testimonial_mkcwCm"
+      ],
+      "name": "Testimonial Slider",
+      "settings": {
+        "heading": "Kundeoplevelser",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "impact-text": {
       "type": "impact-text",
       "blocks": {
@@ -557,6 +653,7 @@
       "block_order": [
         "1664424181b38582d5-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -708,6 +805,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -768,6 +866,7 @@
         "16644243327ba53d2a-0",
         "16644243327ba53d2a-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -825,6 +924,7 @@
         "1664424434f5b7d0e0-1",
         "1664424434f5b7d0e0-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "title": "",
@@ -877,6 +977,7 @@
         "1664424486a2b084ab-0",
         "1664424486a2b084ab-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "scattered",
@@ -968,6 +1069,7 @@
         "quantity-selector",
         "buy-buttons"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "",
@@ -1016,6 +1118,7 @@
         "166442457738b23caf-1",
         "166442457738b23caf-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -1080,6 +1183,7 @@
         "testimonial_zjY34E",
         "testimonial_J7chUD"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
@@ -1110,6 +1214,7 @@
     "featured-collection",
     "multi_column_D83U47",
     "custom_faq_DMQerW",
+    "custom_testimonial_slider_D3gCmh",
     "impact-text",
     "image-with-text-overlay",
     "media-grid",
