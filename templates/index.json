@@ -13,16 +13,15 @@
       "type": "custom-image-with-text",
       "name": "Two Column Hero Section",
       "settings": {
-        "cus_class": "first-img-text",
-        "background_color": "#fae4d4",
+        "cus_class": "",
+        "background_color": "#f8f3ef",
         "padding_top": 40,
         "padding_bottom": 40,
         "subheading": "Velkommen Til",
         "heading": "FJORDLIVING",
-        "content": "Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.",
-        "button_link": "#",
-        "button_text": "Se vores udvalg",
-        "right_image": "shopify://shop_images/productImage_1.png"
+        "content": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP.",
+        "button_link": "",
+        "button_text": "Se vores udvalg"
       }
     },
     "slideshow": {
@@ -173,16 +172,15 @@
       "type": "custom-image-with-text",
       "name": "Two Column Hero Section",
       "settings": {
-        "cus_class": "sec-img-text",
-        "background_color": "#ffffff",
+        "cus_class": "",
+        "background_color": "#f8f3ef",
         "padding_top": 40,
         "padding_bottom": 40,
-        "subheading": "",
-        "heading": "Pladsbesparende og elegant",
-        "content": "SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.",
-        "button_link": "#",
-        "button_text": "Læs mere",
-        "right_image": "shopify://shop_images/Group_3.png"
+        "subheading": "Velkommen Til",
+        "heading": "FJORDLIVING",
+        "content": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP.",
+        "button_link": "",
+        "button_text": "Se vores udvalg"
       }
     },
     "press_88JJDV": {
@@ -529,6 +527,7 @@
     },
     "before-after-image": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
