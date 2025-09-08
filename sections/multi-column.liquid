@@ -435,6 +435,31 @@
     background-color: #ffff;
   }
 
+  .sec-multi-colum .section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sec-multi-colum h2.h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0px;
+  }
+  /* Tablet view */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .multi-column.scroll-area.bleed {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* items ke beech space */
+    }
+
+    .multi-column__item.justify-start.snap-start {
+      flex: 1 1 calc(50% - 20px); /* 2 items per row */
+      max-width: calc(50% - 20px);
+    }
+  }
+
   @media (max-width: 767px) {
     .custom-multi .multi-column {
       grid: unset;
