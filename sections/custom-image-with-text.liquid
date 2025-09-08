@@ -95,26 +95,71 @@
     flex: 1;
     text-align: center;
   }
-  .two-col-hero h2 {
-    font-size: 42px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  .fir-img-text .left a span,
+  .sec-img-text .left a span {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 1em;
+    font-family: 'Quicksand' !important;
   }
-  .two-col-hero p {
-    margin-bottom: 20px;
+  .fir-img-text .left a,
+  .sec-img-text .left a {
+    border: 1px solid #885f41;
+    padding: 11px 25px 14px 25px;
+    border-radius: 50px;
+    background-color: #f2e2d7;
   }
-  .two-col-hero a {
-    display: inline-block;
-    background: #000;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 5px;
-    text-decoration: none;
+
+  .fir-img-text .left span {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+
+  /* second section */
+  .sec-img-text .left h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Quicksand' !important;
+    color: #000000;
+    line-height: 100%;
+    letter-spacing: 0px;
+    padding-bottom: 30px;
+  }
+  .sec-img-text .left p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0px;
+    margin-bottom: 51px;
+  }
+  @media (max-width: 767px) {
+    .fir-img-text .left span {
+      font-size: 18px;
+    }
+    .sec-img-text .left h2 {
+      font-size: 24px;
+    }
+    .fir-img-text .two-col-hero h2 {
+      font-size: 55px !important;
+      margin-bottom: 0px;
+    }
+
+    .two-col-hero {
+      flex-direction: column-reverse;
+    }
+
+    .two-col-hero .left img {
+      padding-bottom: 30px;
+    }
   }
 {% endstylesheet %}
 
 <section
-  class="{{section.settings.cus_class}}"
+  class="{{ section.settings.cus_class }}"
   style="
     background: {{ section.settings.background_color }};
     padding-top: {{ section.settings.padding_top }}px;
@@ -136,18 +181,32 @@
         {% if section.settings.content != blank %}
           <p>{{ section.settings.content }}</p>
         {% endif %}
+
         {% if section.settings.star_image != blank %}
-          <img src="{{ section.settings.star_image |img_url: 'master'}}" alt="Hero Image">
+          <img src="{{ section.settings.star_image | img_url: 'master' }}" alt="Star Image">
         {% endif %}
+
         {% if section.settings.button_text != blank and section.settings.button_link != blank %}
-          <a href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+          <div class="flex-alig">
+            <a href="{{ section.settings.button_link }}">
+              <span>{{ section.settings.button_text }}</span>
+              <!-- SVG Icon after text -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                <path d="M5 12h14M13 5l7 7-7 7"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
         {% endif %}
       </div>
 
-      <!-- Right Image -->
+      <!-- Right Content -->
       <div class="right">
         {% if section.settings.right_image != blank %}
-          <img src="{{ section.settings.right_image |img_url: 'master'}}" alt="Hero Image">
+          <img src="{{ section.settings.right_image | img_url: 'master' }}" alt="Hero Image">
         {% endif %}
       </div>
     </div>

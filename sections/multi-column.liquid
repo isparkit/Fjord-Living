@@ -445,6 +445,19 @@
     font-weight: 700;
     line-height: 1em;
     letter-spacing: 0px;
+    color: #000000;
+  }
+  .sec-multi-colum .prose p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #000000;
+  }
+  .sec-multi-colum .multi-column__item img {
+    margin: 0 auto;
+  }
+  .sec-multi-colum .multi-column {
+    gap: 26px;
   }
   /* Tablet view */
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -463,6 +476,12 @@
   @media (max-width: 767px) {
     .custom-multi .multi-column {
       grid: unset;
+    }
+    .sec-multi-colum h2.h2 {
+      font-size: 24px;
+    }
+    .sec-multi-colum .multi-column__item img {
+      margin: unset;
     }
   }
 </style>
