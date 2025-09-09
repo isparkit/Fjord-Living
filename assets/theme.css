@@ -10353,44 +10353,44 @@ span {
 
 h1,
 .h1 {
-
-  font-size: clamp(28px, 1.5vw + 20px, 96px);
-
+  font-size: clamp(28px, 4vw + 30px, 96px);
 }
 
 h2,
 .h2 {
-
   font-size: clamp(24px, 1.2vw + 20px, 48px);
-
 }
 
 h4,
 .h4 {
-
   font-size: clamp(20px, 0.45vw + 20px, 26px);
-
 }
 
 h5,
 .h5 {
-
   font-size: clamp(18px, 0.45vw + 18px, 24px);
-
 }
 
 h6,
 .h6 {
-
   font-size: clamp(18px, 0.3vw + 18px, 22px);
-
 }
 
 p,
 .p {
-
   font-size: clamp(14px, 0.3vw + 13px, 18px);
+}
 
+.btn-arrow {
+  display: flex;
+  width: auto;
+  align-items: center;
+  max-width: max-content;
+  gap: 5px;
+}
+
+.btn-arrow svg {
+  margin-bottom: -5px;
 }
 
 @media screen and (max-width: 767px) {
