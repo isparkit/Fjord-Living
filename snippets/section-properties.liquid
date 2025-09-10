@@ -75,7 +75,7 @@
 {%- endunless -%}
 
 {%- if class != blank -%}
-  class="section {% if tight %}section--tight{% endif %}
+  class="section {{ custom-class }} section-{{ section.id }}-padding {% if tight %}section--tight{% endif %}
   {% if narrow %}section--narrow{% endif %}
   {{ class | strip }}
   {{ custom_class | strip }}

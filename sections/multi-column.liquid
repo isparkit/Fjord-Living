@@ -1,4 +1,23 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
 <style>
+  .custom-multi,
+  .sec-multi-colum {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .custom-multi .multi-column__item.justify-start.snap-start {
     border: 1px solid #885f41;
     padding-top: 30px;
@@ -25,15 +44,19 @@
   .custom-multi .multi-column {
     gap: 20px;
   }
-  .custom-multi .h5 {
+  .custom-multi .h5,
+  .sec-multi-colum .h5 {
     line-height: normal;
     letter-spacing: 0px;
     font-weight: 600;
     word-wrap: break-word;
     text-align: center;
+    color: #000000;
   }
-  .custom-multi .section {
+  .sec-multi-colum .custom-multi {
+    gap: 10px !important;
   }
+
   .section.section-blends.section-full {
     background-color: #ffff;
   }
@@ -48,7 +71,6 @@
     line-height: normal;
     letter-spacing: 0px;
     color: #000000;
-    padding-top: 102px;
   }
   .sec-multi-colum .prose p {
     font-weight: 400;
@@ -69,7 +91,21 @@
     color: #000000;
     text-align: center;
   }
+  .sec-multi-colum .text-center {
+    padding: 0px !important;
+  }
+  .sec-multi-colum .multi-column__item {
+    gap: 20px;
+  }
+  .sec-multi-colum .section-stack {
+    gap: 40px !important;
+  }
   /* Tablet view */
+  @media screen (max-width: 1024px) {
+    .custom-multi .h5 {
+      font-size: 17px !import;
+    }
+  }
   @media (min-width: 768px) and (max-width: 1024px) {
     .multi-column.scroll-area.bleed {
       display: flex;
@@ -128,8 +164,8 @@
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
   </style>
-  <div {% render 'section-properties' %}>
-    <div class="section-stack {{section.settings.custom-multi}} container">
+  <div {% render 'section-properties', custom-class: section.settings['custom-multi'] %}>
+    <div class="section-stack container">
       {%- render 'section-header',
         subheading: section.settings.subheading,
         heading: section.settings.title,
@@ -335,6 +371,24 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 50
     }
   ],
   "blocks": [

@@ -14,7 +14,7 @@
       "name": "Two Column Hero Section",
       "settings": {
         "cus_class": "fir-img-text",
-        "background_color": "#f9e9dd",
+        "background_color": "#fae4d4",
         "padding_top": 40,
         "padding_bottom": 40,
         "subheading": "Velkommen Til",
@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify://shop_images/box.png",
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Gratis fragt",
             "heading_tag": "h4",
             "content": "<p>Vi tilbyder gratis fragt på alle ordrer.</p>",
@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify://shop_images/track.png",
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Hurtig levering",
             "heading_tag": "h4",
             "content": "<p>1-4 dages levering</p>",
@@ -62,7 +62,7 @@
           "settings": {
             "image": "shopify://shop_images/smile.png",
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Tilfredshedsgaranti",
             "heading_tag": "h4",
             "content": "<p>30 dages tilfredshedsgaranti</p>",
@@ -76,7 +76,7 @@
           "settings": {
             "image": "shopify://shop_images/lock.png",
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Sikker betaling",
             "heading_tag": "h4",
             "content": "<p>Du kan trygt købe hos os, vi benytter 3D secure.</p>",
@@ -104,7 +104,9 @@
         "content": "",
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "custom_image_with_text_RhC7d9": {
@@ -113,8 +115,8 @@
       "settings": {
         "cus_class": "sec-img-text",
         "background_color": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 100,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "subheading": "",
         "heading": "Pladsbesparende og elegant",
         "content": "SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.",
@@ -132,20 +134,24 @@
         "stack_products": true,
         "show_progress_bar": false,
         "products_count": 3,
-        "products_per_row_mobile": "2",
+        "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Featured collection",
+        "button_text": "Tilføj til kurv",
+        "button_link": "",
+        "title": "FjordLiving Produkter",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "#fcfaf6",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "multi_column_D83U47": {
@@ -220,13 +226,15 @@
         "full_width": false,
         "stack_on_mobile": true,
         "gap": "medium",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
         "title": "Hvorfor vælge FjordLiving",
         "content": "",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "custom_two_coilum_video_NHxP9E": {
@@ -286,8 +294,8 @@
       ],
       "name": "Custom Video Section",
       "settings": {
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 100,
         "heading": "Funktionelt Og Pladsbesparende Design",
         "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p>",
         "video": "shopify://files/videos/pancake1500.mov"
@@ -382,8 +390,8 @@
       "name": "Testimonial Slider",
       "settings": {
         "heading": "Kundeoplevelser",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "custom_faq_DMQerW": {
@@ -492,8 +500,8 @@
       "settings": {
         "heading": "Spørgsmål & svar",
         "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30.Gennemsnitlig svartid: 4 timer</p>",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },

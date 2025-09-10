@@ -63,7 +63,7 @@
         "show_country_flag": true,
         "show_country_name": true,
         "show_locale_selector": true,
-        "padding_top": 100,
+        "padding_top": 80,
         "padding_bottom": 8
       }
     }

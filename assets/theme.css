@@ -2034,10 +2034,12 @@ scroll-carousel {
 .container {
   --container-inner-width: max((100vw - var(--scrollbar-width, 0px)) - var(--container-gutter) * 2, var(--container-max-width));
   --container-outer-width: calc(((100vw - var(--scrollbar-width, 0px)) - var(--container-inner-width)) / 2);
-  margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
-  margin-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  /* margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  margin-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2); */
   padding-left: 50px !important;
   padding-right: 50px !important;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
 }
 
 .container--narrow {
@@ -10353,12 +10355,12 @@ span {
 
 h1,
 .h1 {
-  font-size: clamp(28px, 4vw + 30px, 96px);
+  font-size: clamp(28px, 2.5vw + 20px, 96px);
 }
 
 h2,
 .h2 {
-  font-size: clamp(24px, 1.2vw + 20px, 48px);
+  font-size: clamp(24px, 1.8vw + 20px, 48px);
 }
 
 h4,
