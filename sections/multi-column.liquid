@@ -25,7 +25,7 @@
   .custom-multi .multi-column {
     gap: 20px;
   }
-  .custom-multi .h4 {
+  .custom-multi .h5 {
     line-height: 1em;
     letter-spacing: 0px;
     font-weight: 600;
@@ -186,7 +186,7 @@
                 -%}
                   <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
                     {%- if block.settings.title != blank -%}
-                      <h5 class="h4">{{ block.settings.title | escape }}</h5>
+                      <h5 class="h5">{{ block.settings.title | escape }}</h5>
                     {%- endif -%}
 
                     {%- if block.settings.content != blank or block.settings.link_text != blank -%}

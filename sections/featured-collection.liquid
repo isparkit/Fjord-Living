@@ -195,6 +195,16 @@
     },
     {
       "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
       "id": "title",
       "label": "Heading",
       "default": "Featured collection"
@@ -269,5 +279,28 @@
 <style>
   .custom-futured-collection {
     background-color: #f4eee9;
+  }
+  .product-card__figure {
+    /* border: 1px solid red; */
+    margin: 10px;
+  }
+
+  .product-card__figure img {
+    border-radius: 15px;
+  }
+  .custom-futured-collection {
+    background-color: #f4eee9;
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  .section-header {
+    justify-items: center !important;
+    grid-template-columns: 1fr !important;
+  }
+  .v-stack {
+    /* display: grid; */
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
   }
 </style>
