@@ -1,4 +1,16 @@
-{% stylesheet %}
+{% style %}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.20 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.20 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
   .two-col-hero {
     display: flex;
     align-items: center;
@@ -74,6 +86,16 @@
       max-width: 90%;
     }
   }
+    @media (max-width: 1024px) {
+     .fir-img-text{
+      padding-top:20px !important;
+      padding-bottom:20px !important;
+    }
+    .fir-img-text .left-content a, .sec-img-text .left-content a{
+      font-size:18px;
+    }
+  }
+
   @media (max-width: 767px) {
     .fir-img-text .left-content span {
       font-size: 18px;
@@ -98,15 +120,11 @@
       max-width: 100%;
     }
   }
-{% endstylesheet %}
+{% endstyle %}
 
 <section
-  class="{{ section.settings.cus_class }}"
-  style="
-    background: {{ section.settings.background_color }};
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-  "
+  class="{{ section.settings.cus_class }} section-{{ section.id }}-padding"
+  style="    background: {{ section.settings.background_color }};"
 >
   <div class="container">
     <div class="two-col-hero">

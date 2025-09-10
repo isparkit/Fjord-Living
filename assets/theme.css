@@ -6331,10 +6331,10 @@ product-rerender {
 }
 
 .dropdown-menu {
-  gap: var(--spacing-3);
+  gap: 5px;
   width: max-content;
   max-width: 350px;
-  padding: var(--spacing-5) var(--spacing-7);
+  padding: 15px;
   background: rgb(var(--header-background));
   color: rgb(var(--header-text));
   border-radius: var(--rounded-sm);
