@@ -879,21 +879,37 @@
   }
   .custom-header ul.contents li a {
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: normal;
     letter-spacing: 0px;
     font-weight: 700;
     color: #000000;
   }
-  .header__link-list a[aria-current='page'],
-  .header__link-list .dropdown-menu__item a[aria-current='page'] {
-    border: 1px solid #0000001a;
-    padding-top: 9px;
-    padding-right: 22px;
-    padding-bottom: 9px;
-    padding-left: 22px;
-    border-radius: 50px;
-    background-color: #e0d3c9;
+  .header__link-list a,
+  .header__link-list .dropdown-menu__item a {
+    position: relative;
+    text-decoration: none;
   }
+
+  .header__link-list a::after,
+  .header__link-list .dropdown-menu__item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background: #272727;
+    transition: width 0.3s ease;
+    padding-bottom: 2px;
+    margin-bottom: -3px;
+  }
+
+  /* Active page ke liye */
+  .header__link-list a[aria-current='page']::after,
+  .header__link-list .dropdown-menu__item a[aria-current='page']::after {
+    width: 100%;
+  }
+
   .custom-header .justify-center {
     align-items: center;
   }
