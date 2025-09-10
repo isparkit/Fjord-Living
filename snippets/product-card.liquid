@@ -226,15 +226,16 @@
           ><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span
         >
       {%- endif -%}
-
-      {%- render 'price-list', product: product, text_alignment: text_alignment -%}
-      <a
-        href="{{ section.settings.button_link }}"
-        class="featured-btn"
-      >
-        {{ section.settings.button_text }}
-      </a>
-      {% render 'btn-arrow' %}
+      <div>
+        {%- render 'price-list', product: product, text_alignment: text_alignment -%}
+        <a
+          href="{{ section.settings.button_link }}"
+          class="featured-btn"
+        >
+          {{ section.settings.button_text }}
+        </a>
+        {% render 'btn-arrow' %}
+      </div>
     </div>
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
