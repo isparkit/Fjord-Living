@@ -75,7 +75,7 @@
         "enable_sticky": false,
         "hide_on_scroll": false,
         "logo": "shopify://shop_images/Logo.svg",
-        "logo_max_width": 90,
+        "logo_max_width": 150,
         "logo_mobile_max_width": 90,
         "menu": "main-menu",
         "sidebar_menu": "",
