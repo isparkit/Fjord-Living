@@ -17,7 +17,6 @@
         "text_VwY4HC": {
           "type": "text",
           "settings": {
-            "tex_img": "shopify://shop_images/Logo_1.svg",
             "title": "Tilmeld dig vores nyhedsbrev",
             "content": "<p>Bliv den første til at få besked omkring gode tilbud, nye produkter osv. Vi sender kun mails 1-2 gange om måneden og du kan altid afmelde dig igen.</p>",
             "enable_follow_on_shop": true
@@ -62,9 +61,7 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": true,
-        "show_locale_selector": true,
-        "padding_top": 80,
-        "padding_bottom": 8
+        "show_locale_selector": true
       }
     }
   },
