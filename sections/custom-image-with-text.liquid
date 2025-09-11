@@ -1,0 +1,262 @@
+{% style %}
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
+.fir-img-text{
+  background: linear-gradient(270deg, #FAE4D4 0%, #F8EEE7 100%);
+}
+      .two-col-hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+      }
+      .two-col-hero .left-content {
+        flex: 1;
+      }
+      .two-col-hero .right-content {
+        flex: 1;
+        text-align: center;
+      }
+      .fir-img-text .left-content a span,
+      .sec-img-text .left-content a span {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        line-height: normal;
+        font-family: 'Quicksand' !important;
+      }
+      .fir-img-text .left-content a,
+      .sec-img-text .left-content a {
+        border: 1px solid #885f41;
+        padding: 11px 25px 14px 25px;
+        border-radius: 50px;
+        background-color: #f2e2d7;
+      }
+      .two-col-hero .left-content img {
+        padding-bottom: 30px;
+      }
+      .fir-img-text .left-content span {
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0px;
+        color: #000000;
+      }
+      .fir-img-text .two-col-hero h2 {
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #885f41;
+        line-height: normal;
+      }
+      .fir-img-text .two-col-hero p {
+        margin-bottom: 20px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        line-height: normal;
+        color: #000000;
+        max-width: 522px;
+      }
+
+      /* second section */
+      .sec-img-text .left-content h2 {
+        font-weight: 700;
+        font-family: 'Quicksand' !important;
+        color: #000000;
+        line-height: normal;
+        letter-spacing: 0px;
+        padding-bottom: 30px;
+      }
+      .sec-img-text .left-content p {
+        font-size: 22px;
+        font-weight: 400;
+        color: #000000;
+        letter-spacing: 0px;
+        margin-bottom: 51px;
+        line-height: normal;
+      }
+      @media (max-width: 1599px) {
+        .fir-img-text .right-content img {
+          max-width: 80%;
+        }
+      .sec-img-text .left-content p {
+      margin-bottom: 30px;
+  }
+      }
+
+        @media (max-width: 1024px) {
+         .fir-img-text{
+          padding-top:20px !important;
+          padding-bottom:20px !important;
+        }
+        .fir-img-text .left-content a, .sec-img-text .left-content a{
+          font-size:18px;
+        }
+        .two-col-hero{
+          gap:30px;
+         }
+           .sec-img-text .left-content h2 {
+          padding-bottom: 10px;
+        }
+        .sec-img-text .left-content p {
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+      }
+
+      @media (max-width: 767px) {
+        .fir-img-text .left-content span {
+          font-size: 18px;
+        }
+        .fir-img-text .two-col-hero h2 {
+          font-size: 45px !important;
+          margin-bottom: 0px;
+          padding-top: 0;
+        }
+
+        .two-col-hero {
+          flex-direction: column-reverse;
+        }
+
+        .two-col-hero .left-content img {
+          padding-bottom: 20px;
+        }
+        .right-content img {
+          max-width: 90%;
+        }
+        .sec-img-text .left-content p {
+          font-size:18px;
+        }
+         .fir-img-text .right-content img {
+          max-width: 100%;
+        }
+      }
+{% endstyle %}
+
+<section
+  class="{{ section.settings.cus_class }} section-{{ section.id }}-padding"
+>
+  <div class="container">
+    <div class="two-col-hero">
+      <!-- Left Content -->
+      <div class="left-content">
+        {% if section.settings.subheading != blank %}
+          <span class="h5">{{ section.settings.subheading }}</span>
+        {% endif %}
+
+        {% if section.settings.heading != blank %}
+          <h2 class="h1">{{ section.settings.heading }}</h2>
+        {% endif %}
+
+        {% if section.settings.content != blank %}
+          <p>{{ section.settings.content }}</p>
+        {% endif %}
+
+        {% if section.settings.star_image != blank %}
+          <img src="{{ section.settings.star_image | img_url: 'master' }}" alt="Star Image">
+        {% endif %}
+
+        {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+          <div class="flex-alig">
+            <a class="btn-arrow" href="{{ section.settings.button_link }}">
+              <span>{{ section.settings.button_text }}</span>
+              <!-- SVG Icon after text -->
+              {% render 'btn-arrow' %}
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      <!-- Right Content -->
+      <div class="right-content">
+        {% if section.settings.right_image != blank %}
+          <img src="{{ section.settings.right_image | img_url: 'master' }}" alt="Hero Image">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Two Column Hero Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "cus_class",
+      "label": "Custom Class"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 40,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 40,
+      "min": 0,
+      "max": 200,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Velkommen Til"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "FJORDLIVING"
+    },
+    {
+      "type": "textarea",
+      "id": "content",
+      "label": "Content",
+      "default": "Her kommer din beskrivelse tekst. Tilføj lidt om dit brand, produkter eller USP."
+    },
+    {
+      "type": "image_picker",
+      "id": "star_image",
+      "label": "Star Image"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Se vores udvalg"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_image",
+      "label": "Right Side Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Hero Section"
+    }
+  ]
+}
+{% endschema %}

@@ -38,7 +38,7 @@
         "message_44w8Xc": {
           "type": "message",
           "settings": {
-            "text": "★★★★★ Fremragende",
+            "text": "Fremragende",
             "url": ""
           }
         },
@@ -64,7 +64,7 @@
         "cycle_speed": 4,
         "scrolling_speed": 10,
         "text_size": "text-xs",
-        "background": "#1a1a1a",
+        "background": "#885f41",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -72,23 +72,23 @@
     "header": {
       "type": "header",
       "settings": {
-        "enable_sticky": true,
+        "enable_sticky": false,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/FJORD-3.svg",
-        "logo_max_width": 90,
+        "logo": "shopify://shop_images/Logo.svg",
+        "logo_max_width": 150,
         "logo_mobile_max_width": 90,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
         "opening_from": "bottom",
-        "layout": "logo_center_navigation_inline",
+        "layout": "logo_left_navigation_center",
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
+        "transparent_header_text_color": "#ca9f71",
         "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0

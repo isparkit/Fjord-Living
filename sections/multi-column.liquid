@@ -1,3 +1,198 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<style>
+  .custom-multi,
+  .sec-multi-colum {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .custom-multi .multi-column__item.justify-start.snap-start {
+    border: 1px solid #885f41;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: #f7f3f0;
+  }
+  .custom-multi .multi-column__item.justify-start.snap-start img {
+    margin: 0 auto;
+  }
+
+  .custom-multi .multi-column__item .v-stack.gap-4.text-start h4 {
+    text-align: center;
+  }
+
+  .custom-multi .multi-column__item .v-stack.gap-4.text-start p {
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+  }
+  .custom-multi .multi-column {
+    gap: 20px;
+  }
+  .custom-multi .h5,
+  .sec-multi-colum .h5 {
+    line-height: normal;
+    letter-spacing: 0px;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+    color: #000000;
+    word-break: break-all;
+  }
+  .sec-multi-colum .custom-multi {
+    gap: 10px !important;
+  }
+
+  .section.section-blends.section-full {
+    background-color: #ffff;
+  }
+
+  .sec-multi-colum .section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .sec-multi-colum h2.h2 {
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .sec-multi-colum .prose p {
+    font-weight: 400;
+    line-height: normal;
+    color: #000000;
+    text-align: center;
+  }
+  .multi-column .gap-4 {
+    gap: 10px !important;
+  }
+  .multi-column .multi-column__item {
+    gap: 20px !important;
+  }
+  .sec-multi-colum .multi-column__item img {
+    margin: 0 auto;
+  }
+  .sec-multi-colum .multi-column {
+    gap: 26px;
+  }
+  .sec-multi-colum h4.h4 {
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+  }
+  .sec-multi-colum .text-center {
+    padding: 0px !important;
+  }
+  .sec-multi-colum .multi-column__item {
+    gap: 20px;
+  }
+  .sec-multi-colum .section-stack {
+    gap: 40px !important;
+  }
+  /* Tablet view */
+  @media (max-width: 1024px) {
+    .custom-multi .h5 {
+      font-size: 17px !import;
+    }
+    .multi-column.scroll-area.bleed {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* items ke beech space */
+    }
+
+    .multi-column__item.justify-start.snap-start {
+      flex: 1 1 calc(50% - 20px); /* 2 items per row */
+      max-width: calc(50% - 20px);
+    }
+    .custom-multi .multi-column {
+      width: 100%;
+      margin: auto;
+    }
+    .sec-multi-colum .multi-column {
+      width: 100%;
+      margin: auto;
+    }
+    .sec-multi-colum h4.h4 {
+      text-align: start;
+    }
+    .sec-multi-colum .prose p {
+      text-align: center;
+    }
+    .multi-column .multi-column__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc((100% - 20px) / 2);
+    }
+    .sec-multi-colum .section-stack {
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .custom-multi .multi-column {
+      grid: unset;
+      width: 100%;
+      margin: auto;
+    }
+    .sec-multi-colum .multi-column__item img {
+      margin: unset;
+    }
+    .sec-multi-colum .multi-column {
+      width: 100%;
+      margin: auto;
+    }
+    .sec-multi-colum h4.h4 {
+      text-align: start;
+    }
+    .sec-multi-colum .prose p {
+      text-align: center;
+    }
+    .multi-column__item.justify-center.snap-start img {
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 640px) {
+    .sec-multi-colum .multi-column.scroll-area.bleed,
+    .custom-multi .multi-column.scroll-area.bleed {
+      flex-wrap: nowrap;
+      overflow: auto;
+    }
+    .sec-multi-colum .multi-column .multi-column__item,
+    .custom-multi .multi-column .multi-column__item {
+      flex: 0 0 auto;
+    }
+  }
+  @media (max-width: 481px) {
+    .sec-multi-colum .multi-column .multi-column__item,
+    .custom-multi .multi-column .multi-column__item {
+      flex: 0 0 70%;
+    }
+    .custom-multi .multi-column .multi-column__item {
+      width: 70%;
+      max-width: 70%;
+    }
+  }
+</style>
+
 {%- if section.blocks.size > 0 -%}
   {%- render 'section-spacing-collapsing' -%}
 
@@ -7,16 +202,20 @@
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
   </style>
-
-  <div {% render 'section-properties' %}>
-    <div class="section-stack">
-      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
+  <div {% render 'section-properties', custom-class: section.settings['custom-multi'] %}>
+    <div class="section-stack container">
+      {%- render 'section-header',
+        subheading: section.settings.subheading,
+        heading: section.settings.title,
+        content: section.settings.content,
+        text_alignment: section.settings.text_alignment
+      -%}
 
       <div class="multi-column scroll-area bleed md:unbleed">
         {%- for block in section.blocks -%}
           {%- liquid
-            assign loading_strategy = nil
-  
+            assign loading_strategy = null
+
             if section.index > 3 or forloop.index > 3
               assign loading_strategy = 'lazy'
             endif
@@ -24,20 +223,44 @@
 
           {%- case block.type -%}
             {%- when 'item' -%}
-              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+              <div
+                class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start"
+                style="--multi-column-item-column-count: span 3"
+                {{ block.shopify_attributes }}
+              >
                 {%- if block.settings.video != blank -%}
                   <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
-                    {{ block.settings.video | video_tag: playsinline: true, muted: true, controls: block.settings.show_controls, loop: true, preload: 'metadata', class: 'rounded' }}
+                    {{
+                      block.settings.video
+                      | video_tag:
+                        playsinline: true,
+                        muted: true,
+                        controls: block.settings.show_controls,
+                        loop: true,
+                        preload: 'metadata',
+                        class: 'rounded'
+                    }}
                   </video-media>
                 {%- elsif block.settings.image != blank -%}
                   {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
-                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: loading_strategy, sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                  {{-
+                    block.settings.image
+                    | image_url: width: block.settings.image.width
+                    | image_tag:
+                      loading: loading_strategy,
+                      sizes: sizes,
+                      widths: '300,400,500,600,800,1000,1200,1400,1600,1800',
+                      class: 'rounded'
+                  -}}
                 {%- endif -%}
 
-                {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
+                {%- if block.settings.title != blank
+                  or block.settings.content != blank
+                  or block.settings.link_text != blank
+                -%}
                   <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
                     {%- if block.settings.title != blank -%}
-                      <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                      <h5 class="h5">{{ block.settings.title | escape }}</h5>
                     {%- endif -%}
 
                     {%- if block.settings.content != blank or block.settings.link_text != blank -%}
@@ -47,9 +270,15 @@
                         {%- if block.settings.link_text != blank -%}
                           <div>
                             {%- if block.settings.link_style == 'link' -%}
-                              <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text | escape }}</a>
+                              <a href="{{ block.settings.link_url }}" class="link">
+                                {{- block.settings.link_text | escape -}}
+                              </a>
                             {%- else -%}
-                              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'lg' -%}
+                              {%- render 'button',
+                                href: block.settings.link_url,
+                                content: block.settings.link_text,
+                                size: 'lg'
+                              -%}
                             {%- endif -%}
                           </div>
                         {%- endif -%}
@@ -60,7 +289,11 @@
               </div>
 
             {%- when 'spacer' -%}
-              <div class="multi-column__item hidden md:block" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}></div>
+              <div
+                class="multi-column__item hidden md:block"
+                style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}"
+                {{ block.shopify_attributes }}
+              ></div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -78,6 +311,11 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom-multi",
+      "label": "Custom Class Section"
+    },
     {
       "type": "checkbox",
       "id": "full_width",
@@ -108,8 +346,8 @@
           "label": "Large"
         },
         {
-        "value": "x-large",
-        "label": "X-Large"
+          "value": "x-large",
+          "label": "X-Large"
         }
       ],
       "default": "medium"
@@ -171,6 +409,24 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 50
     }
   ],
   "blocks": [

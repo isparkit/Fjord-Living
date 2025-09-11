@@ -1,0 +1,244 @@
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+
+    .main-testimonial .testimonial-card {
+      background: #fff;
+      padding: 30px 20px 20px;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid var(--Taupe, #885f41);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    }
+    .main-testimonial h2.text-center.mb-6 {
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0px;
+      color: #000000;
+      font-family: 'Quicksand' !important;
+      text-align: center;
+      padding: 50px 0 40px;
+    }
+    .main-testimonial .testimonial-card .stars {
+      color: #f5a623;
+      margin-bottom: 10px;
+      line-height: 0;
+    }
+    .main-testimonial .container {
+      background-color: #f7f3f0;
+      border: 1px solid #885f41;
+      border-radius: 30px;
+    }
+    .main-testimonial {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .testimonial-card h4 {
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0px;
+      color: #000000;
+      padding-bottom: 10px;
+    }
+    .main-testimonial .swiper.testimonialSwiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+      padding-bottom: 60px;
+    }
+    .main-testimonial .testimonial-slider {
+      background-color: #ffff;
+    }
+
+    .main-testimonial .testimonial-card p {
+      font-weight: 400;
+      font-size: 16px;
+      color: #000;
+      line-height: normal;
+      padding-bottom: 10px;
+    }
+    .main-testimonial .swiper-pagination-bullet-active {
+      background-color: #885f41 !important;
+    }
+    .main-testimonial .testimonial-card .h6 {
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+    .main-testimonial .swiper-pagination-bullet {
+      border-radius: 12px;
+      border: 1px solid #885f41;
+      background: rgba(179, 139, 109, 0.1);
+      opacity: 1;
+      height: 12px;
+      width: 12px;
+    }
+
+    @media (max-width: 1024px) {
+        .main-testimonial h2.text-center.mb-6 {
+      padding:20px 0 30px;
+  }
+     }
+    @media (max-width: 767px) {
+      .main-testimonial {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+      }
+      h2.text-center.mb-6 {
+        font-size: 32px;
+      }
+    }
+{%- endstyle -%}
+
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+>
+
+<section
+  id="section-{{ section.id }}"
+  class="testimonial-slider section-{{ section.id }}-padding"
+>
+  <div class="main-testimonial">
+    <div class=" container">
+      {% if section.settings.heading != blank %}
+        <h2 class="text-center mb-6">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      <div class="swiper testimonialSwiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="testimonial-card" {{ block.shopify_attributes }}>
+                <div class="stars">
+                  {% for i in (1..block.settings.stars) %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                      <path d="M9.82404 0.789649C10.2966 -0.263223 11.7914 -0.26321 12.264 0.789649L14.2926 5.30965C14.4871 5.74289 14.8966 6.04051 15.3688 6.09156L20.2945 6.62417C21.4419 6.74824 21.9038 8.16988 21.0485 8.94464L17.3766 12.2708C17.0246 12.5896 16.8682 13.0711 16.9655 13.5359L17.981 18.3851C18.2177 19.5146 17.0083 20.3933 16.0072 19.8192L11.7091 17.3549C11.2972 17.1187 10.7908 17.1187 10.3789 17.3549L6.08085 19.8192C5.0797 20.3933 3.87037 19.5146 4.10694 18.3851L5.12251 13.5359C5.21985 13.0711 5.06338 12.5896 4.71144 12.2708L1.03955 8.94464C0.184237 8.16988 0.646154 6.74824 1.79351 6.62417L6.71919 6.09156C7.19131 6.04051 7.60093 5.74289 7.79539 5.30965L9.82404 0.789649Z" fill="#885F41"/>
+                    </svg>
+                  {% endfor %}
+                </div>
+                <h4 class="p">{{ block.settings.title }}</h4>
+                <p>{{ block.settings.text }}</p>
+                <strong class="h6">{{ block.settings.author }}</strong>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Testimonial Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Kundeoplevelser"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "range",
+          "id": "stars",
+          "label": "Star Rating",
+          "min": 1,
+          "max": 5,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Smart investering"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Review Text",
+          "default": "Super godt produkt..."
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "Jens I."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial Slider",
+      "category": "Testimonials",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.testimonialSwiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          if (window.innerWidth >= 1024 && index >= 4) {
+            return '';
+          }
+          return '<span class="' + className + '"></span>';
+        },
+      },
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+        1199: { slidesPerView: 4 },
+      },
+    });
+  });
+{% endjavascript %}
