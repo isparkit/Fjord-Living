@@ -100,7 +100,7 @@
         "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "free_scroll",
         "enable_video_autoplay": false,
@@ -116,6 +116,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [],
@@ -135,10 +136,541 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "custom_two_coilum_video_NHxP9E": {
+      "type": "custom-two-coilum-video",
+      "blocks": {
+        "list_EXphi9": {
+          "type": "list",
+          "settings": {
+            "list_text": "Tørrer dit tø"
+          }
+        },
+        "list_XcFVTJ": {
+          "type": "list",
+          "settings": {
+            "list_text": "Justerbar og kan tilpasses selv de mindste kroge"
+          }
+        },
+        "list_jWNenR": {
+          "type": "list",
+          "settings": {
+            "list_text": "Kan nemt flyttes med én hånd"
+          }
+        },
+        "list_LaEifD": {
+          "type": "list",
+          "settings": {
+            "list_text": "Elegant design"
+          }
+        },
+        "list_fmY6xH": {
+          "type": "list",
+          "settings": {
+            "list_text": "UV-afvisende cylinder- konstruktion"
+          }
+        },
+        "list_iAnrgV": {
+          "type": "list",
+          "settings": {
+            "list_text": "Let at opbevare"
+          }
+        },
+        "list_EEyxMq": {
+          "type": "list",
+          "settings": {
+            "list_text": "Nem at få til at passe ind i ethvert rum"
+          }
+        }
+      },
+      "block_order": [
+        "list_EXphi9",
+        "list_XcFVTJ",
+        "list_jWNenR",
+        "list_LaEifD",
+        "list_fmY6xH",
+        "list_iAnrgV",
+        "list_EEyxMq"
+      ],
+      "name": "Custom Video Section",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "heading": "Funktionelt Og Pladsbesparende Design",
+        "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p>",
+        "video": "shopify://files/videos/pancake1500.mov"
+      }
+    },
+    "multi_column_MnN4YJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MD66Lw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A8980x800.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Solid trebenet base",
+            "heading_tag": "h4",
+            "content": "<p>Den robuste cylinderkonstruktion og den trebenede base giver stativet stabilitet. Med en vægt på 4,2 kg står det fast og solidt under brug.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RLGjUJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_9Q1A9102_600x600v3.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Let sammenklappeligt tørrestativ",
+            "heading_tag": "h4",
+            "content": "<p>Stativet har en enkel og blød fjederåbningsmekanisme, der gør det nemt at folde fødderne ud, og det er lige så let at folde sammen igen.  </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V7tG9j": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A9053-600x600.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Plads til 48 bøjler",
+            "heading_tag": "h4",
+            "content": "<p>Hæng tøj direkte på de 16 arme eller brug bøjler. SmartRack har plads til op til 48 bøjler. Det fleksible design gør det nemt at tørre både små og store mængder tøj.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_MD66Lw",
+        "item_RLGjUJ",
+        "item_V7tG9j"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "product-multi-col",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "multi_column_BwtTnq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_JpMULJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/box.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Gratis fragt",
+            "heading_tag": "h4",
+            "content": "<p>Vi tilbyder gratis fragt på alle ordrer.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KWfwK9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/track.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Hurtig levering",
+            "heading_tag": "h4",
+            "content": "<p>1-4 dages levering</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V6VtUG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/smile.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Tilfredshedsgaranti",
+            "heading_tag": "h4",
+            "content": "<p>30 dages tilfredshedsgaranti</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RcWUDR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/lock.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Sikker betaling",
+            "heading_tag": "h4",
+            "content": "<p>Du kan trygt købe hos os, vi benytter 3D secure.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_JpMULJ",
+        "item_KWfwK9",
+        "item_V6VtUG",
+        "item_RcWUDR"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "custom-multi",
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "custom_faq_DMQerW": {
+      "type": "custom-faq",
+      "blocks": {
+        "faq_xF6QJm": {
+          "type": "faq",
+          "settings": {
+            "question": "Vil armene i træ modstå fugt? Smitter de af?",
+            "answer": "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+          }
+        },
+        "faq_LTdqJc": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan samler jeg SmartRack?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point"
+          }
+        },
+        "faq_8VwCd7": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvorfor vælge Fjordliving SmartRack?",
+            "answer": "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+          }
+        },
+        "faq_iWHre8": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg er glad for mit stativ – kan jeg sende jer et billede til inspiration?",
+            "answer": "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+          }
+        },
+        "faq_LBBfyU": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg vil give det som gave i weekenden. Kan det nå frem inden da?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
+          }
+        },
+        "faq_3DRxfF": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg justere antallet af arme på SmartRack?",
+            "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected"
+          }
+        },
+        "faq_tGbiDH": {
+          "type": "faq",
+          "settings": {
+            "question": "Bør man tørre tøj indenfor?",
+            "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the"
+          }
+        },
+        "faq_mLptFG": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvor meget fylder stativet?",
+            "answer": "combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+          }
+        },
+        "faq_TKRRbj": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan får jeg benene til at blive inde i stativet?",
+            "answer": "voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "faq_kknTFX": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan SmartRack bruges udendørs?",
+            "answer": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+          }
+        },
+        "faq_c9ckVE": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg tørre kjoler på stativet?",
+            "answer": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness"
+          }
+        },
+        "faq_DCnk4h": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvad vejer SmartRack?",
+            "answer": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+          }
+        }
+      },
+      "block_order": [
+        "faq_xF6QJm",
+        "faq_LTdqJc",
+        "faq_8VwCd7",
+        "faq_iWHre8",
+        "faq_LBBfyU",
+        "faq_3DRxfF",
+        "faq_tGbiDH",
+        "faq_mLptFG",
+        "faq_TKRRbj",
+        "faq_kknTFX",
+        "faq_c9ckVE",
+        "faq_DCnk4h"
+      ],
+      "name": "Custom FAQ Section",
+      "settings": {
+        "heading": "Spørgsmål & svar",
+        "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30.Gennemsnitlig svartid: 4 timer</p>",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_testimonial_slider_D3gCmh": {
+      "type": "custom-testimonial-slider",
+      "blocks": {
+        "testimonial_kQ7RNV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Pænt tørrestativ",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Sussie G"
+          }
+        },
+        "testimonial_t7QhLb": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart tørrestativ",
+            "text": "Jeg er vild med, hvor alsidig SmartRack er. Jeg bruger den både indendørs og udendørs, og fungerer",
+            "author": "Jens J."
+          }
+        },
+        "testimonial_qXeEtq": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "God investering",
+            "text": "Det smarte design gør SmartRack til et must-have. Det har frigivet plads i mit vaskerum, og jeg elsker,",
+            "author": "Malene E."
+          }
+        },
+        "testimonial_jXrxiV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Flot foldbart tørrestativ",
+            "text": "SmartRack er et flot sammenklappeligt tørrestativ, som er super praktisk og nemt at",
+            "author": "Helle F."
+          }
+        },
+        "testimonial_dnrEqz": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_JheppE": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_aAARXk": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_mkcwCm": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_kQ7RNV",
+        "testimonial_t7QhLb",
+        "testimonial_qXeEtq",
+        "testimonial_jXrxiV",
+        "testimonial_dnrEqz",
+        "testimonial_JheppE",
+        "testimonial_aAARXk",
+        "testimonial_mkcwCm"
+      ],
+      "name": "Testimonial Slider",
+      "settings": {
+        "heading": "Kundeoplevelser",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_two_image_LkhHNJ": {
+      "type": "custom-two-image",
+      "name": "Comparison Section",
+      "settings": {
+        "heading": "SmartRack vs andre tørrestativer",
+        "left_image": "shopify://shop_images/Frame_44.png",
+        "right_image_1": "shopify://shop_images/Group_44.png",
+        "right_image_2": "shopify://shop_images/Group_45.png",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ss_slide_video_gyeaGk": {
+      "type": "ss-slide-video",
+      "blocks": {
+        "image_FiR3zj": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_ADRyhF": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_fLaLPY": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_rKMdeJ": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_BMYLcz": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FiR3zj",
+        "image_ADRyhF",
+        "image_fLaLPY",
+        "image_rKMdeJ",
+        "image_BMYLcz"
+      ],
+      "name": "SS - Scrolling Images",
+      "settings": {
+        "heading": "<h2>Heading</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "slider_speed": 13,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 50,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 120,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": true,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#FFFFFF",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "custom_two_coilum_video_NHxP9E",
+    "multi_column_MnN4YJ",
+    "multi_column_BwtTnq",
+    "custom_faq_DMQerW",
+    "custom_testimonial_slider_D3gCmh",
+    "custom_two_image_LkhHNJ",
+    "ss_slide_video_gyeaGk"
   ]
 }

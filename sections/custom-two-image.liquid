@@ -1,0 +1,134 @@
+{% style %}
+   .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+      }
+
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+      }
+
+  .comparison-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+  .comparison-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .comparison-right {
+    display: flex;
+    gap: 20px;
+  }
+  .comparison-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media screen and (max-width: 792px) {
+    .comparison-wrapper {
+      grid-template-columns: 1fr;
+    }
+    .comparison-right {
+      flex-direction: column;
+    }
+  }
+{% endstyle %}
+
+<section
+  id="section-{{ section.id }}"
+  class="comparison-section section-{{ section.id }}-padding"
+>
+  <div class="container">
+    <!-- Heading -->
+    {% if section.settings.heading != blank %}
+      <h2 class="comparison-heading">{{ section.settings.heading }}</h2>
+    {% endif %}
+
+    <div class="comparison-wrapper">
+      <!-- Left Side (Table Image) -->
+      <div class="comparison-left">
+        {% if section.settings.left_image != blank %}
+          <img
+            src="{{ section.settings.left_image | image_url: width: 800 }}"
+            alt="Comparison Table"
+            class="comparison-table-img"
+          >
+        {% endif %}
+      </div>
+
+      <!-- Right Side (Two Images) -->
+      <div class="comparison-right">
+        {% if section.settings.right_image_1 != blank %}
+          <div class="comparison-img">
+            <img src="{{ section.settings.right_image_1 | image_url: width: 600 }}" alt="Right Image 1">
+          </div>
+        {% endif %}
+        {% if section.settings.right_image_2 != blank %}
+          <div class="comparison-img">
+            <img src="{{ section.settings.right_image_2 | image_url: width: 600 }}" alt="Right Image 2">
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Comparison Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "SmartRack vs andre tørrestativer"
+    },
+    {
+      "type": "image_picker",
+      "id": "left_image",
+      "label": "Left Side Image (Table)"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_image_1",
+      "label": "Right Side Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "right_image_2",
+      "label": "Right Side Image 2"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

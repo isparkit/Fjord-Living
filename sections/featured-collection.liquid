@@ -58,6 +58,9 @@
     color: #000;
     font-size:20px;
   }
+   .product-card .line-through{
+    color:#848484;
+   }
    .product-card .m-btn {
     display: flex;
     align-items: center;
@@ -130,6 +133,14 @@
   }
   .custom-futured-collection .section-stack {
     gap: 40px;
+  }
+  @media (max-width:1024px){
+    .custom-futured-collection .section-stack{gap:30px;}
+  }
+  @media (max-width:767px){
+    .custom-futured-collection .product-list{
+      gap:20px !important;
+    }
   }
 </style>
 
