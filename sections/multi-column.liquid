@@ -107,10 +107,20 @@
   .sec-multi-colum .section-stack {
     gap: 40px !important;
   }
+  .product-column .multi-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .product-column .multi-column__item {
+    width: calc((100% - 20px) / 3);
+  }
+
   /* Tablet view */
   @media (max-width: 1024px) {
     .custom-multi .h5 {
-      font-size: 17px !import;
+      font-size: 17px !important;
     }
     .multi-column.scroll-area.bleed {
       display: flex;
@@ -203,7 +213,7 @@
     }
   </style>
   <div {% render 'section-properties', custom-class: section.settings['custom-multi'] %}>
-    <div class="section-stack container">
+    <div class="section-stack container product-column">
       {%- render 'section-header',
         subheading: section.settings.subheading,
         heading: section.settings.title,

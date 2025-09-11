@@ -262,7 +262,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "",
+        "background": "#f4eee9",
         "background_gradient": "",
         "text_color": "",
         "padding_top": 50,
@@ -573,30 +573,35 @@
         "image_FiR3zj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_5.png",
             "url": ""
           }
         },
         "image_ADRyhF": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_6.png",
             "url": ""
           }
         },
         "image_fLaLPY": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_7.png",
             "url": ""
           }
         },
         "image_rKMdeJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_8.png",
             "url": ""
           }
         },
         "image_BMYLcz": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/image_9.png",
             "url": ""
           }
         }
@@ -610,7 +615,9 @@
       ],
       "name": "SS - Scrolling Images",
       "settings": {
-        "heading": "<h2>Heading</h2>",
+        "rig_heading": "Det Ultimative Tørrestativ",
+        "rig_content": "SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.\n\nSpar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.",
+        "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 40,
@@ -627,7 +634,7 @@
         "image_height_desktop": 400,
         "image_height_mobile": 200,
         "image_radius": 10,
-        "use_content": true,
+        "use_content": false,
         "content_position": "center",
         "content_max_width": 340,
         "content_max_width_mobile": 340,
@@ -643,10 +650,10 @@
         "text_size": 24,
         "text_height": 130,
         "heading_color": "#000000",
-        "content_bg": "#FFFFFF",
+        "content_bg": "#ffffff",
         "content_border_color": "#000000",
         "text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#f4eee9",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,

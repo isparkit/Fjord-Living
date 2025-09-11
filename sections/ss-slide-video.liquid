@@ -302,7 +302,11 @@
           {{ heading }}
         </div>
       {% endif %}
-      <div class="scrolling-image-slider-{{ section.id }}">
+      <div class="scrolling-image-slider-{{ section.id }} custom-main-sec">
+        <div class="mar-left-text">
+          <h2>{{section.settings.rig_heading}}</h2>
+          <P>{{section.settings.rig_content}}</P>
+        </div>
         <div class="marquee-horizontal-{{ section.id }}">
           <div class="track-horizontal-{{section.id}}">
             {% for block in section.blocks %}
@@ -363,6 +367,16 @@
     "max_blocks": 100,
     "name": "SS - Scrolling Images",
     "settings": [
+    {
+      "type": "text",
+      "id":"rig_heading",
+      "label": "Right Heading"
+    },
+    {
+      "type":"textarea",
+      "id": "rig_content",
+      "label": "Right Content"
+    },
       {
         "type": "header",
         "content": "Heading"
@@ -888,3 +902,40 @@
   }
   
 {% endschema %}
+
+<style>
+  .custom-main-sec {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mar-left-text {
+    width: 40%;
+    padding-left: 40px;
+}
+.mar-left-text h2{
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Quicksand';
+}
+
+@media (max-width:1120px){
+ .custom-main-sec {
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mar-left-text {
+    width:100%;
+}
+}
+
+@media (max-width:767px){
+  .mar-left-text {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+</style>

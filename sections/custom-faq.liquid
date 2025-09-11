@@ -103,11 +103,11 @@
       <div class="faq-right">
         {% for block in section.blocks offset: half %}
           <div class="faq-item" {{ block.shopify_attributes }}>
-            <div class="faq-question">
+            <div class="faq-question p">
               {{ block.settings.question }}
               <span>+</span>
             </div>
-            <div class="faq-answer">{{ block.settings.answer }}</div>
+            <div class="faq-answer p">{{ block.settings.answer }}</div>
           </div>
         {% endfor %}
       </div>
