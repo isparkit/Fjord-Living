@@ -40,9 +40,6 @@
       top: calc(var(--sticky-announcement-bar-enabled, 0) * var(--announcement-bar-height, 0px));
     }
   {%- endif -%}
-  .header__icon-list .dropdown-menu--restrictable{
-    background: linear-gradient(270deg, #fae4d4 0%, #f8eee7 100%)
-  }
 
   {%- if section.settings.opening_from == 'left' -%}
     @media screen and (max-width: 699px) {
@@ -934,4 +931,8 @@
   .custom-header .block {
     height: 20px;
   }
+    .header__icon-list .dropdown-menu--restrictable{
+    background: linear-gradient(270deg, #fae4d4 0%, #f8eee7 100%)
+  }
+
 </style>
