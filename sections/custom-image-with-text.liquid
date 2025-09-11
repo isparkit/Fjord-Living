@@ -10,7 +10,9 @@
           padding-bottom: {{ section.settings.padding_bottom }}px;
         }
       }
-
+.fir-img-text{
+  background: linear-gradient(270deg, #FAE4D4 0%, #F8EEE7 100%);
+}
       .two-col-hero {
         display: flex;
         align-items: center;
@@ -140,7 +142,6 @@
 
 <section
   class="{{ section.settings.cus_class }} section-{{ section.id }}-padding"
-  style="    background: {{ section.settings.background_color }};"
 >
   <div class="container">
     <div class="two-col-hero">
@@ -191,12 +192,6 @@
       "type": "text",
       "id": "cus_class",
       "label": "Custom Class"
-    },
-    {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background Color",
-      "default": "#f8f3ef"
     },
     {
       "type": "range",

@@ -21,7 +21,7 @@
     "success_color": "#ca9f71",
     "warning_color": "#e37e16",
     "error_color": "#aa2826",
-    "header_background": "#fae4d4",
+    "header_background": "rgba(0,0,0,0)",
     "header_text_color": "#1a1a1a",
     "footer_background": "#885f41",
     "footer_text_color": "#fcfaf6",
