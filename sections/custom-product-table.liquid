@@ -1,0 +1,163 @@
+<section id="section-{{ section.id }}" class="comparison-section">
+  <div class="container comparison-wrapper">
+    <!-- Left Table -->
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th>{{ section.settings.first_col_title }}</th>
+            <th>{{ section.settings.second_col_title }}</th>
+            <th>{{ section.settings.third_col_title }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for block in section.blocks %}
+            <tr>
+              <td>{{ block.settings.feature }}</td>
+              <td>
+                {% if block.settings.first_check %}
+                  ✓
+                {% else %}
+                  ✗
+                {% endif %}
+              </td>
+              <td>
+                {% if block.settings.second_check %}
+                  ✓
+                {% else %}
+                  ✗
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Right Side Images -->
+    <div class="comparison-images">
+      <div class="comparison-img">
+        {% if section.settings.image_1 != blank %}
+          <img src="{{ section.settings.image_1 | img_url: '600x' }}" alt="Image 1">
+        {% endif %}
+      </div>
+      <div class="comparison-img">
+        {% if section.settings.image_2 != blank %}
+          <img src="{{ section.settings.image_2 | img_url: '600x' }}" alt="Image 2">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .comparison-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .comparison-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+  }
+
+  .comparison-images {
+    display: flex;
+    gap: 20px;
+  }
+
+  .comparison-img img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .comparison-table td:nth-child(2),
+  .comparison-table th:nth-child(2) {
+    background-color: #68442a;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .comparison-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Comparison Table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_col_title",
+      "label": "First Column Title",
+      "default": "Fordel"
+    },
+    {
+      "type": "text",
+      "id": "second_col_title",
+      "label": "Second Column Title",
+      "default": "FJORD LIVING"
+    },
+    {
+      "type": "text",
+      "id": "third_col_title",
+      "label": "Third Column Title",
+      "default": "Andre tørrestativer"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Right Side Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Right Side Image 2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Table Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature Name"
+        },
+        {
+          "type": "checkbox",
+          "id": "first_check",
+          "label": "First Column Check"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_check",
+          "label": "Second Column Check"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": " Custom Comparison Table"
+    }
+  ]
+}
+{% endschema %}

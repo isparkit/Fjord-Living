@@ -68,7 +68,6 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
@@ -137,6 +136,107 @@
         "product_card_text_color": ""
       }
     },
+    "ss_slide_video_gyeaGk": {
+      "type": "ss-slide-video",
+      "blocks": {
+        "image_FiR3zj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_5.png",
+            "url": ""
+          }
+        },
+        "image_ADRyhF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_6.png",
+            "url": ""
+          }
+        },
+        "image_fLaLPY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_7.png",
+            "url": ""
+          }
+        },
+        "image_rKMdeJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_8.png",
+            "url": ""
+          }
+        },
+        "image_BMYLcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_9.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FiR3zj",
+        "image_ADRyhF",
+        "image_fLaLPY",
+        "image_rKMdeJ",
+        "image_BMYLcz"
+      ],
+      "name": "SS - Scrolling Images",
+      "settings": {
+        "rig_heading": "Det Ultimative Tørrestativ",
+        "rig_content": "SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.\n\nSpar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "slider_speed": 13,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 50,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 120,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": false,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#ffffff",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#f4eee9",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "custom_two_coilum_video_NHxP9E": {
       "type": "custom-two-coilum-video",
       "blocks": {
@@ -198,75 +298,7 @@
         "padding_bottom": 100,
         "heading": "Funktionelt Og Pladsbesparende Design",
         "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p>",
-        "video": "shopify://files/videos/pancake1500.mov"
-      }
-    },
-    "multi_column_MnN4YJ": {
-      "type": "multi-column",
-      "blocks": {
-        "item_MD66Lw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/SQ_-_9Q1A8980x800.png",
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Solid trebenet base",
-            "heading_tag": "h4",
-            "content": "<p>Den robuste cylinderkonstruktion og den trebenede base giver stativet stabilitet. Med en vægt på 4,2 kg står det fast og solidt under brug.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_RLGjUJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/SQ_9Q1A9102_600x600v3.jpg",
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Let sammenklappeligt tørrestativ",
-            "heading_tag": "h4",
-            "content": "<p>Stativet har en enkel og blød fjederåbningsmekanisme, der gør det nemt at folde fødderne ud, og det er lige så let at folde sammen igen.  </p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_V7tG9j": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/SQ_-_9Q1A9053-600x600.jpg",
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Plads til 48 bøjler",
-            "heading_tag": "h4",
-            "content": "<p>Hæng tøj direkte på de 16 arme eller brug bøjler. SmartRack har plads til op til 48 bøjler. Det fleksible design gør det nemt at tørre både små og store mængder tøj.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_MD66Lw",
-        "item_RLGjUJ",
-        "item_V7tG9j"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "custom-multi": "product-multi-col",
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "#f4eee9",
-        "background_gradient": "",
-        "text_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "video": "shopify://files/videos/smartrackadloop_1200.mov"
       }
     },
     "multi_column_BwtTnq": {
@@ -350,6 +382,74 @@
         "text_color": "",
         "padding_top": 80,
         "padding_bottom": 0
+      }
+    },
+    "multi_column_MnN4YJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MD66Lw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A8980x800.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Solid trebenet base",
+            "heading_tag": "h4",
+            "content": "<p>Den robuste cylinderkonstruktion og den trebenede base giver stativet stabilitet. Med en vægt på 4,2 kg står det fast og solidt under brug.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RLGjUJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_9Q1A9102_600x600v3.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Let sammenklappeligt tørrestativ",
+            "heading_tag": "h4",
+            "content": "<p>Stativet har en enkel og blød fjederåbningsmekanisme, der gør det nemt at folde fødderne ud, og det er lige så let at folde sammen igen.  </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V7tG9j": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A9053-600x600.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Plads til 48 bøjler",
+            "heading_tag": "h4",
+            "content": "<p>Hæng tøj direkte på de 16 arme eller brug bøjler. SmartRack har plads til op til 48 bøjler. Det fleksible design gør det nemt at tørre både små og store mængder tøj.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_MD66Lw",
+        "item_RLGjUJ",
+        "item_V7tG9j"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "product-multi-col",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f4eee9",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "custom_faq_DMQerW": {
@@ -555,129 +655,94 @@
         "padding_bottom": 80
       }
     },
-    "custom_two_image_LkhHNJ": {
-      "type": "custom-two-image",
-      "name": "Comparison Section",
-      "settings": {
-        "heading": "SmartRack vs andre tørrestativer",
-        "left_image": "shopify://shop_images/Frame_44.png",
-        "right_image_1": "shopify://shop_images/Group_44.png",
-        "right_image_2": "shopify://shop_images/Group_45.png",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "ss_slide_video_gyeaGk": {
-      "type": "ss-slide-video",
+    "custom_product_table_PNW6c3": {
+      "type": "custom-product-table",
       "blocks": {
-        "image_FiR3zj": {
-          "type": "image",
+        "row_6JQP4y": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image_5.png",
-            "url": ""
+            "feature": "Tørrer dit tøj",
+            "first_check": true,
+            "second_check": true
           }
         },
-        "image_ADRyhF": {
-          "type": "image",
+        "row_xWr7qr": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image_6.png",
-            "url": ""
+            "feature": "Justerbar og kan tilpasses selv de mindste kroge",
+            "first_check": true,
+            "second_check": false
           }
         },
-        "image_fLaLPY": {
-          "type": "image",
+        "row_UVTgXB": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image_7.png",
-            "url": ""
+            "feature": "Kan nemt flyttes med én hånd",
+            "first_check": true,
+            "second_check": false
           }
         },
-        "image_rKMdeJ": {
-          "type": "image",
+        "row_43KDfK": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image_8.png",
-            "url": ""
+            "feature": "Elegant design",
+            "first_check": true,
+            "second_check": false
           }
         },
-        "image_BMYLcz": {
-          "type": "image",
+        "row_TNiFAx": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/image_9.png",
-            "url": ""
+            "feature": "UV-afvisende cylinder- konstruktion",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_tiLcVi": {
+          "type": "row",
+          "settings": {
+            "feature": "Let at opbevare",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_9kqBtB": {
+          "type": "row",
+          "settings": {
+            "feature": "Nem at få til at passe ind i ethvert rum",
+            "first_check": true,
+            "second_check": false
           }
         }
       },
       "block_order": [
-        "image_FiR3zj",
-        "image_ADRyhF",
-        "image_fLaLPY",
-        "image_rKMdeJ",
-        "image_BMYLcz"
+        "row_6JQP4y",
+        "row_xWr7qr",
+        "row_UVTgXB",
+        "row_43KDfK",
+        "row_TNiFAx",
+        "row_tiLcVi",
+        "row_9kqBtB"
       ],
-      "name": "SS - Scrolling Images",
+      "name": " Custom Comparison Table",
       "settings": {
-        "rig_heading": "Det Ultimative Tørrestativ",
-        "rig_content": "SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.\n\nSpar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.",
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 40,
-        "heading_height": 130,
-        "heading_align": "center",
-        "slider_speed": 13,
-        "slider_gap": 10,
-        "slider_gap_mobile": 10,
-        "slider_mt": 50,
-        "slider_direction": "left",
-        "pause_hover": false,
-        "image_width_desktop": 300,
-        "image_width_mobile": 120,
-        "image_height_desktop": 400,
-        "image_height_mobile": 200,
-        "image_radius": 10,
-        "use_content": false,
-        "content_position": "center",
-        "content_max_width": 340,
-        "content_max_width_mobile": 340,
-        "content_padding_vertical": 30,
-        "content_padding_horizontal": 30,
-        "content_distance": 60,
-        "content_radius": 10,
-        "content_border_thickness": 0,
-        "use_shadow": true,
-        "text": "<p>+29.000 people love our product</p>",
-        "text_custom": false,
-        "text_font": "assistant_n4",
-        "text_size": 24,
-        "text_height": 130,
-        "heading_color": "#000000",
-        "content_bg": "#ffffff",
-        "content_border_color": "#000000",
-        "text_color": "#000000",
-        "background_color": "#f4eee9",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
+        "first_col_title": "Fordel",
+        "second_col_title": "FJORD LIVING",
+        "third_col_title": "Andre tørrestativer",
+        "image_1": "shopify://shop_images/image_8.png",
+        "image_2": "shopify://shop_images/image_7.png"
       }
     }
   },
   "order": [
     "main",
     "related-products",
+    "ss_slide_video_gyeaGk",
     "custom_two_coilum_video_NHxP9E",
-    "multi_column_MnN4YJ",
     "multi_column_BwtTnq",
+    "multi_column_MnN4YJ",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
-    "custom_two_image_LkhHNJ",
-    "ss_slide_video_gyeaGk"
+    "custom_product_table_PNW6c3"
   ]
 }

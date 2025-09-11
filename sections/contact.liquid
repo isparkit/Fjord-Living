@@ -12,7 +12,7 @@
 <div {% render 'section-properties' %}>
   {%- assign text_position = section.settings.text_position -%}
 
-  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
+  <div class="section-stack custom-contact  {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
         <p class="subheading">{{ section.settings.subheading | escape }}</p>
@@ -36,7 +36,14 @@
     {%- endif -%}
 
     <div class="section-stack__main">
-      <div {% render 'surface', class: 'contact-form rounded', background: section.settings.contact_background, text_color: section.settings.contact_text_color, background_fallback: 'bg-secondary' %}>
+      <div
+        {% render 'surface',
+          class: 'contact-form rounded',
+          background: section.settings.contact_background,
+          text_color: section.settings.contact_text_color,
+          background_fallback: 'bg-secondary'
+        %}
+      >
         {%- capture contact_form_id -%}contact-form-{{ section.id }}{%- endcapture -%}
 
         {%- form 'contact', id: contact_form_id, class: 'form' -%}
@@ -53,10 +60,24 @@
 
             <div class="input-row">
               {%- capture label -%}{{ 'contact.form.name' | t }}{%- endcapture -%}
-              {%- render 'input', type: 'text', name: 'contact[name]', label: label, value: customer.name, required: true, autocomplete: 'name' -%}
+              {%- render 'input',
+                type: 'text',
+                name: 'contact[name]',
+                label: label,
+                value: customer.name,
+                required: true,
+                autocomplete: 'name'
+              -%}
 
               {%- capture label -%}{{ 'contact.form.email' | t }}{%- endcapture -%}
-              {%- render 'input', type: 'email', name: 'contact[email]', label: label, value: customer.email, required: true, autocomplete: 'email' -%}
+              {%- render 'input',
+                type: 'email',
+                name: 'contact[email]',
+                label: label,
+                value: customer.email,
+                required: true,
+                autocomplete: 'email'
+              -%}
             </div>
 
             {%- for block in section.blocks -%}
@@ -70,9 +91,21 @@
 
               {%- if block.type == 'text' -%}
                 {%- if block.settings.use_long_text -%}
-                  {%- render 'input', name: name, label: block.settings.title, required: block.settings.required, multiline: 4, block: block -%}
+                  {%- render 'input',
+                    name: name,
+                    label: block.settings.title,
+                    required: block.settings.required,
+                    multiline: 4,
+                    block: block
+                  -%}
                 {%- else -%}
-                  {%- render 'input', type: 'text', name: name, label: block.settings.title, required: block.settings.required, block: block -%}
+                  {%- render 'input',
+                    type: 'text',
+                    name: name,
+                    label: block.settings.title,
+                    required: block.settings.required,
+                    block: block
+                  -%}
                 {%- endif -%}
               {%- elsif block.type == 'dropdown' and block.settings.values != blank -%}
                 {%- assign values = block.settings.values | split: ',' -%}
@@ -84,7 +117,13 @@
                   {%- endfor -%}
                 {%- endcapture -%}
 
-                {%- render 'select', options: options, name: name, label: block.settings.title, required: true, block: block -%}
+                {%- render 'select',
+                  options: options,
+                  name: name,
+                  label: block.settings.title,
+                  required: true,
+                  block: block
+                -%}
               {%- endif -%}
             {%- endfor -%}
 
@@ -94,7 +133,13 @@
 
           <div class="{% if text_position == 'center' %}justify-self-center{% else%}justify-self-start{% endif %}">
             {%- capture button_content -%}{{ 'contact.form.submit' | t }}{%- endcapture -%}
-            {%- render 'button', content: button_content, type: 'submit', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+            {%- render 'button',
+              content: button_content,
+              type: 'submit',
+              size: 'xl',
+              background: section.settings.button_background,
+              text_color: section.settings.button_text_color
+            -%}
           </div>
         {%- endform -%}
       </div>
@@ -280,3 +325,12 @@
   ]
 }
 {% endschema %}
+
+<style>
+  .custom-contact .h2 {
+    font-weight: 700;
+    font-family: 'Quicksand';
+    line-height: normal;
+    letter-spacing: 0px;
+  }
+</style>
