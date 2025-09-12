@@ -12,10 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {}
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
         },
         "title": {
           "type": "title",
@@ -33,10 +34,10 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
+        "text_HMGCXa": {
+          "type": "text",
           "settings": {
-            "show_empty": false
+            "text": "{{ product.metafields.custom.product_list_description | metafield_tag }}"
           }
         },
         "payment_terms": {
@@ -45,15 +46,8 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -80,24 +74,59 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "offer_3pep9E": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 20,
+            "title": "Short content about your shipping rates or discounts.",
+            "content": "",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#272727"
+          }
+        },
+        "collapsible_text_W9VTad": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "associated_products_bjxz6D": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "vendor",
+        "rating",
         "title",
         "badges",
         "price",
-        "rating",
+        "text_HMGCXa",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "offer_3pep9E",
+        "collapsible_text_W9VTad",
+        "associated_products_bjxz6D"
       ],
       "settings": {
         "full_width": true,
-        "show_fixed_add_to_cart": true,
+        "show_fixed_add_to_cart": false,
         "desktop_media_width": 55,
         "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
@@ -185,7 +214,7 @@
       "name": "SS - Scrolling Images",
       "settings": {
         "rig_heading": "Det Ultimative Tørrestativ",
-        "rig_content": "SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.\n\nSpar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.",
+        "rig_content": "<p>SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.</p><p>Spar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.</p>",
         "heading": "",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
@@ -193,13 +222,13 @@
         "heading_height": 130,
         "heading_align": "center",
         "slider_speed": 13,
-        "slider_gap": 10,
+        "slider_gap": 16,
         "slider_gap_mobile": 10,
-        "slider_mt": 50,
+        "slider_mt": 0,
         "slider_direction": "left",
         "pause_hover": false,
         "image_width_desktop": 300,
-        "image_width_mobile": 120,
+        "image_width_mobile": 150,
         "image_height_desktop": 400,
         "image_height_mobile": 200,
         "image_radius": 10,
@@ -209,7 +238,7 @@
         "content_max_width_mobile": 340,
         "content_padding_vertical": 30,
         "content_padding_horizontal": 30,
-        "content_distance": 60,
+        "content_distance": 0,
         "content_radius": 10,
         "content_border_thickness": 0,
         "use_shadow": true,
@@ -227,77 +256,26 @@
         "border_color": "#000000",
         "margin_top": 0,
         "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_horizontal": 0,
         "padding_horizontal_mobile": 0,
         "full_width": true,
         "content_width": 120,
         "border_thickness": 0,
-        "lazy": true
+        "lazy": true,
+        "padding_topp": 80,
+        "padding_bottomm": 80
       }
     },
     "custom_two_coilum_video_NHxP9E": {
       "type": "custom-two-coilum-video",
-      "blocks": {
-        "list_EXphi9": {
-          "type": "list",
-          "settings": {
-            "list_text": "Tørrer dit tø"
-          }
-        },
-        "list_XcFVTJ": {
-          "type": "list",
-          "settings": {
-            "list_text": "Justerbar og kan tilpasses selv de mindste kroge"
-          }
-        },
-        "list_jWNenR": {
-          "type": "list",
-          "settings": {
-            "list_text": "Kan nemt flyttes med én hånd"
-          }
-        },
-        "list_LaEifD": {
-          "type": "list",
-          "settings": {
-            "list_text": "Elegant design"
-          }
-        },
-        "list_fmY6xH": {
-          "type": "list",
-          "settings": {
-            "list_text": "UV-afvisende cylinder- konstruktion"
-          }
-        },
-        "list_iAnrgV": {
-          "type": "list",
-          "settings": {
-            "list_text": "Let at opbevare"
-          }
-        },
-        "list_EEyxMq": {
-          "type": "list",
-          "settings": {
-            "list_text": "Nem at få til at passe ind i ethvert rum"
-          }
-        }
-      },
-      "block_order": [
-        "list_EXphi9",
-        "list_XcFVTJ",
-        "list_jWNenR",
-        "list_LaEifD",
-        "list_fmY6xH",
-        "list_iAnrgV",
-        "list_EEyxMq"
-      ],
       "name": "Custom Video Section",
       "settings": {
-        "padding_top": 0,
-        "padding_bottom": 100,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "heading": "Funktionelt Og Pladsbesparende Design",
-        "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p>",
+        "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p><p>Høj luftcirkulation sikrer en jævn og effektiv tørring. Med et design i klasse 1 behandlet bøgetræ og aluminiumtop er både kvalitet og design i top, hvilket gør det til et perfekt fit til det moderne hjem.</p><p>SmartRack er ikke bare “endnu et tørrestativ”, men et indretningselement. Det flotte trædesign og klapsammen funktion gør, at man er stolt af at have det stående fremme, modsat traditionelle billig-stativer af plastik eller det klassiske \"metalmonstrum\".</p>",
         "video": "shopify://files/videos/smartrackadloop_1200.mov"
       }
     },
@@ -380,8 +358,8 @@
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
-        "padding_top": 80,
-        "padding_bottom": 0
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
     "multi_column_MnN4YJ": {
@@ -448,8 +426,88 @@
         "background": "#f4eee9",
         "background_gradient": "",
         "text_color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_product_table_PNW6c3": {
+      "type": "custom-product-table",
+      "blocks": {
+        "row_6JQP4y": {
+          "type": "row",
+          "settings": {
+            "feature": "Tørrer dit tøj",
+            "first_check": true,
+            "second_check": true
+          }
+        },
+        "row_xWr7qr": {
+          "type": "row",
+          "settings": {
+            "feature": "Justerbar og kan tilpasses selv de mindste kroge",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_UVTgXB": {
+          "type": "row",
+          "settings": {
+            "feature": "Kan nemt flyttes med én hånd",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_43KDfK": {
+          "type": "row",
+          "settings": {
+            "feature": "Elegant design",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_TNiFAx": {
+          "type": "row",
+          "settings": {
+            "feature": "UV-afvisende cylinder- konstruktion",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_tiLcVi": {
+          "type": "row",
+          "settings": {
+            "feature": "Let at opbevare",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_9kqBtB": {
+          "type": "row",
+          "settings": {
+            "feature": "Nem at få til at passe ind i ethvert rum",
+            "first_check": true,
+            "second_check": false
+          }
+        }
+      },
+      "block_order": [
+        "row_6JQP4y",
+        "row_xWr7qr",
+        "row_UVTgXB",
+        "row_43KDfK",
+        "row_TNiFAx",
+        "row_tiLcVi",
+        "row_9kqBtB"
+      ],
+      "name": " Custom Comparison Table",
+      "settings": {
+        "first_col_title": "Fordel",
+        "second_col_title": "FJORD LIVING",
+        "third_col_title": "Andre tørrestativer",
+        "image_1": "shopify://shop_images/image_8.png",
+        "image_2": "shopify://shop_images/image_7.png",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "custom_faq_DMQerW": {
@@ -654,84 +712,6 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
-    },
-    "custom_product_table_PNW6c3": {
-      "type": "custom-product-table",
-      "blocks": {
-        "row_6JQP4y": {
-          "type": "row",
-          "settings": {
-            "feature": "Tørrer dit tøj",
-            "first_check": true,
-            "second_check": true
-          }
-        },
-        "row_xWr7qr": {
-          "type": "row",
-          "settings": {
-            "feature": "Justerbar og kan tilpasses selv de mindste kroge",
-            "first_check": true,
-            "second_check": false
-          }
-        },
-        "row_UVTgXB": {
-          "type": "row",
-          "settings": {
-            "feature": "Kan nemt flyttes med én hånd",
-            "first_check": true,
-            "second_check": false
-          }
-        },
-        "row_43KDfK": {
-          "type": "row",
-          "settings": {
-            "feature": "Elegant design",
-            "first_check": true,
-            "second_check": false
-          }
-        },
-        "row_TNiFAx": {
-          "type": "row",
-          "settings": {
-            "feature": "UV-afvisende cylinder- konstruktion",
-            "first_check": true,
-            "second_check": false
-          }
-        },
-        "row_tiLcVi": {
-          "type": "row",
-          "settings": {
-            "feature": "Let at opbevare",
-            "first_check": true,
-            "second_check": false
-          }
-        },
-        "row_9kqBtB": {
-          "type": "row",
-          "settings": {
-            "feature": "Nem at få til at passe ind i ethvert rum",
-            "first_check": true,
-            "second_check": false
-          }
-        }
-      },
-      "block_order": [
-        "row_6JQP4y",
-        "row_xWr7qr",
-        "row_UVTgXB",
-        "row_43KDfK",
-        "row_TNiFAx",
-        "row_tiLcVi",
-        "row_9kqBtB"
-      ],
-      "name": " Custom Comparison Table",
-      "settings": {
-        "first_col_title": "Fordel",
-        "second_col_title": "FJORD LIVING",
-        "third_col_title": "Andre tørrestativer",
-        "image_1": "shopify://shop_images/image_8.png",
-        "image_2": "shopify://shop_images/image_7.png"
-      }
     }
   },
   "order": [
@@ -741,8 +721,8 @@
     "custom_two_coilum_video_NHxP9E",
     "multi_column_BwtTnq",
     "multi_column_MnN4YJ",
+    "custom_product_table_PNW6c3",
     "custom_faq_DMQerW",
-    "custom_testimonial_slider_D3gCmh",
-    "custom_product_table_PNW6c3"
+    "custom_testimonial_slider_D3gCmh"
   ]
 }
