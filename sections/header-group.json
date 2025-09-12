@@ -63,7 +63,7 @@
         "autoplay": false,
         "cycle_speed": 4,
         "scrolling_speed": 10,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "background": "#885f41",
         "background_gradient": "",
         "text_color": "#ffffff"
