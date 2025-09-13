@@ -12,11 +12,9 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
+        "judge_me_reviews_preview_badge_Y4W4gA": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -60,6 +58,13 @@
             "size_chart_page": ""
           }
         },
+        "option1_H4VJUp": {
+          "type": "option1",
+          "settings": {
+            "text_1": "På lager. 1-4 dages levering",
+            "image_1": "shopify://shop_images/image_4.png"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -75,17 +80,39 @@
             "payment_button_text_color": ""
           }
         },
+        "multi_colum_9ADwMP": {
+          "type": "multiColum",
+          "settings": {
+            "icon_shipping": "shopify://shop_images/track.svg",
+            "icon_delivery": "shopify://shop_images/box.svg"
+          }
+        },
         "offer_3pep9E": {
           "type": "offer",
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "picto-coupon",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/box.svg",
             "icon_width": 20,
-            "title": "Short content about your shipping rates or discounts.",
+            "title": "Sendes mandag 1. september",
             "content": "",
-            "background": "rgba(0,0,0,0)",
-            "text_color": "#272727"
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        },
+        "offer_EMPipB": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/track.svg",
+            "icon_width": 20,
+            "title": "Gratis levering i hele Danmark",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#00a341"
           }
         },
         "collapsible_text_W9VTad": {
@@ -93,7 +120,27 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Beskrivelse",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_LpgJWt": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Specifikationer",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_i3CCGn": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Om levering",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -110,7 +157,7 @@
         }
       },
       "block_order": [
-        "rating",
+        "judge_me_reviews_preview_badge_Y4W4gA",
         "title",
         "badges",
         "price",
@@ -118,10 +165,15 @@
         "payment_terms",
         "separator",
         "variant_picker",
+        "option1_H4VJUp",
         "quantity_selector",
         "buy_buttons",
+        "multi_colum_9ADwMP",
         "offer_3pep9E",
+        "offer_EMPipB",
         "collapsible_text_W9VTad",
+        "collapsible_text_LpgJWt",
+        "collapsible_text_i3CCGn",
         "associated_products_bjxz6D"
       ],
       "settings": {
@@ -501,6 +553,7 @@
       ],
       "name": " Custom Comparison Table",
       "settings": {
+        "main_head": "",
         "first_col_title": "Fordel",
         "second_col_title": "FJORD LIVING",
         "third_col_title": "Andre tørrestativer",
