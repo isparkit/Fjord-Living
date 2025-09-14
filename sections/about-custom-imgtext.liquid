@@ -16,15 +16,19 @@
   }
 
   .about-custom-section .about-heading {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 700;
     margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: normal;
   }
 
   .about-custom-section .about-text {
-    max-height: 200px;
+    max-height: 212px;
     overflow: hidden;
     transition: max-height 0.6s ease;
+    margin-bottom: 33px;
   }
 
   .about-custom-section .about-text.expanded {
@@ -32,15 +36,11 @@
   }
 
   .about-custom-section .read-more-btn {
-    display: inline-block;
-    margin-top: 15px;
-    background: #333;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 6px;
+    border: 1px solid #885f41;
+    padding: 11px 25px 14px 25px;
+    border-radius: 50px;
+    background-color: #f2e2d7;
     cursor: pointer;
-    font-size: 14px;
-    transition: 0.3s;
   }
 
   .about-custom-section .read-more-btn:hover {
@@ -59,10 +59,10 @@
 
 <section class="about-custom-section" style="background-color: {{ section.settings.bg_color }}">
   <div class="container">
+    <h2 class="about-heading">{{ section.settings.heading }}</h2>
     <div class="about-container">
       <!-- LEFT CONTENT -->
       <div class="about-left">
-        <h2 class="about-heading">{{ section.settings.heading }}</h2>
         <div class="about-text" id="aboutText-{{ section.id }}">
           {{ section.settings.content }}
         </div>

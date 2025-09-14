@@ -80,6 +80,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_PBHKKd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Payment.svg",
+            "alignment": "start",
+            "max_width": 340
+          }
+        },
         "multi_colum_9ADwMP": {
           "type": "multiColum",
           "settings": {
@@ -168,6 +176,7 @@
         "option1_H4VJUp",
         "quantity_selector",
         "buy_buttons",
+        "image_PBHKKd",
         "multi_colum_9ADwMP",
         "offer_3pep9E",
         "offer_EMPipB",

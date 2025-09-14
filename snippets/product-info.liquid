@@ -266,26 +266,6 @@
             <img src="{{ block.settings.image_1 | img_url:'master' }}" alt="">
           </div>
         {% endif %}
-        </div>
-        .<div class="icon-text-box">
-    {% when "delivery" %}
-      <div class="info-item">
-        {% if block.settings.icon_delivery != blank %}
-          <img src="{{ block.settings.icon_delivery | img_url:'master' }}" alt="Delivery">
-        {% endif %}
-        <h3>Om Levering</h3>
-        <p>Bestil inden kl 16:00 og din pakke sendes samme dag.</p>
-      </div>
-
-    {% when "free_shipping %}
-      <div class="info-item">
-        {% if block.settings.icon_shipping != blank %}
-          <img src="{{ block.settings.icon_shipping | img_url:'master'}}" alt="Free Shipping">
-        {% endif %}
-        <h3>Gratis Fragt</h3>
-        <p>Pakker sendes med DAO og GLS.</p>
-      </div>
-
         {%- when 'quantity_selector' -%}
           {%- if product.available -%}
             {%- assign variant = product.selected_or_first_available_variant -%}
