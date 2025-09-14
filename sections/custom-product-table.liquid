@@ -1,8 +1,8 @@
-<section id="section-{{ section.id }}" class="comparison-section">
+<section id="section-{{ section.id }}" class="comparison-section  section-{{ section.id }}-padding">
   <div class="main-table-heading">
     <h2>{{ section.settings.main_head }}</h2>
   </div>
-  <div class="container comparison-wrapper  section-{{ section.id }}-padding">
+  <div class="container comparison-wrapper">
     <!-- Left Table -->
     <div class="comparison-table">
       <table>
@@ -62,98 +62,109 @@
 </section>
 
 <style>
-        .section-{{ section.id }}-padding {
-          padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
-          padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
-        }
+              .section-{{ section.id }}-padding {
+                padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+                padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+              }
 
-        @media screen and (min-width: 750px) {
-          .section-{{ section.id }}-padding {
-            padding-top: {{ section.settings.padding_top }}px;
-            padding-bottom: {{ section.settings.padding_bottom }}px;
+              @media screen and (min-width: 750px) {
+                .section-{{ section.id }}-padding {
+                  padding-top: {{ section.settings.padding_top }}px;
+                  padding-bottom: {{ section.settings.padding_bottom }}px;
+                }
+              }
+
+              .comparison-section{
+                background-color: #fff ;
+              }
+              .comparison-section .comparison-wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                align-items: start;
+              }
+
+              .comparison-section .comparison-table table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: center;
+                border: 1px solid #ddd;
+              }
+
+              .comparison-section .comparison-table th,
+              .comparison-table td {
+                border: 1px solid #B38B6D80;
+                padding: 12px;
+                font-size: 16px;
+                text-align: start;
+                font-weight: 400;
+                 vertical-align: middle;
+                 line-height: normal;
+              }
+
+              .comparison-section .comparison-table th {
+                font-weight: 700;
+                text-align: center;
+                letter-spacing: 0px;
+                line-height: normal;
+                font-size: 20px;
+                color: #000000;
+                font-family: 'Quicksand' !important;
+              }
+
+              .comparison-section .comparison-images {
+                display: flex;
+                gap: 20px;
+                height:100%;
+              }
+
+              .comparison-section .comparison-img img {
+                width: 100%;
+                border-radius: 8px;
+                height: 100%;
+                object-fit: cover;
+              }
+              .comparison-section .comparison-table td:nth-child(2),
+              .comparison-section .comparison-table th:nth-child(2) {
+                background-color: #68442a;
+                color: #fff;
+              }
+              .comparison-section .comparison-table th:first-child,
+            .comparison-section .comparison-table td:first-child {
+              text-align: start; /* left */
+            }
+
+            .comparison-section .comparison-table th:nth-child(2),
+            .comparison-section .comparison-table td:nth-child(2),
+            .comparison-section .comparison-table th:nth-child(3),
+            .comparison-section .comparison-table td:nth-child(3) {
+              text-align: center;
+            }
+            .main-table-heading {
+              padding-left: 46px;
           }
+        .main-table-heading h2 {
+            font-weight: 700;
+            letter-spacing: 0px;
+            line-height: normal;
+            font-family: Quicksand;
+            padding-bottom: 30px;
         }
-
-        .comparison-section{
-          background-color: #fff ;
-        }
-        .comparison-section .comparison-wrapper {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 20px;
-          align-items: start;
-        }
-
-        .comparison-section .comparison-table table {
-          width: 100%;
-          border-collapse: collapse;
-          text-align: center;
-          border: 1px solid #ddd;
-        }
-
-        .comparison-section .comparison-table th,
-        .comparison-table td {
-          border: 1px solid #B38B6D80;
-          padding: 12px;
-          font-size: 16px;
-          text-align: start;
-          font-weight: 400;
-          padding-left:20px !important;
-           vertical-align: middle;
-           color:#000 !important;
-        }
-
-        .comparison-section .comparison-table th {
-          font-weight: 700;
-          text-align: center;
-          letter-spacing: 0px;
-          line-height: normal;
-          font-size: 20px;
-          color: #000000;
-          font-family: 'Quicksand' !important;
-        }
-
-        .comparison-section .comparison-images {
-          display: flex;
-          gap: 20px;
-          height:100%;
-        }
-
-        .comparison-section .comparison-img img {
-          width: 100%;
-          border-radius: 8px;
-          height: 100%;
-          object-fit: cover;
-        }
-        .comparison-section .comparison-table td:nth-child(2),
-        .comparison-section .comparison-table th:nth-child(2) {
-          background-color: #68442a;
-          color: #fff;
-        }
-        .comparison-section .comparison-table th:first-child,
-      .comparison-section .comparison-table td:first-child {
-        text-align: start; /* left */
-      }
-
-      .comparison-section .comparison-table th:nth-child(2),
-      .comparison-section .comparison-table td:nth-child(2),
-      .comparison-section .comparison-table th:nth-child(3),
-      .comparison-section .comparison-table td:nth-child(3) {
-        text-align: center;
-      }
-      .main-table-heading {
-        padding-left: 46px;
+    .comparison-table thead tr th:first-child,
+    .comparison-table tbody tr td:first-child {
+      padding-left: 20px;
     }
-  .main-table-heading h2 {
-      font-weight: 700;
-      letter-spacing: 0px;
-      line-height: normal;
+
+
+
+              @media (max-width: 768px) {
+                .comparison-section .comparison-wrapper {
+                  grid-template-columns: 1fr;
+                }
+                .main-table-heading {
+      padding-left: 21px;
   }
-        @media (max-width: 768px) {
-          .comparison-section .comparison-wrapper {
-            grid-template-columns: 1fr;
-          }
-        }
+              }
 </style>
 
 {% schema %}
