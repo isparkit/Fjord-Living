@@ -42,14 +42,18 @@
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <div {% render 'section-properties', tight: true %}>
-  <product-rerender id="product-info-{{ product.id }}-{{ section.id }}" observe-form="{{ product_form_id }}" allow-partial-rerender>
-    <div class="product">
+  <product-rerender
+    id="product-info-{{ product.id }}-{{ section.id }}"
+    observe-form="{{ product_form_id }}"
+    allow-partial-rerender
+  >
+    <div class="product custom-product">
       {%- if product.media.size > 0 -%}
         {%- render 'product-gallery', product: product, product_form_id: product_form_id -%}
       {%- endif -%}
 
-      {%- render 'product-info', 
-        product: product, 
+      {%- render 'product-info',
+        product: product,
         update_url: true,
         product_form_id: product_form_id,
         context: 'main_product'
@@ -67,15 +71,30 @@
         {%- assign button_label = 'product.general.add_to_cart_button' | t -%}
 
         <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" class="sm:hidden">
-          {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
+          {%- render 'button',
+            type: 'submit',
+            content: button_label,
+            form: product_form_id,
+            background: buy_buttons_block.settings.atc_button_background,
+            text_color: buy_buttons_block.settings.atc_button_text_color,
+            secondary: true,
+            stretch: true,
+            size: 'lg'
+          -%}
         </buy-buttons>
 
-        {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
+        {%- assign image = product.selected_or_first_available_variant.featured_media
+          | default: product.featured_media
+        -%}
 
         <div class="product-quick-add__variant {% if image == blank %}no-image{% endif %} hidden sm:grid">
           {%- if image != blank -%}
             <variant-media widths="80,160" form="{{ product_form_id }}">
-              {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs' -}}
+              {{-
+                image
+                | image_url: width: image.width
+                | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs'
+              -}}
             </variant-media>
           {%- endif -%}
 
@@ -87,11 +106,22 @@
             {%- endif -%}
 
             <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
-            {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+            {%- render 'price-list',
+              product: product,
+              variant: product.selected_or_first_available_variant,
+              form_id: product_form_id
+            -%}
           </div>
 
           <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
-            {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true -%}
+            {%- render 'button',
+              type: 'submit',
+              content: button_label,
+              form: product_form_id,
+              background: buy_buttons_block.settings.atc_button_background,
+              text_color: buy_buttons_block.settings.atc_button_text_color,
+              secondary: true
+            -%}
           </buy-buttons>
         </div>
       </product-quick-add>
@@ -100,10 +130,10 @@
 {%- endif -%}
 
 {%- comment -%}
-IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
-when rendering the quick buy popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
-is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
-quick buy information in a template, that will be extracted in JS, but ensure it is not visible in the main product page
+  IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
+  when rendering the quick buy popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
+  is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
+  quick buy information in a template, that will be extracted in JS, but ensure it is not visible in the main product page
 {%- endcomment -%}
 
 {%- render 'product-quick-buy', product: product -%}
@@ -221,6 +251,43 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {
       "type": "separator",
       "name": "Separator"
+    },
+    {
+      "type": "custom_iwt",
+      "name": "Custom Image Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_one",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "first_text",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_two",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "sec_text",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "sec_rich_text",
+          "label": "Content"
+        }
+      ]
     },
     {
       "type": "description",
@@ -704,6 +771,38 @@ quick buy information in a template, that will be extracted in JS, but ensure it
         {
           "type": "paragraph",
           "content": "The selector is automatically hidden if all variants are sold out. When at least one variant is available, the selector is always visible to prevent the page from moving when switching variants. To show a volume pricing table, add the dedicatd Volume pricing block."
+        }
+      ]
+    },
+    {
+      "type": "option1",
+      "name": "option 1",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "multiColum",
+      "name": "multiImage",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_shipping",
+          "label": "Icon Shipping"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_delivery",
+          "label": "Icon Delivery"
         }
       ]
     },
@@ -1718,7 +1817,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "default": "carousel_thumbnails_left"
     },
     {
-      "type":"select",
+      "type": "select",
       "id": "mobile_media_size",
       "label": "Mobile media size",
       "options": [
@@ -1829,3 +1928,279 @@ quick buy information in a template, that will be extracted in JS, but ensure it
   ]
 }
 {% endschema %}
+
+<style>
+  .metafield-rich_text_field ul li {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #000;
+  }
+  .main-pro-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-product .text-sm {
+    color: #000 !important;
+  }
+  .custom-product .product-info__block-group.product-info__offer-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+    padding: 0px !important;
+    gap: 0px !important;
+  }
+  .custom-product .offer {
+    padding: 0px !important;
+  }
+  .product-info__price .rating-with-text {
+    justify-content: flex-start;
+    display: flex;
+    border-bottom: 1px solid #885f41;
+    padding-bottom: 10px;
+  }
+
+  .custom-product compare-at-price {
+      opacity: 50%;
+  }
+  .custom-product .product-info__price .rating-with-text {
+      justify-content: space-between;
+  }
+  .custom-product  .product-info__badge-list .badge {
+      background-color: #885F41;
+      border: 1px solid #885F41;
+      border-radius: 50px;
+      padding: 5px 15px;
+      line-height: 20px;
+  }
+  .custom-product .metafield-rich_text_field p {
+      margin-top: 10px;
+  } 
+  .custom-product .main-pro-text .stock-text {
+      display: flex;
+  }
+  .custom-product .product-info__block-item[data-block-type="quantity-selector"] {
+      float: left;
+      padding-right: 10px;
+      line-height: 0;
+  }
+  .custom-product .product-info__quantity-selector .quantity-selector {
+      {% comment %} height: unset !important; {% endcomment %}
+      background-color: #B38B6D1A;
+      border-color: #885F41;
+      border-radius: 50px;
+  }
+  .custom-product .product-info__quantity-selector .quantity-selector .quantity-selector__button {
+      color: #000000;
+  }
+  .custom-product .quantity-selector .quantity-selector__input {
+      background: transparent;
+      color: #000;
+  }
+  .custom-product .product-info__block-item[data-block-type="buy-buttons"] .button {
+      height: 50px;
+      background-color: #885F41;
+      color: #fff;
+      border: 1px solid #885F41;
+      padding: 0;
+  }
+  .custom-product .product-info__block-item[data-block-type="buy-buttons"] .button div {
+      display: inline-block;
+  }
+  .custom-product .main-pro-text {
+      margin-bottom: 30px;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] {
+      background-color: #B38B6D1A;
+      border: 1px solid #885F41;
+      border-radius: 10px;
+      padding: 30px 20px;
+      margin: 40px 0;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum {
+      display: flex;
+      gap: 60px;
+      justify-content: center;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div img {
+      width: 60px;
+      aspect-ratio: 1/1;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div  h3 {
+      color: #000;
+      font-weight: 700;
+      font-family: 'Nunito Sans';
+      line-height: 1em;
+      letter-spacing: 0;
+  }
+  .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div p {
+      color: #000;
+      text-align: center;
+      line-height: 1.2em;
+      max-width: 210px;
+  }
+  .custom-product .product-info__block-group.product-info__offer-list .text-with-icon span {
+      padding: 0;
+      font-weight: 400;
+  }
+  .product-info__accordion .accordion__content {
+      padding-left: 20px;
+  }
+  .product-info__block-item:has(.accordion) + .product-info__block-item:has(.accordion) .accordion {
+      border-block-start-width: 1px !important;
+  }
+  .product-info__accordion .accordion__toggle {
+      padding-right: 20px;
+  }
+  .custom-product .variant-picker .block-swatch {
+      height: auto;
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 2px solid #B38B6D80 !important;
+  }
+  .custom-product .variant-picker .variant-picker__option-values input[type="radio"]:checked + label {
+      border-color: #885F41 !important;
+  }
+  .custom-product .variant-picker .block-swatch::before {
+      display: none;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants img {
+      border-radius: 10px;
+      width: 80px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .custom_variant_info span {
+      color: #885F41;
+      font-weight: 700;
+      font-family: 'Quicksand';
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants  .custom_variant_price {
+      text-align: center;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .custom_variant_price .regular_price {
+      color: #885F41;
+      font-weight: 700;
+      line-height: 1em;
+      letter-spacing: 0;
+      text-wrap-mode: nowrap;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .custom_variant_price .compare_price {
+      color: #000000;
+      opacity: 50%;
+      font-family: 'Nunito Sans';
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0;
+      text-wrap-mode: nowrap;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants  .save_amount {
+      position: absolute;
+      top: -10px;
+      right: 35px;
+      background: #885F41;
+      color: #fff;
+      padding: 4px 8px;
+      line-height: 1em;
+      letter-spacing: 0;
+      border-radius: 0 0 6px 6px;
+      font-size: 12px;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::before,
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::after{
+      content: '';
+      position: absolute;
+      top: 3px;
+      border: 6px solid transparent;
+      border-top-color: #885F41;
+      z-index: 1;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::before {
+    left: -6px;
+    transform: rotate(-45deg);
+  }
+
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::after {
+    right: -6px;
+    transform: rotate(45deg);
+  }
+  .custom-product .variant-picker .variant-picker__option-values label:first-of-type .save_amount,
+  .custom-product .variant-picker .variant-picker__option-info {
+      display: none;
+  }
+  .custom-product .product-info__block-group.product-info__offer-list {
+      margin-top: 30px !important;
+  }
+  .custom-product .variant-picker .variant-picker__option-values {
+      gap: 15px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .custom-product .variant-picker .block-swatch .custom_variants {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .custom-product .variant-picker .block-swatch .custom_variants .custom_variant_info {
+        order: 3;
+        width: 100%;
+    }
+    .custom-product .variant-picker .block-swatch .custom_variants  .custom_variant_price {
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+    }
+    .custom-product .main-pro-text {
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .custom-product .main-pro-text .stock-text::before {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] {
+        padding: 20px 15px;
+        margin: 20px 0;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum {
+        gap: 10px;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum .item-1,
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum .item-2 {
+        width: 50%;
+        justify-content: flex-start;
+        gap: 5px;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div img {
+        width: 30px;
+        aspect-ratio: 1/1;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div p {
+        max-width: 100%;
+    }
+    .product-info__accordion .accordion__toggle {
+        padding: 10px  !important;
+    }
+    .product-info__accordion .accordion__content {
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+  }
+</style>

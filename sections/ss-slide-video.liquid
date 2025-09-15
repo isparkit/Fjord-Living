@@ -128,6 +128,17 @@
       box-shadow: -3px 7px 9px -2px #a09c9c;
     {% endif %}
   }
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_topp | times: 0.40 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottomm | times: 0.40 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_topp }}px;
+      padding-bottom: {{ section.settings.padding_bottomm }}px;
+    }
+  }
 
   .scrolling-image-content-{{ section.id }} p,
   .scrolling-image-content-{{ section.id }} a,
@@ -140,7 +151,7 @@
 
   .marquee-horizontal-{{ section.id }} {
       position: relative;
-      z-index: 2;
+      z-index: 1;
       display: inline-flex;
       overflow: hidden;
       width: 100%;
@@ -295,14 +306,22 @@
   </style>
 {% endif %}
 
-<div class="section-{{ section.id }} scrolling-image-{{ section.id }}" style="background-color:{{ background_color }}; background-image: {{ background_gradient }};">
+<div class="section-{{ section.id }} section-{{ section.id }}-padding  scrolling-image-{{ section.id }}" style="background-color:{{ background_color }}; background-image: {{ background_gradient }};">
     <div class="section-{{ section.id }}-settings scrolling-image-body-{{ section.id }}">
       {% if heading != blank %}
         <div class="scrolling-image-heading-{{ section.id }}">
           {{ heading }}
         </div>
       {% endif %}
-      <div class="scrolling-image-slider-{{ section.id }}">
+      <div class="scrolling-image-slider-{{ section.id }} custom-main-sec">
+        <div class="mar-left-text">
+          {%if section.settings.rig_heading != blank %}
+          <h2>{{section.settings.rig_heading}}</h2>
+          {%endif%}
+          {%if section.settings.rig_content != blank %}
+          <div class="section-info">{{section.settings.rig_content}}</div>
+          {%endif%}
+        </div>
         <div class="marquee-horizontal-{{ section.id }}">
           <div class="track-horizontal-{{section.id}}">
             {% for block in section.blocks %}
@@ -363,6 +382,16 @@
     "max_blocks": 100,
     "name": "SS - Scrolling Images",
     "settings": [
+    {
+      "type": "text",
+      "id":"rig_heading",
+      "label": "Right Heading"
+    },
+    {
+      "type":"richtext",
+      "id": "rig_content",
+      "label": "Right Content"
+    },
       {
         "type": "header",
         "content": "Heading"
@@ -842,7 +871,32 @@
         "label": "Lazy load",
         "info": "Lazy load images below fold for speed optimisation",
         "default": true
-      }
+      },
+
+      {
+        "type": "header",
+        "content":"Section Padding"
+      },
+          {
+      "type": "range",
+      "id": "padding_topp",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottomm",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    }
     ],
     "blocks": [
       {
@@ -888,3 +942,50 @@
   }
   
 {% endschema %}
+
+<style>
+  .custom-main-sec {
+    display: flex;
+    gap: 20px;
+}
+.mar-left-text {
+    width: 40%;
+    padding-left: 40px;
+}
+
+.mar-left-text h2{
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Quicksand';
+    margin-bottom:20px;
+}
+.section-info p:not(:last-child){
+  margin-bottom: 15px;
+}
+
+@media (max-width:1440px){
+.mar-left-text {
+    width: 45%;
+}
+}
+@media (max-width:1120px){
+ .custom-main-sec {
+    flex-wrap: wrap;
+}
+.mar-left-text {
+    width:100%;
+}
+}
+
+@media (max-width:767px){
+  .mar-left-text {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-info p:not(:last-child){
+  margin-bottom: 12px;
+}
+
+}
+</style>

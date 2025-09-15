@@ -13,6 +13,10 @@
 {%- endstyle -%}
 
 <style>
+  .product-multi-col.section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .custom-multi,
   .sec-multi-colum {
     padding-left: 0px;
@@ -81,7 +85,9 @@
   }
   .multi-column .gap-4 {
     gap: 10px !important;
+    padding: 20px;
   }
+
   .multi-column .multi-column__item {
     gap: 20px !important;
   }
@@ -106,11 +112,64 @@
   }
   .sec-multi-colum .section-stack {
     gap: 40px !important;
+    padding: 20px;
+  }
+
+  /* product page multi  colum */
+  .product-multi-col .multi-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .product-multi-col .multi-column .gap-4 {
+    gap: 10px !important;
+    padding: 20px;
+    border: 1px solid #885f41;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #b38b6d26;
+    flex: 1;
+  }
+  .product-multi-col .multi-column__item {
+    width: calc((100% - 20px) / 3);
+    gap: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .product-multi-col .multi-column__item.justify-start.snap-start img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .product-multi-col h5.h5 {
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .product-multi-col .prose p {
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .product-multi-col .bleed {
+    margin-inline-start: unset !important;
+    margin-inline-end: unset !important;
+  }
+
+  @media (max-width: 1199px) {
+    .product-multi-col .multi-column {
+      gap: 20px;
+    }
   }
   /* Tablet view */
   @media (max-width: 1024px) {
     .custom-multi .h5 {
-      font-size: 17px !import;
+      font-size: 17px !important;
     }
     .multi-column.scroll-area.bleed {
       display: flex;
@@ -118,9 +177,9 @@
       gap: 20px; /* items ke beech space */
     }
 
-    .multi-column__item.justify-start.snap-start {
-      flex: 1 1 calc(50% - 20px); /* 2 items per row */
-      max-width: calc(50% - 20px);
+    .custom-multi .multi-column .multi-column__item {
+      flex: 0 0 calc(50% - 20px); /* 2 items per row */
+      /* max-width: calc(50% - 20px); */
     }
     .custom-multi .multi-column {
       width: 100%;
@@ -145,8 +204,15 @@
     .sec-multi-colum .section-stack {
       gap: 30px;
     }
+    .product-multi-col .multi-column {
+      flex-wrap: nowrap !important;
+      overflow: auto;
+      justify-content: flex-start !important;
+    }
+    .product-multi-col .multi-column .multi-column__item {
+      flex: 0 0 auto;
+    }
   }
-
   @media (max-width: 767px) {
     .custom-multi .multi-column {
       grid: unset;
@@ -169,6 +235,9 @@
     .multi-column__item.justify-center.snap-start img {
       margin: 0 auto;
     }
+    .product-multi-col .multi-column .gap-4 {
+      padding: 15px;
+    }
   }
   @media (max-width: 640px) {
     .sec-multi-colum .multi-column.scroll-area.bleed,
@@ -183,7 +252,8 @@
   }
   @media (max-width: 481px) {
     .sec-multi-colum .multi-column .multi-column__item,
-    .custom-multi .multi-column .multi-column__item {
+    .custom-multi .multi-column .multi-column__item,
+    .product-multi-col .multi-column .multi-column__item {
       flex: 0 0 70%;
     }
     .custom-multi .multi-column .multi-column__item {
@@ -203,7 +273,7 @@
     }
   </style>
   <div {% render 'section-properties', custom-class: section.settings['custom-multi'] %}>
-    <div class="section-stack container">
+    <div class="section-stack container {{section.settings.product_column}}">
       {%- render 'section-header',
         subheading: section.settings.subheading,
         heading: section.settings.title,

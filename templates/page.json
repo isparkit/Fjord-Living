@@ -11,10 +11,41 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "custom_image_with_text_iJjQ4H": {
+      "type": "custom-image-with-text",
+      "disabled": true,
+      "name": "Two Column Hero Section",
+      "settings": {
+        "cus_class": "fir-img-text",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "subheading": "",
+        "heading": "Om os",
+        "content": "<p>Velkommen til FjordLiving - din destination for praktiske og stilfulde løsninger til moderne livsstil. Vi er et dedikeret team af passionerede enkeltpersoner, der deler en vision om at gøre hverdagen lettere og mere behagelig for vores kunder. Hos FjordLiving stræber vi efter at tilbyde innovative produkter, der kombinerer funktionalitet, kvalitet og æstetik.</p><p>Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.</p><p>FjordLiving specialiserer sig i at tilbyde nøje udvalgte produkter, der kan forbedre din hverdag. Fra intelligente tørrestativer som SmartRack til smukke og funktionelle indretningsgenstande er vores sortiment nøje kurateret for at opfylde dine behov og berige dit hjem.</p><p><strong>Hvorfor vælge FjordLiving:</strong></p><p><strong>Kvalitet og holdbarhed:</strong> Vi fokuserer på at tilbyde produkter af høj kvalitet, der ikke kun er funktionelle, men også holdbare og pålidelige.</p><p><strong>Kundeservice:</strong> Vi sætter en ære i at levere en fremragende kundeservice. Vores dedikerede team er her for at besvare dine spørgsmål og sikre, at du er tilfreds med dit køb.</p><p><strong>Bæredygtighed:</strong> Hos FjordLiving er vi opmærksomme på vores miljømæssige ansvar. Vi stræber efter at tilbyde bæredygtige produkter og minimere vores påvirkning på planeten.</p><p><strong>Innovation:</strong> Vi holder os opdateret med de seneste trends og teknologier for at sikre, at vores sortiment altid afspejler det bedste inden for innovation og design.</p><p>Har du spørgsmål eller brug for assistance? Tøv ikke med at kontakte vores kundesupport. Vi er her for at gøre din shoppingoplevelse hos FjordLiving så glat og behagelig som muligt.</p><p>Tak fordi du valgte FjordLiving - din partner i at gøre hverdagen en smule mere enkel og elegant.</p>",
+        "button_link": "",
+        "button_text": "Se vores udvalg",
+        "right_image": "shopify://shop_images/Group_44.png"
+      }
+    },
+    "about_custom_imgtext_JEQqcr": {
+      "type": "about-custom-imgtext",
+      "name": "About Us Custom",
+      "settings": {
+        "bg_color": "#fbeee6",
+        "heading": "Om os",
+        "content": "<p>Velkommen til FjordLiving - din destination for praktiske og stilfulde løsninger til moderne livsstil. Vi er et dedikeret team af passionerede enkeltpersoner, der deler en vision om at gøre hverdagen lettere og mere behagelig for vores kunder. Hos FjordLiving stræber vi efter at tilbyde innovative produkter, der kombinerer funktionalitet, kvalitet og æstetik.</p><p>Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.</p><p>FjordLiving specialiserer sig i at tilbyde nøje udvalgte produkter, der kan forbedre din hverdag. Fra intelligente tørrestativer som SmartRack til smukke og funktionelle indretningsgenstande er vores sortiment nøje kurateret for at opfylde dine behov og berige dit hjem.</p><p><strong>Hvorfor vælge FjordLiving:</strong></p><p><strong>Kvalitet og holdbarhed:</strong> Vi fokuserer på at tilbyde produkter af høj kvalitet, der ikke kun er funktionelle, men også holdbare og pålidelige.</p><p><strong>Kundeservice:</strong> Vi sætter en ære i at levere en fremragende kundeservice. Vores dedikerede team er her for at besvare dine spørgsmål og sikre, at du er tilfreds med dit køb.</p><p><strong>Bæredygtighed:</strong> Hos FjordLiving er vi opmærksomme på vores miljømæssige ansvar. Vi stræber efter at tilbyde bæredygtige produkter og minimere vores påvirkning på planeten.</p><p><strong>Innovation:</strong> Vi holder os opdateret med de seneste trends og teknologier for at sikre, at vores sortiment altid afspejler det bedste inden for innovation og design.</p><p>Har du spørgsmål eller brug for assistance? Tøv ikke med at kontakte vores kundesupport. Vi er her for at gøre din shoppingoplevelse hos FjordLiving så glat og behagelig som muligt.</p><p>Tak fordi du valgte FjordLiving - din partner i at gøre hverdagen en smule mere enkel og elegant.</p>",
+        "image": "shopify://shop_images/image_8.png"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_image_with_text_iJjQ4H",
+    "about_custom_imgtext_JEQqcr"
   ]
 }

@@ -1,0 +1,257 @@
+<section id="section-{{ section.id }}" class="comparison-section  section-{{ section.id }}-padding">
+  <div class="main-table-heading">
+    <h2>{{ section.settings.main_head }}</h2>
+  </div>
+  <div class="container comparison-wrapper">
+    <!-- Left Table -->
+    <div class="comparison-table">
+      <table>
+        <thead>
+          <tr>
+            <th>{{ section.settings.first_col_title }}</th>
+            <th>{{ section.settings.second_col_title }}</th>
+            <th>{{ section.settings.third_col_title }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for block in section.blocks %}
+            <tr>
+              <td>{{ block.settings.feature }}</td>
+              <td>
+                {% if block.settings.first_check %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="none">
+                    <path d="M21.7756 0.480887C22.3989 -0.160281 23.4093 -0.160311 24.0326 0.480887C24.6558 1.12209 24.6558 2.16148 24.0326 2.80268L9.72716 17.5191C9.10387 18.1603 8.09353 18.1603 7.47022 17.5191L0.967478 10.8303C0.344173 10.1891 0.344175 9.14896 0.967478 8.50774C1.59074 7.86677 2.60116 7.86677 3.22442 8.50774L8.59869 14.0364L21.7756 0.480887Z" fill="white"/>
+                  </svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.5" d="M14.1052 0.410946C14.653 -0.136941 15.5412 -0.136859 16.0892 0.410946C16.6369 0.958891 16.637 1.8471 16.0892 2.39495L10.4835 7.99951L16.0892 13.6052C16.6369 14.1531 16.637 15.0413 16.0892 15.5892C15.5413 16.137 14.6531 16.1369 14.1052 15.5892L8.49951 9.98351L2.89495 15.5892C2.3471 16.137 1.45889 16.1369 0.910946 15.5892C0.363141 15.0412 0.363059 14.153 0.910946 13.6052L6.5155 7.99951L0.910946 2.39495C0.363018 1.84703 0.363018 0.958873 0.910946 0.410946C1.45887 -0.136982 2.34703 -0.136982 2.89495 0.410946L8.49951 6.0155L14.1052 0.410946Z" fill="black"/>
+                  </svg>
+                {% endif %}
+              </td>
+              <td>
+                {% if block.settings.second_check %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 25 18" fill="none">
+                    <path d="M21.7756 0.480887C22.3989 -0.160281 23.4093 -0.160311 24.0326 0.480887C24.6558 1.12209 24.6558 2.16148 24.0326 2.80268L9.72716 17.5191C9.10387 18.1603 8.09353 18.1603 7.47022 17.5191L0.967478 10.8303C0.344173 10.1891 0.344175 9.14896 0.967478 8.50774C1.59074 7.86677 2.60116 7.86677 3.22442 8.50774L8.59869 14.0364L21.7756 0.480887Z" fill="black"/>
+                  </svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path opacity="0.5" d="M14.1052 0.410946C14.653 -0.136941 15.5412 -0.136859 16.0892 0.410946C16.6369 0.958891 16.637 1.8471 16.0892 2.39495L10.4835 7.99951L16.0892 13.6052C16.6369 14.1531 16.637 15.0413 16.0892 15.5892C15.5413 16.137 14.6531 16.1369 14.1052 15.5892L8.49951 9.98351L2.89495 15.5892C2.3471 16.137 1.45889 16.1369 0.910946 15.5892C0.363141 15.0412 0.363059 14.153 0.910946 13.6052L6.5155 7.99951L0.910946 2.39495C0.363018 1.84703 0.363018 0.958873 0.910946 0.410946C1.45887 -0.136982 2.34703 -0.136982 2.89495 0.410946L8.49951 6.0155L14.1052 0.410946Z" fill="black"/>
+                  </svg>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Right Side Images -->
+    <div class="comparison-images">
+      <div class="comparison-img">
+        {% if section.settings.image_1 != blank %}
+          <img src="{{ section.settings.image_1 | img_url: '600x' }}" alt="Image 1">
+        {% endif %}
+      </div>
+      <div class="comparison-img">
+        {% if section.settings.image_2 != blank %}
+          <img src="{{ section.settings.image_2 | img_url: '600x' }}" alt="Image 2">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+              .section-{{ section.id }}-padding {
+                padding-top: {{ section.settings.padding_top | times: 0.40 | round: 0 }}px;
+                padding-bottom: {{ section.settings.padding_bottom | times: 0.40 | round: 0 }}px;
+              }
+
+              @media screen and (min-width: 750px) {
+                .section-{{ section.id }}-padding {
+                  padding-top: {{ section.settings.padding_top }}px;
+                  padding-bottom: {{ section.settings.padding_bottom }}px;
+                }
+              }
+
+              .comparison-section{
+                background-color: #fff ;
+              }
+              .comparison-section .comparison-wrapper {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                align-items: start;
+              }
+
+              .comparison-section .comparison-table table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: center;
+                border: 1px solid #ddd;
+              }
+
+              .comparison-section .comparison-table th,
+              .comparison-table td {
+                border: 1px solid #B38B6D80;
+                padding: 12px;
+                font-size: 16px;
+                text-align: start;
+                font-weight: 400;
+                 vertical-align: middle;
+                 line-height: normal;
+              }
+
+              .comparison-section .comparison-table th {
+                font-weight: 700;
+                text-align: center;
+                letter-spacing: 0px;
+                line-height: normal;
+                font-size: 20px;
+                color: #000000;
+                font-family: 'Quicksand' !important;
+              }
+
+              .comparison-section .comparison-images {
+                display: flex;
+                gap: 20px;
+                height:100%;
+              }
+
+              .comparison-section .comparison-img img {
+                width: 100%;
+                border-radius: 8px;
+                height: 100%;
+                object-fit: cover;
+              }
+              .comparison-section .comparison-table td:nth-child(2),
+              .comparison-section .comparison-table th:nth-child(2) {
+                background-color: #68442a;
+                color: #fff;
+              }
+              .comparison-section .comparison-table th:first-child,
+            .comparison-section .comparison-table td:first-child {
+              text-align: start; /* left */
+            }
+
+            .comparison-section .comparison-table th:nth-child(2),
+            .comparison-section .comparison-table td:nth-child(2),
+            .comparison-section .comparison-table th:nth-child(3),
+            .comparison-section .comparison-table td:nth-child(3) {
+              text-align: center;
+            }
+            .main-table-heading {
+              padding-left: 46px;
+          }
+        .main-table-heading h2 {
+            font-weight: 700;
+            letter-spacing: 0px;
+            line-height: normal;
+            font-family: Quicksand;
+            padding-bottom: 30px;
+        }
+    .comparison-table thead tr th:first-child,
+    .comparison-table tbody tr td:first-child {
+      padding-left: 20px;
+    }
+
+
+
+              @media (max-width: 768px) {
+                .comparison-section .comparison-wrapper {
+                  grid-template-columns: 1fr;
+                }
+                .main-table-heading {
+      padding-left: 21px;
+  }
+              }
+</style>
+
+{% schema %}
+{
+  "name": "Comparison Table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_head",
+      "label": "Main Heading"
+    },
+    {
+      "type": "text",
+      "id": "first_col_title",
+      "label": "First Column Title",
+      "default": "Fordel"
+    },
+    {
+      "type": "text",
+      "id": "second_col_title",
+      "label": "Second Column Title",
+      "default": "FJORD LIVING"
+    },
+    {
+      "type": "text",
+      "id": "third_col_title",
+      "label": "Third Column Title",
+      "default": "Andre tørrestativer"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Right Side Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Right Side Image 2"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Table Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "feature",
+          "label": "Feature Name"
+        },
+        {
+          "type": "checkbox",
+          "id": "first_check",
+          "label": "First Column Check"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_check",
+          "label": "Second Column Check"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": " Custom Comparison Table"
+    }
+  ]
+}
+{% endschema %}
