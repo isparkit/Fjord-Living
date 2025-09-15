@@ -2179,12 +2179,20 @@
         margin: 20px 0;
     }
     .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum {
-        flex-direction: column;
-        gap: 20px;
+        gap: 10px;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum .item-1,
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum .item-2 {
+        width: 50%;
+        justify-content: flex-start;
+        gap: 5px;
     }
     .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div img {
         width: 40px;
         aspect-ratio: 1/1;
+    }
+    .custom-product .product-info__block-item[data-block-type="custom-iwt"] .pr-mul-colum div p {
+        max-width: 100%;
     }
   }
 </style>
