@@ -212,8 +212,7 @@
           style="{{ swatch_style }}"
         ></span>
       {%- endif -%}
-
-      <span>{{ label | default: value }}</span>
+      {% comment %} <span>{{ label | default: value }}</span> {% endcomment %}
       {% if option_downcase == 'variant' %}
         {%- assign image = image | default: variant.featured_media | default: variant.product.featured_media -%}
         <div class="custom_variants">
