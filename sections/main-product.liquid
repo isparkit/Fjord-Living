@@ -2120,6 +2120,24 @@
       letter-spacing: 0;
       border-radius: 0 0 6px 6px;
   }
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::before,
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::after{
+      content: '';
+      position: absolute;
+      top: 0;
+      border: 8px solid transparent;
+      border-top-color: #885F41;
+      z-index: 1;
+  }
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::before {
+    left: -8px;
+    transform: rotate(-45deg);
+  }
+
+  .custom-product .variant-picker .block-swatch .custom_variants .save_amount::after {
+    right: -8px;
+    transform: rotate(45deg);
+  }
   .custom-product .variant-picker .variant-picker__option-values label:first-of-type .save_amount {
       display: none;
   }
