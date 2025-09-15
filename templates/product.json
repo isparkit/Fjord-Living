@@ -99,13 +99,6 @@
             "sec_rich_text": "<p>Pakker sendes med DAO og GLS.</p>"
           }
         },
-        "multi_colum_9ADwMP": {
-          "type": "multiColum",
-          "settings": {
-            "icon_shipping": "shopify://shop_images/track.svg",
-            "icon_delivery": "shopify://shop_images/box.svg"
-          }
-        },
         "offer_3pep9E": {
           "type": "offer",
           "settings": {
@@ -132,6 +125,13 @@
             "content": "",
             "background": "#ffffff",
             "text_color": "#00a341"
+          }
+        },
+        "multi_colum_9ADwMP": {
+          "type": "multiColum",
+          "settings": {
+            "icon_shipping": "shopify://shop_images/track.svg",
+            "icon_delivery": "shopify://shop_images/box.svg"
           }
         },
         "collapsible_text_W9VTad": {
@@ -189,9 +189,9 @@
         "buy_buttons",
         "image_PBHKKd",
         "custom_iwt_h7YeQ8",
-        "multi_colum_9ADwMP",
         "offer_3pep9E",
         "offer_EMPipB",
+        "multi_colum_9ADwMP",
         "collapsible_text_W9VTad",
         "collapsible_text_LpgJWt",
         "collapsible_text_i3CCGn",
