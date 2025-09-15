@@ -15,7 +15,7 @@
   * context: the context of the product info. Can be "main_product", "featured_product" or "quick_buy"
 {%- endcomment -%}
 
-<safe-sticky class="product-info">
+<safe-sticky class="product-info cust-pr-info">
   {%- assign inside_block_group_context = false -%}
   {%- assign current_block_group_name = '' -%}
 
@@ -272,7 +272,7 @@
                 
             <div class="product-info__quantity-selector">
               <div class="form-control">
-                <label for="{{ product_form_id }}-quantity" class="block-label text-subdued">{{- 'product.quantity.label' | t -}}:</label>
+                {% comment %} <label for="{{ product_form_id }}-quantity" class="block-label text-subdued">{{- 'product.quantity.label' | t -}}:</label> {% endcomment %}
 
                 <quantity-selector class="quantity-selector">
                   <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
@@ -327,6 +327,32 @@
           <div class="product-info__pickup-availability">
             {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}
           </div>
+          
+           {%- when 'custom_iwt' -%}
+            <div class="pr-mul-colum">
+              <div class="item-1">
+                {% if block.settings.image_one != 'blank' %}
+                <img src="{{block.settings.image_one | img_url:'master'}}">
+                {% endif %}
+                 {% if block.settings.first_text != 'blank' %}
+                <h3>{{block.settings.first_text}}</h3>
+                 {% endif %}
+                 {% if block.settings.rich_text != 'blank' %}
+                {{block.settings.rich_text}}
+                 {% endif %}
+              </div>
+              <div class="item-2">
+                {% if block.settings.image_two != 'blank' %}
+                <img src="{{block.settings.image_two | img_url:'master'}}">
+                {% endif %}
+                 {% if block.settings.sec_text != 'blank' %}
+                <h3>{{block.settings.sec_text}}</h3>
+                 {% endif %}
+                 {% if block.settings.sec_rich_text != 'blank' %}
+                {{block.settings.sec_rich_text}}
+                 {% endif %}
+              </div>
+            </div>
 
         {%- when 'text' -%}
           {%- if block.settings.text != blank -%}
@@ -516,6 +542,15 @@
     width: 14px;
     height: 14px;
     background-image: url('https://cdn.shopify.com/s/files/1/0849/3842/4607/files/Vector_7.svg?v=1757881664');
+    margin-right: 10px;
+  }
+  .stock-text::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn.shopify.com/s/files/1/0849/3842/4607/files/Group_30.svg?v=1757916081');
+    margin-right: 10px;
   }
   .stock-text {
     font-weight: 700;
@@ -528,5 +563,55 @@
     justify-content: flex-end;
     padding-top: 15px;
   }
-  .circle-chevron
+  .product-info__accordion {
+    border: 1px solid #885f41;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .product-info__block-item:has(.accordion) + .product-info__block-item:has(.accordion) .accordion {
+    border-block-start-width: unset !important;
+  }
+  .custom-product .circle-chevron {
+    background: unset !important;
+  }
+  .accordion__toggle {
+    padding-block-end: unset !important;
+    padding-block-start: unset !important;
+  }
+  .accordion__toggle {
+    padding-block-end: unset !important;
+    padding-block-start: unset !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 20px !important;
+  }
+  .text-with-icon span {
+    font-weight: 700;
+    color: #885f41;
+    line-height: normal;
+    letter-spacing: 0px;
+  }
+  .product.custom-product {
+    display: flex !important;
+    gap: 50px !important;
+  }
+  product-gallery.product-gallery.product-gallery--desktop-grid.product-gallery--mobile-expanded {
+    width: 50%;
+  }
+  safe-sticky.product-info.cust-pr-info {
+    width: 50%;
+  }
+
+  @media (max-width: 1024px) {
+    .product.custom-product {
+      display: flex !important;
+      flex-wrap: wrap;
+    }
+    product-gallery.product-gallery.product-gallery--desktop-grid.product-gallery--mobile-expanded {
+      width: 100%;
+    }
+    safe-sticky.product-info.cust-pr-info {
+      width: 100%;
+    }
+  }
 </style>

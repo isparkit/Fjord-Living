@@ -129,10 +129,14 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #b38b6d26;
+    flex: 1;
   }
   .product-multi-col .multi-column__item {
     width: calc((100% - 20px) / 3);
     gap: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   .product-multi-col .multi-column__item.justify-start.snap-start img {
     border-top-left-radius: 10px;

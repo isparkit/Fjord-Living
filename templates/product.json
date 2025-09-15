@@ -88,6 +88,17 @@
             "max_width": 340
           }
         },
+        "custom_iwt_h7YeQ8": {
+          "type": "custom_iwt",
+          "settings": {
+            "image_one": "shopify://shop_images/track.svg",
+            "first_text": "Om Levering",
+            "rich_text": "<p>Bestil inden kl 16:00 og din pakke sendes samme dag.</p>",
+            "image_two": "shopify://shop_images/box.svg",
+            "sec_text": "Gratis Fragt",
+            "sec_rich_text": "<p>Pakker sendes med DAO og GLS.</p>"
+          }
+        },
         "multi_colum_9ADwMP": {
           "type": "multiColum",
           "settings": {
@@ -177,6 +188,7 @@
         "quantity_selector",
         "buy_buttons",
         "image_PBHKKd",
+        "custom_iwt_h7YeQ8",
         "multi_colum_9ADwMP",
         "offer_3pep9E",
         "offer_EMPipB",

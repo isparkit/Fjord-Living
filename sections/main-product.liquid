@@ -253,6 +253,43 @@
       "name": "Separator"
     },
     {
+      "type": "custom_iwt",
+      "name": "Custom Image Text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_one",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "first_text",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_two",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "sec_text",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "sec_rich_text",
+          "label": "Content"
+        }
+      ]
+    },
+    {
       "type": "description",
       "name": "Description",
       "limit": 1,
@@ -1917,5 +1954,11 @@
   }
   .custom-product .offer {
     padding: 0px !important;
+  }
+  .product-info__price .rating-with-text {
+    justify-content: flex-start;
+    display: flex;
+    border-bottom: 1px solid #885f41;
+    padding-bottom: 10px;
   }
 </style>
