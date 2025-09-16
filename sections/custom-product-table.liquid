@@ -48,12 +48,23 @@
     <!-- Right Side Images -->
     <div class="comparison-images">
       <div class="comparison-img">
-        {% if section.settings.image_1 != blank %}
+        {% if section.settings.video_1 != blank %}
+          <video controls muted playsinline>
+            <source src="{{ section.settings.video_1 }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% elsif section.settings.image_1 != blank %}
           <img src="{{ section.settings.image_1 | img_url: '600x' }}" alt="Image 1">
         {% endif %}
       </div>
+
       <div class="comparison-img">
-        {% if section.settings.image_2 != blank %}
+        {% if section.settings.video_2 != blank %}
+          <video controls muted playsinline>
+            <source src="{{ section.settings.video_2 }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% elsif section.settings.image_2 != blank %}
           <img src="{{ section.settings.image_2 | img_url: '600x' }}" alt="Image 2">
         {% endif %}
       </div>
@@ -156,7 +167,11 @@
       }
 
 
-
+          @media(max-width:1168px){
+            .comparison-section .comparison-wrapper{
+               grid-template-columns: 1fr;
+            }
+          }
                 @media (max-width: 767px) {
                   .comparison-section .comparison-wrapper {
                     grid-template-columns: 1fr;
@@ -212,9 +227,19 @@
       "label": "Right Side Image 1"
     },
     {
+      "type": "url",
+      "id": "video_1",
+      "label": "Video 1 URL"
+    },
+    {
       "type": "image_picker",
       "id": "image_2",
       "label": "Right Side Image 2"
+    },
+    {
+      "type": "url",
+      "id": "video_2",
+      "label": "Video 2 URL"
     },
     {
       "type": "range",
