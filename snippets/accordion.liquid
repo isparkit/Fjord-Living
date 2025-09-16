@@ -79,6 +79,10 @@
   </summary>
 
   <div class="accordion__content">
-    {{- content -}}
+    {% if html_con != blank %}
+      {{- html_con -}}
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </details>

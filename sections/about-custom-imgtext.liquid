@@ -43,10 +43,6 @@
     cursor: pointer;
   }
 
-  .about-custom-section .read-more-btn:hover {
-    background: #555;
-  }
-
   .about-custom-section .about-right {
     flex: 0 0 300px;
   }
@@ -54,6 +50,13 @@
   .about-custom-section .about-right img {
     max-width: 100%;
     border-radius: 10px;
+  }
+
+  @media (max-width: 767px) {
+    .about-custom-section .about-container {
+      padding: 20px;
+      flex-direction: column; /* if using flex */
+    }
   }
 {% endstyle %}
 

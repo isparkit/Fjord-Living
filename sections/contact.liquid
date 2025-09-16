@@ -12,7 +12,7 @@
 <div {% render 'section-properties' %}>
   {%- assign text_position = section.settings.text_position -%}
   {%- if section.settings.subheading != blank -%}
-    <p class="subheading main-sub-head">{{ section.settings.subheading | escape }}</p>
+    <h2 class="subheading main-sub-head">{{ section.settings.subheading | escape }}</h2>
   {%- endif -%}
   <div class="section-stack custom-contact  {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
@@ -325,14 +325,14 @@
 {% endschema %}
 
 <style>
-  p.main-sub-head {
-    font-size: 48px;
+  h2.main-sub-head {
     text-align: center;
     padding-bottom: 20px;
     line-height: normal;
     /* padding-top: 20px; */
     letter-spacing: 0px;
     font-weight: 700;
-    font-family: quick-stand;
   }
+
+  
 </style>
