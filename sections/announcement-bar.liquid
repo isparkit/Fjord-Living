@@ -5,21 +5,30 @@
     ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
   <style>
-    :root {
-      --sticky-announcement-bar-enabled: {%- if section.settings.enable_sticky -%}1{% else %}0{% endif %};
+        :root {
+          --sticky-announcement-bar-enabled: {%- if section.settings.enable_sticky -%}1{% else %}0{% endif %};
+        }
+
+        {%- if section.settings.enable_sticky -%}
+          #shopify-section-{{ section.id }} {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+          }
+
+          .shopify-section--header ~ #shopify-section-{{ section.id }} {
+            top: calc(var(--sticky-header-enabled, 0) * var(--header-height, 0px));
+          }
+        {%- endif -%}
+
+        @media (max-width:767px){
+        p.bold.text-base {
+        width: max-content !important;
     }
-
-    {%- if section.settings.enable_sticky -%}
-      #shopify-section-{{ section.id }} {
-        position: sticky;
-        top: 0;
-        z-index: 20;
+    .announcement-bar__item{
+      gap:80px;
+    }
       }
-
-      .shopify-section--header ~ #shopify-section-{{ section.id }} {
-        top: calc(var(--sticky-header-enabled, 0) * var(--header-height, 0px));
-      }
-    {%- endif -%}
   </style>
 
   {%- comment -%}
