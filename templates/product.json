@@ -97,6 +97,7 @@
         },
         "offer_3pep9E": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -111,6 +112,7 @@
         },
         "offer_EMPipB": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
@@ -121,6 +123,12 @@
             "content": "",
             "background": "#ffffff",
             "text_color": "#00a341"
+          }
+        },
+        "liquid_faRRCc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.random-container-xyz123 {\n  display: flex;\n  padding: 6px 16px;\n  justify-content: space-between;\n  align-items: center;\n  align-self: stretch;\n  background-color: #F1EFEB;\n  border-radius: 20px;\n  margin-top: 13px;\n}\n\n.random-item-abc456 {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n.random-text-block-ghi789 {\n  font-size: 11px;\n  margin-top: 0px;\n  color: #000;\n}\n\n.random-date-def321 {\n  font-weight: bold;\n  font-size: 11px;\n}\n\n.random-free-shipping-jkl654 {\n  font-weight: bold;\n  font-size: 11px;\n}\n\n.random-circle-mno987 {\n  animation: random-fade-animation 1s ease-in-out infinite;\n}\n\n@keyframes random-fade-animation {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.5; }\n}\n\n@media (max-width: 900px) {\n  .random-date-def321, \n  .random-free-shipping-jkl654, \n  .random-text-block-ghi789 {\n    font-size: 9px;\n  }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  var now = new Date();\n  var hour = now.getHours();\n  var day = now.getDay(); // 0 = søndag, ..., 6 = lørdag\n\n  function getNextWeekday(date) {\n    var d = new Date(date);\n    do {\n      d.setDate(d.getDate() + 1);\n    } while (d.getDay() === 0 || d.getDay() === 6); // skip lørdag/søndag\n    return d;\n  }\n\n  var shipDate;\n\n  if (day >= 1 && day <= 5 && hour < 16) {\n    // hverdag før kl. 16\n    shipDate = now;\n  } else {\n    // efter 16 eller weekend → næste hverdag\n    shipDate = getNextWeekday(now);\n  }\n\n  var options = { weekday: 'long', month: 'long', day: 'numeric' };\n  var formattedDate = shipDate.toLocaleDateString('da-DK', options);\n  document.getElementById('random-date-def321').textContent = formattedDate.charAt(0).toLowerCase() + formattedDate.slice(1);\n\n  // Skjul containeren i weekenden\n  if (day === 0 || day === 6) {\n    var container = document.querySelector('.random-container-xyz123');\n    if (container) {\n      container.style.display = 'none';\n    }\n  }\n});\n</script>\n\n<div class=\"random-container-xyz123\">\n  <div class=\"random-item-abc456\">\n    <svg class=\"random-circle-mno987\" xmlns=\"https://cdn.shopify.com/s/files/1/0807/7387/3998/files/world.png?v=1717588682\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n      <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n    </svg>\n    <div class=\"random-text-block-ghi789\">Sendes <span id=\"random-date-def321\" class=\"random-date-def321\"></span></div>\n  </div>\n  <div class=\"random-item-abc456\">\n    <img src=\"\" loading=\"lazy\" alt=\"\" class=\"random-icon-pqr852\">\n    <div class=\"random-text-block-ghi789\"><span class=\"random-free-shipping-jkl654\">Gratis</span> levering i hele Danmark</div>\n  </div>\n</div>"
           }
         },
         "custom_iwt_h7YeQ8": {
@@ -201,6 +209,7 @@
         "image_PBHKKd",
         "offer_3pep9E",
         "offer_EMPipB",
+        "liquid_faRRCc",
         "custom_iwt_h7YeQ8",
         "multi_colum_9ADwMP",
         "collapsible_text_W9VTad",
