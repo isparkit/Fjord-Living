@@ -19,7 +19,7 @@
       border: 1px solid var(--Taupe, #885f41);
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
     }
-    .main-testimonial h2.text-center.mb-6 {
+    .main-testimonial h2.mb-6 {
       font-weight: 700;
       line-height: normal;
       letter-spacing: 0px;
@@ -27,6 +27,7 @@
       font-family: 'Quicksand' !important;
       text-align: center;
       padding: 50px 0 40px;
+      text-align:center;
     }
     .main-testimonial .testimonial-card .stars {
       color: #f5a623;
@@ -80,8 +81,14 @@
       width: 12px;
     }
 
+    .main-testimonial .swiper-slide {
+        height: auto;
+    }
+    .main-testimonial .swiper-slide .testimonial-card{
+      height:100%;
+    }
     @media (max-width: 1024px) {
-        .main-testimonial h2.text-center.mb-6 {
+        .main-testimonial h2.mb-6 {
       padding:20px 0 30px;
   }
      }
@@ -89,9 +96,6 @@
       .main-testimonial {
         margin-left: 20px !important;
         margin-right: 20px !important;
-      }
-      h2.text-center.mb-6 {
-        font-size: 32px;
       }
     }
 {%- endstyle -%}
@@ -109,7 +113,7 @@
   <div class="main-testimonial">
     <div class=" container">
       {% if section.settings.heading != blank %}
-        <h2 class="text-center mb-6">{{ section.settings.heading }}</h2>
+        <h2 class="mb-6">{{ section.settings.heading }}</h2>
       {% endif %}
 
       <div class="swiper testimonialSwiper">
