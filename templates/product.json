@@ -581,10 +581,8 @@
         "first_col_title": "Fordel",
         "second_col_title": "FJORD LIVING",
         "third_col_title": "Andre tørrestativer",
-        "image_1": "shopify://shop_images/Group_44.png",
-        "video_1": "",
-        "image_2": "shopify://shop_images/image_7.png",
-        "video_2": "",
+        "video_1": "https://cdn.shopify.com/videos/c/o/v/229e9cedd4d74b73ada8f6344bfb5f75.mp4",
+        "video_2": "https://cdn.shopify.com/videos/c/o/v/f2c98f282ac54912a721d8388b6423b4.mp4",
         "padding_top": 40,
         "padding_bottom": 40
       }
