@@ -238,6 +238,27 @@
     .product-multi-col .multi-column .gap-4 {
       padding: 15px;
     }
+    /* box */
+    .custom-multi .multi-column {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      overflow: unset !important;
+    }
+    .custom-multi .multi-column .multi-column__item {
+      width: calc(50% - 10px) !important;
+      max-width: 100% !important;
+      flex: unset !important;
+      padding: 15px 10px !important;
+      gap: 10px !important;
+    }
+    .custom-multi .multi-column .multi-column__item img {
+      width: 30px;
+      aspect-ratio: 1/1;
+      object-fit: contain;
+    }
+    .custom-multi .multi-column .multi-column__item .v-stack {
+      gap: 5px;
+    }
   }
   @media (max-width: 640px) {
     .sec-multi-colum .multi-column.scroll-area.bleed,
