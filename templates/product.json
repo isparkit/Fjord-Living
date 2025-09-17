@@ -80,8 +80,15 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_hgDaJn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"custom-payment\"><ul class=\"footer__payment-icons h-stack wrap gap-2\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"contents\">{{ type | payment_type_svg_tag }}</li>\n              {%- endfor -%}\n            </ul></div>\n\n<style>\n.custom-payment{\n    padding-top: 12px;\n    display: flex;\n    flex-direction: row-reverse;\n}\n</style>"
+          }
+        },
         "image_PBHKKd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Payment.svg",
             "alignment": "start",
@@ -190,6 +197,7 @@
         "option1_H4VJUp",
         "quantity_selector",
         "buy_buttons",
+        "liquid_hgDaJn",
         "image_PBHKKd",
         "offer_3pep9E",
         "offer_EMPipB",
