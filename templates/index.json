@@ -18,7 +18,7 @@
         "padding_bottom": 40,
         "subheading": "Velkommen Til",
         "heading": "FJORDLIVING",
-        "content": "Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.",
+        "content": "<p>Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.</p>",
         "star_image": "shopify://shop_images/Bedomt_1.png",
         "button_link": "#",
         "button_text": "Se vores udvalg",
@@ -105,7 +105,7 @@
         "background_gradient": "",
         "text_color": "",
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "custom_image_with_text_RhC7d9": {
@@ -117,7 +117,7 @@
         "padding_bottom": 80,
         "subheading": "",
         "heading": "Pladsbesparende og elegant",
-        "content": "SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.",
+        "content": "<p>SmartRack er din pladsbesparende tørrestativs løsning. Med sit elegante og sammenklappelige design passer det ind i enhver indretning og gør det muligt at optimere pladsen i selv små lejligheder, vaskerum eller på altanen.</p>",
         "button_link": "#",
         "button_text": "Læs mere",
         "right_image": "shopify://shop_images/Group_3.png"
@@ -241,7 +241,7 @@
         "list_EXphi9": {
           "type": "list",
           "settings": {
-            "list_text": "Tørrer dit tø"
+            "list_text": "Tørrer dit tøj"
           }
         },
         "list_XcFVTJ": {
