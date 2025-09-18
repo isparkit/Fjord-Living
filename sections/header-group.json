@@ -45,7 +45,7 @@
         "message_bEcdBK": {
           "type": "message",
           "settings": {
-            "text": "Dansk virksomhed",
+            "text": "Dansk  virksomhed",
             "url": ""
           }
         }
@@ -63,7 +63,7 @@
         "autoplay": false,
         "cycle_speed": 4,
         "scrolling_speed": 20,
-        "text_size": "text-xxs",
+        "text_size": "text-xs",
         "background": "#885f41",
         "background_gradient": "",
         "text_color": "#ffffff"
