@@ -59,6 +59,11 @@
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
+      },
+      "11597759809273779251": {
+        "type": "shopify://apps/abconvert/blocks/app-embed-theme-test-clear-cache/5c6be9a4-14ad-4ad6-a0b5-a41137ce4ddf",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
