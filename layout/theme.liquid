@@ -63,7 +63,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
-  </head>
+  
+{% render 'abconvert-theme-test' %}
+</head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
     {%- render 'shadow-dom-templates' -%}
