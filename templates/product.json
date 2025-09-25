@@ -269,48 +269,376 @@
     "ss_slide_video_gyeaGk": {
       "type": "ss-slide-video",
       "blocks": {
-        "image_FiR3zj": {
+        "image_kMmgxn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_5.png",
+            "image": "shopify://shop_images/IMG_4410_jpg.webp",
             "url": ""
           }
         },
-        "image_ADRyhF": {
+        "image_6Q7hPp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_6.png",
+            "image": "shopify://shop_images/summerhousev2_jpg.webp",
             "url": ""
           }
         },
-        "image_fLaLPY": {
+        "image_EaXTWm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_7.png",
+            "image": "shopify://shop_images/billede-23_1000x1500_034cd4f5-39d9-419b-9078-725dc17b7ff7_jpg.webp",
             "url": ""
           }
         },
-        "image_rKMdeJ": {
+        "image_M8hHe7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_8.png",
+            "image": "shopify://shop_images/MAG_0710_1000h_jpg.webp",
             "url": ""
           }
         },
-        "image_BMYLcz": {
+        "image_xHBQB3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_9.png",
+            "image": "shopify://shop_images/41BAAEAF6EC9777E5602B6910D57848B_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_KcXpNX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ugc_laura_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_ag7Crf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/E2_80_A2Reklamee_20n_20_20p_20r_20a_20k_20t_20i_20s_20k_20_20l_20_C3_B8_20s_20n_20i_20n_20g_20n_C3_A5r_20man_20_E2_80_9Chader_E2_80_9D_20de_20traditionelle_20t_C3_B8rrestativer._20T_C.webp",
+            "url": ""
+          }
+        },
+        "image_pkkHKr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_InVfQomR_1753135775400_raw_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_mRfrNr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4559_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_nQTcQj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4345_heic.webp",
+            "url": ""
+          }
+        },
+        "image_RRwNrC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3235ellen1000_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_npFcUp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/E2_80_A2Reklamee_20n_20_20p_20r_20a_20k_20t_20i_20s_20k_20_20l_20_C3_B8_20s_20n_20i_20n_20g_20n_C3_A5r_20man_20_E2_80_9Chader_E2_80_9D_20de_20traditionelle_20t_C3_B8rrestativer._20T_C_bab66270-f7d9-4ad5-a35a-31792cfc3288.webp",
+            "url": ""
+          }
+        },
+        "image_czyrEL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4476_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_6H66YA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7087_user_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_rnK88E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userfjord_13_53_1_50_1_1_51_1_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_8MEpND": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_garden2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_3qKRMF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9743_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_b83qwn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bornholmugc_ca9231fb-27ed-400e-a46d-fe068c8553cc.jpg",
+            "url": ""
+          }
+        },
+        "image_Ypwf9j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_badevaerelse_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_dkadHi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_gardenv3_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_CXbwwd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAG_0788_1000h_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_AAexTf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ugc_laura2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_rcfPey": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sove_2_1_1_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_8WRe8X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-15_1000x1500_d1b27cca-d12b-4346-b41c-d3d5c351dbd4_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_MwH3hw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-02_1000x1500_572cb3a4-78b5-4a22-b6a9-9e975f853c28_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_kYYNxi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/have2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_KbMM4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bathroom1000ugc_26a4763e-b868-449d-8539-2ea55353e8b1.jpg",
+            "url": ""
+          }
+        },
+        "image_iDYnx3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9638v2_496394cf-7d1d-4668-b8d8-090580da1920.jpg",
+            "url": ""
+          }
+        },
+        "image_mGVRHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5S1A8407_200b76d7-8562-4269-b6cd-006ac1cda502.jpg",
+            "url": ""
+          }
+        },
+        "image_bVazpm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/489510603_18502741576012434_67211732240006556_n_e1f06e0e-bb4a-48f3-808f-0e5175a4315b.jpg",
+            "url": ""
+          }
+        },
+        "image_pQbA3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_1000xIMG_0056v2_eebc506e-5785-4649-b205-850c3e234e74.jpg",
+            "url": ""
+          }
+        },
+        "image_4M93XJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userlake_4d333a9a-3fce-47bd-adaf-b14963842fb1.jpg",
+            "url": ""
+          }
+        },
+        "image_UNNeTV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4232_1000_128462a6-8d8d-4db3-9780-ba25082c7cd3.jpg",
+            "url": ""
+          }
+        },
+        "image_FbanFa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9541v2_6c693012-422d-43d0-bab9-413fa2aad580.jpg",
+            "url": ""
+          }
+        },
+        "image_pwQRaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-21_1000x1500_384703da-0735-4133-a30e-ed3fc21e1a8d.jpg",
+            "url": ""
+          }
+        },
+        "image_3kWmAz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/maggielight_2fc4ba98-57aa-4e25-adaa-b0d669198033.jpg",
+            "url": ""
+          }
+        },
+        "image_cjWhYQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-27_1000x1500_ef389637-83fa-45b7-ac74-e83b68691660.jpg",
+            "url": ""
+          }
+        },
+        "image_YEgb3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bornholmugc2_fddd6c47-47a2-4582-9f1a-36f7016647bd.jpg",
+            "url": ""
+          }
+        },
+        "image_pDcYMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/blue_3e9f72b6-1956-409a-a5f0-3eff3b4e65a7.jpg",
+            "url": ""
+          }
+        },
+        "image_QpLdxn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rack_beige_39065880-567e-4189-a8d1-f533b9f68f3d.jpg",
+            "url": ""
+          }
+        },
+        "image_HrAQwy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rack_beige_d247d95c-909d-416b-87b9-c48f88f42508.jpg",
+            "url": ""
+          }
+        },
+        "image_X7MJAc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user6_04b13a42-7415-46d6-af6a-b925a1a2ccb5.jpg",
+            "url": ""
+          }
+        },
+        "image_bbAcwB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9636v2_daae1d50-9142-4779-8068-25c84679f01f.jpg",
+            "url": ""
+          }
+        },
+        "image_fciaCX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unpack_1.65.1_8523c23a-6b44-48cd-937d-ebf513b223a7.jpg",
+            "url": ""
+          }
+        },
+        "image_d6NyKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userskov_e887e5f8-2d99-489b-aecb-53e37ab99885.jpg",
+            "url": ""
+          }
+        },
+        "image_iNJAnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userfjord_13_3_1.50.1_cf68fc2c-c438-4c78-8ff2-d305619c9201.jpg",
             "url": ""
           }
         }
       },
       "block_order": [
-        "image_FiR3zj",
-        "image_ADRyhF",
-        "image_fLaLPY",
-        "image_rKMdeJ",
-        "image_BMYLcz"
+        "image_kMmgxn",
+        "image_6Q7hPp",
+        "image_EaXTWm",
+        "image_M8hHe7",
+        "image_xHBQB3",
+        "image_KcXpNX",
+        "image_ag7Crf",
+        "image_pkkHKr",
+        "image_mRfrNr",
+        "image_nQTcQj",
+        "image_RRwNrC",
+        "image_npFcUp",
+        "image_czyrEL",
+        "image_6H66YA",
+        "image_rnK88E",
+        "image_8MEpND",
+        "image_3qKRMF",
+        "image_b83qwn",
+        "image_Ypwf9j",
+        "image_dkadHi",
+        "image_CXbwwd",
+        "image_AAexTf",
+        "image_rcfPey",
+        "image_8WRe8X",
+        "image_MwH3hw",
+        "image_kYYNxi",
+        "image_KbMM4f",
+        "image_iDYnx3",
+        "image_mGVRHk",
+        "image_bVazpm",
+        "image_pQbA3a",
+        "image_4M93XJ",
+        "image_UNNeTV",
+        "image_FbanFa",
+        "image_pwQRaf",
+        "image_3kWmAz",
+        "image_cjWhYQ",
+        "image_YEgb3W",
+        "image_pDcYMN",
+        "image_QpLdxn",
+        "image_HrAQwy",
+        "image_X7MJAc",
+        "image_bbAcwB",
+        "image_fciaCX",
+        "image_d6NyKE",
+        "image_iNJAnY"
       ],
       "name": "SS - Scrolling Images",
       "settings": {
@@ -322,7 +650,7 @@
         "heading_size": 40,
         "heading_height": 130,
         "heading_align": "center",
-        "slider_speed": 13,
+        "slider_speed": 80,
         "slider_gap": 16,
         "slider_gap_mobile": 10,
         "slider_mt": 0,
