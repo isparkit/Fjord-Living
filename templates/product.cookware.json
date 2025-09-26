@@ -590,6 +590,12 @@
             "image": "shopify://shop_images/userfjord_13_3_1.50.1_cf68fc2c-c438-4c78-8ff2-d305619c9201.jpg",
             "url": ""
           }
+        },
+        "image_FgPFHz": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -638,7 +644,8 @@
         "image_bbAcwB",
         "image_fciaCX",
         "image_d6NyKE",
-        "image_iNJAnY"
+        "image_iNJAnY",
+        "image_FgPFHz"
       ],
       "disabled": true,
       "name": "SS - Scrolling Images",
@@ -707,6 +714,17 @@
         "heading": "Derfor vil du elske den",
         "content": "<p>Udviklet med banebrydende mikrodottet overflade teknologi sætter Lotus Cookware en ny standard for non-stick madlavning og sikrer en sundere madlavning uden PFAS eller andre skadelige stoffer.</p><p></p><p>Stegepanden er fremstillet i en slidstærk flerlags konstruktion med en ydre i rustfri stål, en kerne af aluminium, som sikrer en   hurtig og jævn varmefordeling. Pandens ekstremt holdbare overflade sikrer nemme og professionelle madlavningsresultater og lang levetid.</p><p></p><p>Den hårdføre overflade er  ridsefast, næsten uopslidelig og i stand til at modstå høje temperaturer.</p><p></p><p>Panden fungerer på alle kogeoverflader, inklusiv induktion, gas og ovn, mens det ergonomiske håndtag forbliver køligt under madlavning.</p>",
         "video": "shopify://files/videos/panloop30v2.mov"
+      }
+    },
+    "custom_two_coilum_video_RpGepk": {
+      "type": "custom-two-coilum-video",
+      "name": "Custom Video Section",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading": "Nem at gøre ren",
+        "content": "<p>Rengøring er enkel, og igen takket være den unikke dottede non-stick overfladeteknologi slipper madrester lettere end på almindelige pander. </p><p></p><p>I modsætning til traditionelle non-stick belægninger, der kan slides af over tid, er overfladen her en del af det slidstærke rustfrie stål – for langvarig ydeevne og levetid.</p>",
+        "video": "shopify://files/videos/nemrenloop.mov"
       }
     },
     "multi_column_BwtTnq": {
@@ -1175,6 +1193,7 @@
     "related-products",
     "ss_slide_video_gyeaGk",
     "custom_two_coilum_video_NHxP9E",
+    "custom_two_coilum_video_RpGepk",
     "multi_column_BwtTnq",
     "multi_column_MnN4YJ",
     "custom_product_table_PNW6c3",
