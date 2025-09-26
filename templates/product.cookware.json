@@ -1,0 +1,1184 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_Y4W4gA": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_HMGCXa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_list_description | metafield_tag }}"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "option1_H4VJUp": {
+          "type": "option1",
+          "settings": {
+            "text_1": "På lager. 1-4 dages levering",
+            "image_1": "shopify://shop_images/image_4.png"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_MnFR8m": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.inline-list {\n  display: flex;\n  justify-content: end;\n  align-items: center;\n  list-style: none;\n  padding-top: 10px;\n  margin: 0;\n  gap: 20px;\n}\n\n @media (max-width:767px) {\n.inline-list {\n    display: flex;\n    justify-content: start;\n    align-items: center;\n    list-style: none;\n    padding-top: 10px;\n    margin: 0;\n    gap: 10px;\n}\n \n.inline-list .icon--payment {\n    line-height: 0;\n    margin:0;\n}\n \n.inline-list .icon--payment svg {\n    width: 40px;\n    height: 24px;\n}\n \n</style>\n\n<ul class=\"inline-list payment-icons product-payment footer__section\">        \n    <li class=\"icon--payment\">\n              <svg viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" width=\"38\" height=\"24\" role=\"img\" aria-labelledby=\"pi-mobilepay\"><title id=\"pi-mobilepay\">MobilePay</title><path fill=\"#000\" opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.05 15.296s2.53-.771 4.282-.776c2.896-.007 4.857 1.15 4.857 1.15V10.06s-1.97-1.02-4.453-1.09c-2.481-.068-4.687 1.012-4.687 1.012v5.313z\" fill=\"#5A78FF\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.308 9.19l2.082 4.957V9.396s1.646-.882 3.485-1.13c1.84-.249 4.181.08 4.181.08l-1.133-2.707s-2.461-.159-4.69.794c-2.228.952-3.925 2.756-3.925 2.756z\" fill=\"#5A78FF\"></path><path d=\"M21.428 5.676l-.82-1.99a1.818 1.818 0 00-2.37-.996l-5.663 2.334a1.818 1.818 0 00-.98 2.376l5.46 13.247a1.818 1.818 0 002.37.995l5.662-2.334a1.817 1.817 0 00.98-2.376l-.677-1.642s-.462-.027-.676-.033c-.226-.006-.644-.001-.644-.001l.88 2.136a.606.606 0 01-.326.793l-5.663 2.333a.606.606 0 01-.79-.331L12.711 6.94a.606.606 0 01.327-.792L18.7 3.814a.606.606 0 01.79.332l.83 2.011s.383-.187.59-.27c.206-.082.518-.211.518-.211z\" fill=\"#5A78FF\"></path></svg>\n            </li>\n            <li class=\"icon--payment\">\n              <svg viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-dankort\"><title id=\"pi-dankort\">Dankort</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#E31F28\" d=\"M18.309 15.378c.985-.645 1.621-1.641 1.907-2.991l3.145 3.968h6.028a6.858 6.858 0 01-2.394 1.918 6.758 6.758 0 01-3.086.727H12.566a6.792 6.792 0 01-3.086-.728 6.815 6.815 0 01-2.395-1.931h7.089c1.78.001 3.158-.32 4.135-.963zm-3.062-4.623c.254.23.321.568.202 1.013-.15.517-.342.878-.571 1.084-.278.246-.699.37-1.264.37H9.552l1.001-2.765h3.67c.453 0 .794.099 1.024.298zm11.651-5.088a6.9 6.9 0 012.337 1.799h-5.899l-2.979 3.086c-.103-1.12-.639-1.935-1.607-2.443-.834-.429-2.018-.644-3.551-.644H7.24A6.995 6.995 0 0112.566 5h11.343c1.048 0 2.045.222 2.989.667zm-.999 5.814l3.644-3.634a6.99 6.99 0 011.014 1.931c.239.715.357 1.458.357 2.228 0 .723-.107 1.426-.32 2.108a7.016 7.016 0 01-.919 1.858l-3.776-4.491z\"></path></svg>\n\n            </li>\n            <li class=\"icon--payment\">\n              <svg viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-visa\"><title id=\"pi-visa\">Visa</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><path d=\"M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z\" fill=\"#142688\"></path></svg>\n            </li>\n            <li class=\"icon--payment\">\n              <svg viewBox=\"0 0 38 24\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" width=\"38\" height=\"24\" aria-labelledby=\"pi-master\"><title id=\"pi-master\">Mastercard</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\"></path><path fill=\"#fff\" d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32\"></path><circle fill=\"#EB001B\" cx=\"15\" cy=\"12\" r=\"7\"></circle><circle fill=\"#F79E1B\" cx=\"23\" cy=\"12\" r=\"7\"></circle><path fill=\"#FF5F00\" d=\"M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z\"></path></svg>\n            </li>\n            <li class=\"icon--payment\">\n              <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" x=\"0\" y=\"0\" width=\"38\" height=\"24\" viewBox=\"0 0 165.521 105.965\" xml:space=\"preserve\" aria-labelledby=\"pi-apple_pay\"><title id=\"pi-apple_pay\">Apple Pay</title><path fill=\"#000\" d=\"M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z\"></path><path fill=\"#FFF\" d=\"M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875\"></path><g><g><path fill=\"#000\" d=\"M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858\"></path><path fill=\"#000\" d=\"M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048\"></path></g><g><path fill=\"#000\" d=\"M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z\"></path><path fill=\"#000\" d=\"M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z\"></path><path fill=\"#000\" d=\"M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z\"></path></g></g></svg>\n\n            </li>\n            <li class=\"icon--payment\">\n              <svg width=\"38\" height=\"24\" viewBox=\"0 0 38 24\" fill=\"none\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"pi-anyday\"><title id=\"pi-anyday\">Anyday</title><path opacity=\".07\" d=\"M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z\" fill=\"#000\"></path><path d=\"M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z\" fill=\"#fff\"></path><path d=\"M5.713 13.737H4.391l.75-2.14a1.75 1.75 0 00-2.298.172L2 10.916a2.932 2.932 0 013.55-.487L6.754 7H8.03l2.363 6.737H9.07l-.459-1.341a2.934 2.934 0 01-2.429-.03l-.469 1.37zm.862-2.52a1.75 1.75 0 001.644.033l-.827-2.423-.817 2.39zm16.13 2.612c.594 0 1.077-.25 1.378-.609v.336c0 .1.08.18.179.18h1.07V7h-1.249v2.575c-.3-.323-.766-.545-1.359-.545-1.03 0-2.217.766-2.217 2.4 0 1.624 1.232 2.4 2.199 2.4zm.247-1.163c-.693 0-1.222-.535-1.222-1.246 0-.71.529-1.236 1.222-1.236.675 0 1.168.554 1.168 1.236 0 .683-.493 1.246-1.168 1.246zm5.08 1.163c.594 0 1.077-.25 1.378-.609v.336c0 .1.08.18.179.18h1.07V9.124h-1.07a.18.18 0 00-.179.18v.272c-.301-.323-.766-.545-1.36-.545-1.03 0-2.216.766-2.216 2.4 0 1.624 1.232 2.4 2.199 2.4zm.247-1.163c-.693 0-1.222-.535-1.222-1.245 0-.711.529-1.237 1.222-1.237.675 0 1.168.554 1.168 1.237 0 .682-.493 1.245-1.168 1.245zM13.565 8.942c-.72 0-1.268.317-1.569.686v-.322c0-.1-.08-.181-.178-.181h-.944v4.616h1.287v-2.427c0-.821.383-1.301 1.049-1.301.647 0 .948.424.948 1.227v2.501h1.287v-2.575c0-1.725-.922-2.224-1.88-2.224zm2.932 7.046h.95c.196 0 .371-.12.443-.305l2.578-6.572h-1.32l-1.07 2.897-1.144-2.897h-1.339l1.85 4.497-.948 2.38zM32.979 16h-.95l.949-2.38-1.85-4.497h1.338l1.144 2.898 1.07-2.898H36l-2.577 6.572a.477.477 0 01-.444.305z\" fill=\"#212930\"></path></svg>\n            </li></ul>"
+          }
+        },
+        "liquid_hgDaJn": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"custom-payment\"><ul class=\"footer__payment-icons h-stack wrap gap-2\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"contents\">{{ type | payment_type_svg_tag }}</li>\n              {%- endfor -%}\n            </ul></div>\n\n<style>\n.custom-payment{\n    padding-top: 12px;\n    display: flex;\n    flex-direction: row-reverse;\n}\n</style>"
+          }
+        },
+        "image_PBHKKd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Payment.svg",
+            "alignment": "start",
+            "max_width": 340
+          }
+        },
+        "offer_3pep9E": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/box.svg",
+            "icon_width": 20,
+            "title": "Sendes mandag 1. september",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#000000"
+          }
+        },
+        "offer_EMPipB": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/track.svg",
+            "icon_width": 20,
+            "title": "Gratis levering i hele Danmark",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#00a341"
+          }
+        },
+        "liquid_faRRCc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.random-container-xyz123 {\n  display: flex;\n  padding: 6px 16px;\n  justify-content: space-between;\n  align-items: center;\n  align-self: stretch;\n  background-color: #F1EFEB;\n  border-radius: 20px;\n  margin-top: 13px;\n}\n\n.random-item-abc456 {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n\n.random-text-block-ghi789 {\n  font-size: 11px;\n  margin-top: 0px;\n  color: #000;\n}\n\n.random-date-def321 {\n  font-weight: bold;\n  font-size: 11px;\n}\n\n.random-free-shipping-jkl654 {\n  font-weight: bold;\n  font-size: 11px;\n}\n\n.random-circle-mno987 {\n  animation: random-fade-animation 1s ease-in-out infinite;\n}\n\n@keyframes random-fade-animation {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.5; }\n}\n\n@media (max-width: 900px) {\n  .random-date-def321, \n  .random-free-shipping-jkl654, \n  .random-text-block-ghi789 {\n    font-size: 9px;\n  }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  var now = new Date();\n  var hour = now.getHours();\n  var day = now.getDay(); // 0 = søndag, ..., 6 = lørdag\n\n  function getNextWeekday(date) {\n    var d = new Date(date);\n    do {\n      d.setDate(d.getDate() + 1);\n    } while (d.getDay() === 0 || d.getDay() === 6); // skip lørdag/søndag\n    return d;\n  }\n\n  var shipDate;\n\n  if (day >= 1 && day <= 5 && hour < 16) {\n    // hverdag før kl. 16\n    shipDate = now;\n  } else {\n    // efter 16 eller weekend → næste hverdag\n    shipDate = getNextWeekday(now);\n  }\n\n  var options = { weekday: 'long', month: 'long', day: 'numeric' };\n  var formattedDate = shipDate.toLocaleDateString('da-DK', options);\n  document.getElementById('random-date-def321').textContent = formattedDate.charAt(0).toLowerCase() + formattedDate.slice(1);\n\n  // Skjul containeren i weekenden\n  if (day === 0 || day === 6) {\n    var container = document.querySelector('.random-container-xyz123');\n    if (container) {\n      container.style.display = 'none';\n    }\n  }\n});\n</script>\n\n<div class=\"random-container-xyz123\">\n  <div class=\"random-item-abc456\">\n    <svg class=\"random-circle-mno987\" xmlns=\"https://cdn.shopify.com/s/files/1/0807/7387/3998/files/world.png?v=1717588682\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\">\n      <circle cx=\"6\" cy=\"6.5\" r=\"6\" fill=\"#137333\"/>\n    </svg>\n    <div class=\"random-text-block-ghi789\">Sendes <span id=\"random-date-def321\" class=\"random-date-def321\"></span></div>\n  </div>\n  <div class=\"random-item-abc456\">\n    <img src=\"\" loading=\"lazy\" alt=\"\" class=\"random-icon-pqr852\">\n    <div class=\"random-text-block-ghi789\"><span class=\"random-free-shipping-jkl654\">Gratis</span> levering i hele Danmark</div>\n  </div>\n</div>"
+          }
+        },
+        "custom_iwt_h7YeQ8": {
+          "type": "custom_iwt",
+          "settings": {
+            "image_one": "shopify://shop_images/track.svg",
+            "first_text": "Om Levering",
+            "rich_text": "<p>Bestil inden kl 16:00 og din pakke sendes samme dag.</p>",
+            "image_two": "shopify://shop_images/box.svg",
+            "sec_text": "Gratis Fragt",
+            "sec_rich_text": "<p>Pakker sendes med DAO og GLS.</p>"
+          }
+        },
+        "multi_colum_9ADwMP": {
+          "type": "multiColum",
+          "settings": {
+            "icon_shipping": "shopify://shop_images/track.svg",
+            "icon_delivery": "shopify://shop_images/box.svg"
+          }
+        },
+        "collapsible_text_W9VTad": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Beskrivelse",
+            "content": "<p>Din løsning til effektiv tørring af tøj, uanset om du bor i en lille lejlighed eller blot ønsker en pladsbesparende elegant løsning. Med vores innovative design kombinerer SmartRack både funktionalitet og stil, så du kan tørre dit tøj på en smart og bekvem måde. Gør dit hjem til et sted, hvor du føler dig godt tilpas og er stolt af at vise frem.SmartRack er din intelligente løsning til effektiv og pladsbesparende tørring af tøj. Dette stilfulde og alsidige tørrestativ er designet med brugerens behov i tankerne, og det kombinerer funktionalitet, holdbarhed og elegance. Uanset om du bor i en lille lejlighed, et hus eller ønsker en bæredygtig tørløsning, er SmartRack det perfekte valg.Det unikke tripod-design gør det stabilt i enhver position, mens den lette samling og foldning gør det nemt at opbevare, når det ikke er i brug. SmartRack er velegnet til både indendørs og udendørs brug og kan tilpasses dine tørrebehov ved at justere antallet af arme.<br/><br/></p>",
+            "html_con": "",
+            "page": ""
+          }
+        },
+        "collapsible_text_LpgJWt": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Specifikationer",
+            "content": "",
+            "html_con": "<section class=\"specifications\">\n  <div class=\"specifications-list\">\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Materialer :</div>\n      <div class=\"spec-value\">Arme i klasse 1 forarbejdet og lakeret bøgetræ. Tophat i aluminiumslegering.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Vægt :</div>\n      <div class=\"spec-value\">4.2kg</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Størrelse slået sammen :</div>\n      <div class=\"spec-value\">70 cm høj, diameter 15 cm</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Størrelse slået ud :</div>\n      <div class=\"spec-value\">121 cm høj, diameter 110 cm</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Bæreevne :</div>\n      <div class=\"spec-value\">Kan bære op til 40 kg tøj.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Samling :</div>\n      <div class=\"spec-value\">SmartRack kommer samlet og klar til brug.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Justerbare arme :</div>\n      <div class=\"spec-value\">Tilpas antallet af arme for at imødekomme dine tørringskapaciteter.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Pladsbesparende design :</div>\n      <div class=\"spec-value\">Foldbart design gør det let at opbevare og ideelt til små rum.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Indendørs og udendørs brug :</div>\n      <div class=\"spec-value\">Robust nok til både indendørs og udendørs brug.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Tøj :</div>\n      <div class=\"spec-value\">Velegnet til både trøjer, t-shirts, skjorter, kjoler samt andet tøj.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Stabilitet :</div>\n      <div class=\"spec-value\">Unik tripod-struktur sikrer optimal stabilitet.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Limited edition :</div>\n      <div class=\"spec-value\">SmartRack limited edition-udgaven kommer med guld-look top.</div>\n    </div>\n\n    <div class=\"spec-row\">\n      <div class=\"spec-label\">Standard edition :</div>\n      <div class=\"spec-value\">SmartRack standard kommer med sølv top.</div>\n    </div>\n\n  </div>\n</section>\n\n<style>\n.specifications {\n  background-color: transprent;\n  color: #000; \n  border-radius: 6px;\n  max-width: 700px;\n  font-family: Arial, sans-serif;\n}\n\n.specifications-heading {\n  font-size: 18px;\n  font-weight: 600;\n  margin-bottom: 15px;\n  border-bottom: 1px solid #885F41;\n  padding-bottom: 8px;\n  color: #000;\n}\n\n.specifications-list {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.spec-row {\n  display: flex;\n  justify-content: space-between;\n  border-bottom: 1px solid #885F41;\n  padding: 8px 0;\n}\n.spec-row:last-child {\n    border: 0;\n}\n\n.spec-label {\n  flex: 0 0 35%;\n  font-weight: 600;\n  color: #000;\n}\n\n.spec-value {\n  flex: 1;\n  color: #000;\n  font-weight: 400;\n  text-align: left;\n}\n\n</style>",
+            "page": ""
+          }
+        },
+        "collapsible_text_i3CCGn": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Om levering",
+            "content": "<p>Vi tilbyder en effektiv leveringsservice fra vores lager i Randers, der sikrer at dine produkter når frem inden for 1-4 arbejdsdage efter din bestilling.Pakker sendes med DAO og GLS.</p>",
+            "html_con": "",
+            "page": ""
+          }
+        },
+        "associated_products_bjxz6D": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Køb sammen med",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_Y4W4gA",
+        "title",
+        "badges",
+        "price",
+        "text_HMGCXa",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "option1_H4VJUp",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_MnFR8m",
+        "liquid_hgDaJn",
+        "image_PBHKKd",
+        "offer_3pep9E",
+        "offer_EMPipB",
+        "liquid_faRRCc",
+        "custom_iwt_h7YeQ8",
+        "multi_colum_9ADwMP",
+        "collapsible_text_W9VTad",
+        "collapsible_text_LpgJWt",
+        "collapsible_text_i3CCGn",
+        "associated_products_bjxz6D"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "ss_slide_video_gyeaGk": {
+      "type": "ss-slide-video",
+      "blocks": {
+        "image_kMmgxn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4410_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_6Q7hPp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/summerhousev2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_EaXTWm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-23_1000x1500_034cd4f5-39d9-419b-9078-725dc17b7ff7_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_M8hHe7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAG_0710_1000h_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_xHBQB3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/41BAAEAF6EC9777E5602B6910D57848B_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_KcXpNX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ugc_laura_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_ag7Crf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/E2_80_A2Reklamee_20n_20_20p_20r_20a_20k_20t_20i_20s_20k_20_20l_20_C3_B8_20s_20n_20i_20n_20g_20n_C3_A5r_20man_20_E2_80_9Chader_E2_80_9D_20de_20traditionelle_20t_C3_B8rrestativer._20T_C.webp",
+            "url": ""
+          }
+        },
+        "image_pkkHKr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_InVfQomR_1753135775400_raw_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_mRfrNr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4559_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_nQTcQj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4345_heic.webp",
+            "url": ""
+          }
+        },
+        "image_RRwNrC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3235ellen1000_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_npFcUp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/E2_80_A2Reklamee_20n_20_20p_20r_20a_20k_20t_20i_20s_20k_20_20l_20_C3_B8_20s_20n_20i_20n_20g_20n_C3_A5r_20man_20_E2_80_9Chader_E2_80_9D_20de_20traditionelle_20t_C3_B8rrestativer._20T_C_bab66270-f7d9-4ad5-a35a-31792cfc3288.webp",
+            "url": ""
+          }
+        },
+        "image_czyrEL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4476_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_6H66YA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7087_user_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_rnK88E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userfjord_13_53_1_50_1_1_51_1_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_8MEpND": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_garden2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_3qKRMF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9743_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_b83qwn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bornholmugc_ca9231fb-27ed-400e-a46d-fe068c8553cc.jpg",
+            "url": ""
+          }
+        },
+        "image_Ypwf9j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_badevaerelse_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_dkadHi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_gardenv3_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_CXbwwd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAG_0788_1000h_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_AAexTf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ugc_laura2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_rcfPey": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sove_2_1_1_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_8WRe8X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-15_1000x1500_d1b27cca-d12b-4346-b41c-d3d5c351dbd4_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_MwH3hw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-02_1000x1500_572cb3a4-78b5-4a22-b6a9-9e975f853c28_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_kYYNxi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/have2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_KbMM4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bathroom1000ugc_26a4763e-b868-449d-8539-2ea55353e8b1.jpg",
+            "url": ""
+          }
+        },
+        "image_iDYnx3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9638v2_496394cf-7d1d-4668-b8d8-090580da1920.jpg",
+            "url": ""
+          }
+        },
+        "image_mGVRHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5S1A8407_200b76d7-8562-4269-b6cd-006ac1cda502.jpg",
+            "url": ""
+          }
+        },
+        "image_bVazpm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/489510603_18502741576012434_67211732240006556_n_e1f06e0e-bb4a-48f3-808f-0e5175a4315b.jpg",
+            "url": ""
+          }
+        },
+        "image_pQbA3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user_1000xIMG_0056v2_eebc506e-5785-4649-b205-850c3e234e74.jpg",
+            "url": ""
+          }
+        },
+        "image_4M93XJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userlake_4d333a9a-3fce-47bd-adaf-b14963842fb1.jpg",
+            "url": ""
+          }
+        },
+        "image_UNNeTV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4232_1000_128462a6-8d8d-4db3-9780-ba25082c7cd3.jpg",
+            "url": ""
+          }
+        },
+        "image_FbanFa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9541v2_6c693012-422d-43d0-bab9-413fa2aad580.jpg",
+            "url": ""
+          }
+        },
+        "image_pwQRaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-21_1000x1500_384703da-0735-4133-a30e-ed3fc21e1a8d.jpg",
+            "url": ""
+          }
+        },
+        "image_3kWmAz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/maggielight_2fc4ba98-57aa-4e25-adaa-b0d669198033.jpg",
+            "url": ""
+          }
+        },
+        "image_cjWhYQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-27_1000x1500_ef389637-83fa-45b7-ac74-e83b68691660.jpg",
+            "url": ""
+          }
+        },
+        "image_YEgb3W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bornholmugc2_fddd6c47-47a2-4582-9f1a-36f7016647bd.jpg",
+            "url": ""
+          }
+        },
+        "image_pDcYMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/blue_3e9f72b6-1956-409a-a5f0-3eff3b4e65a7.jpg",
+            "url": ""
+          }
+        },
+        "image_QpLdxn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rack_beige_39065880-567e-4189-a8d1-f533b9f68f3d.jpg",
+            "url": ""
+          }
+        },
+        "image_HrAQwy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rack_beige_d247d95c-909d-416b-87b9-c48f88f42508.jpg",
+            "url": ""
+          }
+        },
+        "image_X7MJAc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/user6_04b13a42-7415-46d6-af6a-b925a1a2ccb5.jpg",
+            "url": ""
+          }
+        },
+        "image_bbAcwB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9636v2_daae1d50-9142-4779-8068-25c84679f01f.jpg",
+            "url": ""
+          }
+        },
+        "image_fciaCX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unpack_1.65.1_8523c23a-6b44-48cd-937d-ebf513b223a7.jpg",
+            "url": ""
+          }
+        },
+        "image_d6NyKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userskov_e887e5f8-2d99-489b-aecb-53e37ab99885.jpg",
+            "url": ""
+          }
+        },
+        "image_iNJAnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userfjord_13_3_1.50.1_cf68fc2c-c438-4c78-8ff2-d305619c9201.jpg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kMmgxn",
+        "image_6Q7hPp",
+        "image_EaXTWm",
+        "image_M8hHe7",
+        "image_xHBQB3",
+        "image_KcXpNX",
+        "image_ag7Crf",
+        "image_pkkHKr",
+        "image_mRfrNr",
+        "image_nQTcQj",
+        "image_RRwNrC",
+        "image_npFcUp",
+        "image_czyrEL",
+        "image_6H66YA",
+        "image_rnK88E",
+        "image_8MEpND",
+        "image_3qKRMF",
+        "image_b83qwn",
+        "image_Ypwf9j",
+        "image_dkadHi",
+        "image_CXbwwd",
+        "image_AAexTf",
+        "image_rcfPey",
+        "image_8WRe8X",
+        "image_MwH3hw",
+        "image_kYYNxi",
+        "image_KbMM4f",
+        "image_iDYnx3",
+        "image_mGVRHk",
+        "image_bVazpm",
+        "image_pQbA3a",
+        "image_4M93XJ",
+        "image_UNNeTV",
+        "image_FbanFa",
+        "image_pwQRaf",
+        "image_3kWmAz",
+        "image_cjWhYQ",
+        "image_YEgb3W",
+        "image_pDcYMN",
+        "image_QpLdxn",
+        "image_HrAQwy",
+        "image_X7MJAc",
+        "image_bbAcwB",
+        "image_fciaCX",
+        "image_d6NyKE",
+        "image_iNJAnY"
+      ],
+      "name": "SS - Scrolling Images",
+      "settings": {
+        "rig_heading": "Det Ultimative Tørrestativ",
+        "rig_content": "<p>SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.</p><p>Spar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.</p>",
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_height": 130,
+        "heading_align": "center",
+        "slider_speed": 80,
+        "slider_gap": 16,
+        "slider_gap_mobile": 10,
+        "slider_mt": 0,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 150,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": false,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 0,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": true,
+        "text": "<p>+29.000 people love our product</p>",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#ffffff",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#f4eee9",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true,
+        "padding_topp": 80,
+        "padding_bottomm": 80
+      }
+    },
+    "custom_two_coilum_video_NHxP9E": {
+      "type": "custom-two-coilum-video",
+      "name": "Custom Video Section",
+      "settings": {
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "heading": "Funktionelt og pladsbesparende design",
+        "content": "<p>SmartRack går nemt fra kompakt opbevaring til et funktionelt tørrestativ med plads til 48 bøjler. Fleksibelt og pladsbesparende tørrestativ, det kan tilpasses enhver krog i hjemmet og gør tørring lettere og hurtigere end traditionelle stativer.</p><p>Høj luftcirkulation sikrer en jævn og effektiv tørring. Med et design i klasse 1 behandlet bøgetræ og aluminiumtop er både kvalitet og design i top, hvilket gør det til et perfekt fit til det moderne hjem.</p><p>SmartRack er ikke bare “endnu et tørrestativ”, men et indretningselement. Det flotte trædesign og klapsammen funktion gør, at man er stolt af at have det stående fremme, modsat traditionelle billig-stativer af plastik eller det klassiske \"metalmonstrum\".</p>",
+        "video": "shopify://files/videos/smartrackadloop_1200.mov"
+      }
+    },
+    "multi_column_BwtTnq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_JpMULJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/box.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Gratis fragt",
+            "heading_tag": "h4",
+            "content": "<p>Vi tilbyder gratis fragt på alle ordrer.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KWfwK9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/track.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Hurtig levering",
+            "heading_tag": "h4",
+            "content": "<p>1-4 dages levering</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V6VtUG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/smile.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Tilfredshedsgaranti",
+            "heading_tag": "h4",
+            "content": "<p>30 dages tilfredshedsgaranti</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RcWUDR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/lock.png",
+            "show_controls": false,
+            "column_size": "4",
+            "title": "Sikker betaling",
+            "heading_tag": "h4",
+            "content": "<p>Du kan trygt købe hos os, vi benytter 3D secure.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_JpMULJ",
+        "item_KWfwK9",
+        "item_V6VtUG",
+        "item_RcWUDR"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "custom-multi",
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "multi_column_MnN4YJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MD66Lw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A8980x800.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Solid trebenet base",
+            "heading_tag": "h4",
+            "content": "<p>Den robuste cylinderkonstruktion og den trebenede base giver stativet stabilitet. Med en vægt på 4,2 kg står det fast og solidt under brug.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RLGjUJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_9Q1A9102_600x600v3.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Let sammenklappeligt tørrestativ",
+            "heading_tag": "h4",
+            "content": "<p>Stativet har en enkel og blød fjederåbningsmekanisme, der gør det nemt at folde fødderne ud, og det er lige så let at folde sammen igen.  </p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_V7tG9j": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SQ_-_9Q1A9053-600x600.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Plads til 48 bøjler",
+            "heading_tag": "h4",
+            "content": "<p>Hæng tøj direkte på de 16 arme eller brug bøjler. SmartRack har plads til op til 48 bøjler. Det fleksible design gør det nemt at tørre både små og store mængder tøj.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_MD66Lw",
+        "item_RLGjUJ",
+        "item_V7tG9j"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "product-multi-col",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f4eee9",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_product_table_PNW6c3": {
+      "type": "custom-product-table",
+      "blocks": {
+        "row_6JQP4y": {
+          "type": "row",
+          "settings": {
+            "feature": "Tørrer dit tøj",
+            "first_check": true,
+            "second_check": true
+          }
+        },
+        "row_xWr7qr": {
+          "type": "row",
+          "settings": {
+            "feature": "Justerbar og kan tilpasses selv de mindste kroge",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_UVTgXB": {
+          "type": "row",
+          "settings": {
+            "feature": "Kan nemt flyttes med én hånd",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_43KDfK": {
+          "type": "row",
+          "settings": {
+            "feature": "Elegant design",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_TNiFAx": {
+          "type": "row",
+          "settings": {
+            "feature": "UV-afvisende cylinder- konstruktion",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_tiLcVi": {
+          "type": "row",
+          "settings": {
+            "feature": "Let at opbevare",
+            "first_check": true,
+            "second_check": false
+          }
+        },
+        "row_9kqBtB": {
+          "type": "row",
+          "settings": {
+            "feature": "Nem at få til at passe ind i ethvert rum",
+            "first_check": true,
+            "second_check": false
+          }
+        }
+      },
+      "block_order": [
+        "row_6JQP4y",
+        "row_xWr7qr",
+        "row_UVTgXB",
+        "row_43KDfK",
+        "row_TNiFAx",
+        "row_tiLcVi",
+        "row_9kqBtB"
+      ],
+      "name": " Custom Comparison Table",
+      "settings": {
+        "main_head": "",
+        "first_col_title": "Fordel",
+        "second_col_title": "FJORD LIVING",
+        "third_col_title": "Andre tørrestativer",
+        "tag_1": "Fjordliving",
+        "video_1": "https://cdn.shopify.com/videos/c/o/v/229e9cedd4d74b73ada8f6344bfb5f75.mp4",
+        "tag_2": "Metalmonstrum",
+        "video_2": "https://cdn.shopify.com/videos/c/o/v/4ed243a9a61844ffa9065ebd00eb52e5.mov",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_faq_DMQerW": {
+      "type": "custom-faq",
+      "blocks": {
+        "faq_xF6QJm": {
+          "type": "faq",
+          "settings": {
+            "question": "Vil armene i træ modstå fugt? Smitter de af?",
+            "answer": "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+          }
+        },
+        "faq_LTdqJc": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan samler jeg SmartRack?",
+            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point"
+          }
+        },
+        "faq_8VwCd7": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvorfor vælge Fjordliving SmartRack?",
+            "answer": "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+          }
+        },
+        "faq_iWHre8": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg er glad for mit stativ – kan jeg sende jer et billede til inspiration?",
+            "answer": "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+          }
+        },
+        "faq_LBBfyU": {
+          "type": "faq",
+          "settings": {
+            "question": "Jeg vil give det som gave i weekenden. Kan det nå frem inden da?",
+            "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
+          }
+        },
+        "faq_3DRxfF": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg justere antallet af arme på SmartRack?",
+            "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected"
+          }
+        },
+        "faq_tGbiDH": {
+          "type": "faq",
+          "settings": {
+            "question": "Bør man tørre tøj indenfor?",
+            "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the"
+          }
+        },
+        "faq_mLptFG": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvor meget fylder stativet?",
+            "answer": "combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+          }
+        },
+        "faq_TKRRbj": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvordan får jeg benene til at blive inde i stativet?",
+            "answer": "voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
+        },
+        "faq_kknTFX": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan SmartRack bruges udendørs?",
+            "answer": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+          }
+        },
+        "faq_c9ckVE": {
+          "type": "faq",
+          "settings": {
+            "question": "Kan jeg tørre kjoler på stativet?",
+            "answer": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness"
+          }
+        },
+        "faq_DCnk4h": {
+          "type": "faq",
+          "settings": {
+            "question": "Hvad vejer SmartRack?",
+            "answer": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
+          }
+        }
+      },
+      "block_order": [
+        "faq_xF6QJm",
+        "faq_LTdqJc",
+        "faq_8VwCd7",
+        "faq_iWHre8",
+        "faq_LBBfyU",
+        "faq_3DRxfF",
+        "faq_tGbiDH",
+        "faq_mLptFG",
+        "faq_TKRRbj",
+        "faq_kknTFX",
+        "faq_c9ckVE",
+        "faq_DCnk4h"
+      ],
+      "name": "Custom FAQ Section",
+      "settings": {
+        "heading": "Spørgsmål & svar",
+        "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30.Gennemsnitlig svartid: 4 timer</p>",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_testimonial_slider_D3gCmh": {
+      "type": "custom-testimonial-slider",
+      "blocks": {
+        "testimonial_kQ7RNV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Pænt tørrestativ",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Sussie G"
+          }
+        },
+        "testimonial_t7QhLb": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart tørrestativ",
+            "text": "Jeg er vild med, hvor alsidig SmartRack er. Jeg bruger den både indendørs og udendørs, og fungerer",
+            "author": "Jens J."
+          }
+        },
+        "testimonial_qXeEtq": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "God investering",
+            "text": "Det smarte design gør SmartRack til et must-have. Det har frigivet plads i mit vaskerum, og jeg elsker,",
+            "author": "Malene E."
+          }
+        },
+        "testimonial_jXrxiV": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Flot foldbart tørrestativ",
+            "text": "SmartRack er et flot sammenklappeligt tørrestativ, som er super praktisk og nemt at",
+            "author": "Helle F."
+          }
+        },
+        "testimonial_dnrEqz": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_JheppE": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_aAARXk": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        },
+        "testimonial_mkcwCm": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "Smart investering",
+            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
+            "author": "Jens I."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_kQ7RNV",
+        "testimonial_t7QhLb",
+        "testimonial_qXeEtq",
+        "testimonial_jXrxiV",
+        "testimonial_dnrEqz",
+        "testimonial_JheppE",
+        "testimonial_aAARXk",
+        "testimonial_mkcwCm"
+      ],
+      "name": "Testimonial Slider",
+      "settings": {
+        "heading": "Kundeoplevelser",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "175873529700477504": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_X39eRQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_X39eRQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "ss_slide_video_gyeaGk",
+    "custom_two_coilum_video_NHxP9E",
+    "multi_column_BwtTnq",
+    "multi_column_MnN4YJ",
+    "custom_product_table_PNW6c3",
+    "custom_faq_DMQerW",
+    "custom_testimonial_slider_D3gCmh",
+    "175873529700477504"
+  ]
+}
