@@ -35,7 +35,7 @@
         "text_HMGCXa": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.product_list_description | metafield_tag }}"
+            "text": "<p>{{ product.metafields.custom.product_list_description | metafield_tag }}</p>"
           }
         },
         "payment_terms": {
@@ -640,6 +640,7 @@
         "image_d6NyKE",
         "image_iNJAnY"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Images",
       "settings": {
         "rig_heading": "Det Ultimative Tørrestativ",
@@ -699,6 +700,7 @@
     },
     "custom_two_coilum_video_NHxP9E": {
       "type": "custom-two-coilum-video",
+      "disabled": true,
       "name": "Custom Video Section",
       "settings": {
         "padding_top": 80,
@@ -842,6 +844,7 @@
         "item_RLGjUJ",
         "item_V7tG9j"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "product-multi-col",
@@ -865,7 +868,7 @@
         "row_6JQP4y": {
           "type": "row",
           "settings": {
-            "feature": "Tørrer dit tøj",
+            "feature": "Holder dit vasketøj",
             "first_check": true,
             "second_check": true
           }
@@ -873,7 +876,7 @@
         "row_xWr7qr": {
           "type": "row",
           "settings": {
-            "feature": "Justerbar og kan tilpasses selv de mindste kroge",
+            "feature": "Nem sortering direkte i kurven",
             "first_check": true,
             "second_check": false
           }
@@ -881,7 +884,7 @@
         "row_UVTgXB": {
           "type": "row",
           "settings": {
-            "feature": "Kan nemt flyttes med én hånd",
+            "feature": "Nem og enkel transport",
             "first_check": true,
             "second_check": false
           }
@@ -897,13 +900,14 @@
         "row_TNiFAx": {
           "type": "row",
           "settings": {
-            "feature": "UV-afvisende cylinder- konstruktion",
+            "feature": "Undgå lugt og tøjrod fra beskidt vasketøj",
             "first_check": true,
             "second_check": false
           }
         },
         "row_tiLcVi": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "feature": "Let at opbevare",
             "first_check": true,
@@ -912,6 +916,7 @@
         },
         "row_9kqBtB": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "feature": "Nem at få til at passe ind i ethvert rum",
             "first_check": true,
@@ -936,7 +941,7 @@
         "third_col_title": "Andre tørrestativer",
         "tag_1": "Fjordliving",
         "video_1": "https://cdn.shopify.com/videos/c/o/v/229e9cedd4d74b73ada8f6344bfb5f75.mp4",
-        "tag_2": "Metalmonstrum",
+        "tag_2": "",
         "video_2": "https://cdn.shopify.com/videos/c/o/v/4ed243a9a61844ffa9065ebd00eb52e5.mov",
         "padding_top": 40,
         "padding_bottom": 40
@@ -1138,6 +1143,7 @@
         "testimonial_aAARXk",
         "testimonial_mkcwCm"
       ],
+      "disabled": true,
       "name": "Testimonial Slider",
       "settings": {
         "heading": "Kundeoplevelser",
