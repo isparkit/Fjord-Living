@@ -1015,7 +1015,7 @@
         "faq_LTdqJc": {
           "type": "faq",
           "settings": {
-            "question": "Hvordan sFindes knagerækken i flere størrelser?",
+            "question": "Findes knagerækken i flere størrelser?",
             "answer": "Nej, i øjeblikket fås den kun i én størrelse med 6 knager og en længde på 72 cm."
           }
         },
@@ -1064,12 +1064,13 @@
         "faq_TKRRbj": {
           "type": "faq",
           "settings": {
-            "question": "Hvordan får jeg benene til at blive inde i stativet?",
-            "answer": "Benene kan føres ind som vist <a href=\"https://cdn.shopify.com/videos/c/o/v/25bd07beb47747cd8ad0db410d7b682b.mov\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>.\n\nFoden har en kliklås. Når den er klikket i, vil benene blive inde i stativet. \nNår den er klikket ud kan benene føres ud ud. Se eksempel video <a href=\"https://cdn.shopify.com/videos/c/o/v/c2523b7396f7449583253b0ca890e788.mov\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>."
+            "question": "Er ophænget synligt efter montering?",
+            "answer": "Nej"
           }
         },
         "faq_kknTFX": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan SmartRack bruges udendørs?",
             "answer": "Ja, SmartRack er designet til både indendørs og udendørs brug. Dets holdbare konstruktion og lakering gør det velegnet til at modstå forskellige vejrforhold."
@@ -1077,6 +1078,7 @@
         },
         "faq_c9ckVE": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan jeg tørre kjoler på stativet?",
             "answer": "Stativet har en højde på 121 cm, når det er slået ud, hvilket ofte er tilstrækkeligt til, at kjoler kan hænge, så de ikke rører gulvet. Alternativt kan kjolerne foldes over en af stativets arme."
@@ -1084,6 +1086,7 @@
         },
         "faq_DCnk4h": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Hvad vejer SmartRack?",
             "answer": "Med sine 4.2kg og solide cylinderbase står smartrack stabilt."
