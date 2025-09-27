@@ -162,7 +162,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Beskrivelse",
-            "content": "<p>Din løsning til effektiv tørring af tøj, uanset om du bor i en lille lejlighed eller blot ønsker en pladsbesparende elegant løsning. Med vores innovative design kombinerer SmartRack både funktionalitet og stil, så du kan tørre dit tøj på en smart og bekvem måde. Gør dit hjem til et sted, hvor du føler dig godt tilpas og er stolt af at vise frem. </p><p><strong>Standard:</strong> SmartRack standard kommer med sølv top.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med en elegant gylden top samt praktisk opbevaringspose.</p>",
+            "content": "<p>Stilren knagerække i varm olieret egetræ med 6 messingknager.</p><p>Denne knagerække har et skandinavisk look, og er uden synlige skruer eller ophæng. Den monteres nemt på det skjulte nøglehulsbeslag på bagsiden. Den er 72 cm og perfekt til jakker i entreen, viskestykker i køkkenet, pyjamas i soveværelset eller håndklæder på badeværelset.</p><p>Skruer og rawplugs til ophæng medfølger.</p>",
             "html_con": "",
             "page": ""
           }
@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Specifikationer",
-            "content": "<p><strong>Materialer:</strong> Arme i klasse 1 forbearbejdet og larkeret bøgetræ. Top i aluminiumslegering, hvilket sikrer både holdbarhed og en moderne æstetik.</p><p><strong>Vægt:</strong> 4.2kg</p><p><strong>Størrelse slået sammen: </strong>70 cm høj, diameter 15 cm</p><p><strong>Størrelse slået ud: </strong>121 cm høj, diameter 110 cm.</p><p><strong>Bæreevne:</strong> Kan bære op til 20 kg tøj, hvilket gør det ideelt til store vaskelæs.</p><p><strong>Samling:</strong> SmartRack kommer samlet og klar til brug.</p><p>Arme og ben slåes let ud og sammen igen.</p><p><strong>Justerbare arme:</strong> Tilpas antallet af arme for at imødekomme din tørringskapacitet og pladsbegrænsninger.</p><p><strong>Pladsbesparende design:</strong> Foldbart design gør det let at opbevare og ideelt til små rum.</p><p><strong>Indendørs og udendørs brug:</strong> Robust nok til udendørs brug og alligevel elegant nok til at passe indendørs. Den hvide cylinder er UV afvisende, og bliver ikke rigtig varm i solskin.</p><p><strong>Tøj:</strong> Velegnet til både trøjer, t-shirts skjorter, kjoler samt,delikate tøjstykker som undertøj og sokker. Kan også bruges til luftning af dyner mm.</p><p><strong>Stabilitet:</strong> Unik tripod-struktur sikrer optimal stabilitet selv i begrænsede pladsforhold.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med guld-look top og praktisk opbevaringspose. </p><p><strong>Standard edition: </strong>SmartRack standard kommer med sølv top.</p>",
+            "content": "<p><strong>Materiale:</strong> Olieret egetræ og messing knobber.</p><p><strong>Størrelse:</strong> 72 cm lang, 10 cm høj, 4 cm bred ink. knager.</p><p><strong>Vægt: </strong>0,8 kg</p><p><strong>Medfølger: </strong>Knagerække, skruer og rawplugs</p><p></p><p></p>",
             "html_con": "",
             "page": ""
           }
@@ -185,6 +185,17 @@
             "icon_width": 20,
             "title": "Om levering",
             "content": "<p>Vi tilbyder en effektiv leveringsservice fra vores lager i Randers, der sikrer at dine produkter når frem inden for 1-4 arbejdsdage efter din bestilling. Pakker sendes med DAO og GLS.</p>",
+            "html_con": "",
+            "page": ""
+          }
+        },
+        "collapsible_text_hrDVBk": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Montering",
+            "content": "<p><strong>Brugerguide - Sådan monterer du din knagerække</strong></p><p></p><ol><li><strong>Find den rette højde</strong><br/>Mål højden på de jakker, håndklæder eller andre ting, der skal hænge på knagerækken, og markér en passende placering på væggen.</li><li><strong>Afmærk hullerne</strong><br/>Sæt de to medfølgende skruer i nøglehulsbeslagene på bagsiden af knagerækken og tryk let mod væggen for at lave små mærker, der viser, hvor hullerne skal bores.</li><li><strong>Bor huller og indsæt rawlplugs</strong> <em>(hvis nødvendigt)</em></li><li><strong>Fastgør skruerne</strong><br/>Bor de to skruer i væggen, men lad dem stikke en smule ud, så knagerækken kan hænges op på dem.</li><li><strong>Hæng knagerækken op</strong><br/>Placer nøglehulsbeslagene over skruerne og skub knagerækken ned, så den sidder fast.</li><li><strong>Finjustér stabiliteten</strong><br/>Hvis knagerækken ikke sidder helt stabilt, kan du skrue skruerne lidt længere ind eller ud, indtil den sidder perfekt.</li></ol><p>Nu er din knagerække klar til brug! 😊</p>",
             "html_con": "",
             "page": ""
           }
@@ -223,6 +234,7 @@
         "collapsible_text_W9VTad",
         "collapsible_text_LpgJWt",
         "collapsible_text_i3CCGn",
+        "collapsible_text_hrDVBk",
         "associated_products_bjxz6D"
       ],
       "settings": {
@@ -640,6 +652,7 @@
         "image_d6NyKE",
         "image_iNJAnY"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Images",
       "settings": {
         "rig_heading": "Det Ultimative Tørrestativ",
@@ -699,6 +712,7 @@
     },
     "custom_two_coilum_video_NHxP9E": {
       "type": "custom-two-coilum-video",
+      "disabled": true,
       "name": "Custom Video Section",
       "settings": {
         "padding_top": 80,
@@ -842,6 +856,7 @@
         "item_RLGjUJ",
         "item_V7tG9j"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "product-multi-col",
@@ -928,6 +943,7 @@
         "row_tiLcVi",
         "row_9kqBtB"
       ],
+      "disabled": true,
       "name": " Custom Comparison Table",
       "settings": {
         "main_head": "",
@@ -940,6 +956,50 @@
         "video_2": "https://cdn.shopify.com/videos/c/o/v/4ed243a9a61844ffa9065ebd00eb52e5.mov",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_yxgUMx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_WCA46w": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_VBkkpD": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ped7hQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Denne stilrene knagerække er fremstillet i massivt egetræ med seks elegante messingknager. Træet er omhyggeligt slebet og behandlet med en klar lak, der sikrer en smuk og holdbar overflade. Knagerækken har et minimalistisk design uden synlige skruer eller ophæng, hvilket giver et elegant og svævende udtryk på væggen.</p><p></p><p>Den er nem at montere med skjulte nøglehulsbeslag på bagsiden, og skruer samt rawplugs medfølger, så den er klar til ophængning med det samme. Med sit tidløse look passer den perfekt i entréen, soveværelset eller badeværelset og tilfører rummet en eksklusiv og funktionel detalje.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WCA46w",
+        "heading_VBkkpD",
+        "richtext_ped7hQ"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/smarthanger_1.5.1.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 61
       }
     },
     "custom_faq_DMQerW": {
@@ -1138,6 +1198,7 @@
         "testimonial_aAARXk",
         "testimonial_mkcwCm"
       ],
+      "disabled": true,
       "name": "Testimonial Slider",
       "settings": {
         "heading": "Kundeoplevelser",
@@ -1167,6 +1228,176 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_HWqpnN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_JkRERh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_rdYRxg": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XfGjmH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Denne stilrene knagerække er fremstillet i massivt egetræ med seks elegante messingknager. Træet er omhyggeligt slebet og behandlet med en klar lak, der sikrer en smuk og holdbar overflade. Knagerækken har et minimalistisk design uden synlige skruer eller ophæng, hvilket giver et elegant og svævende udtryk på væggen.</p><p>Den er nem at montere med skjulte nøglehulsbeslag på bagsiden, og skruer samt rawplugs medfølger, så den er klar til ophængning med det samme. Med sit tidløse look passer den perfekt i entréen, soveværelset eller badeværelset og tilfører rummet en eksklusiv og funktionel detalje.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JkRERh",
+        "heading_rdYRxg",
+        "richtext_XfGjmH"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "accordion_content_3gGPj9": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_pA4ctM": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_kfB77h": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        },
+        "item_X4Yjb9": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pA4ctM",
+        "item_kfB77h",
+        "item_X4Yjb9"
+      ],
+      "disabled": true,
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Heading",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "multi_column_rG6h7d": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CV6yKc": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Kprt3C": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FQnhNW": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CV6yKc",
+        "item_Kprt3C",
+        "item_FQnhNW"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "",
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1177,8 +1408,12 @@
     "multi_column_BwtTnq",
     "multi_column_MnN4YJ",
     "custom_product_table_PNW6c3",
+    "image_with_text_overlay_yxgUMx",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
-    "175873529700477504"
+    "175873529700477504",
+    "rich_text_HWqpnN",
+    "accordion_content_3gGPj9",
+    "multi_column_rG6h7d"
   ]
 }
