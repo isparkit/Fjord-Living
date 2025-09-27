@@ -831,7 +831,6 @@
     },
     "cutom_video_left_ENMMmm": {
       "type": "cutom_video_left",
-      "disabled": true,
       "name": "Custom Video Section",
       "settings": {
         "padding_top": 50,
@@ -839,6 +838,17 @@
         "heading": "Naturlig non-stick – inspireret af lotusblomsten",
         "content": "<p>I naturen har lotusblomsten en helt særlig overflade, der afviser vand og snavs – en effekt kendt som lotuseffekten. Vanddråber perler sig og glider af uden at efterlade spor.</p><p></p><p></p><p>Denne unikke egenskab har inspireret Lotus Cookware til den revolutionerende non-stick overflade, der fungerer uden skadelige kemikalier. Mikroskopiske små huller i overfladen danner en fin struktur, der skaber en naturlig hinde mellem maden og panden. Dette reducerer kontaktfladen og danner en luftpudeeffekt.</p><p></p><p></p><p>Resultatet? En naturligt non-stick pande, der gør madlavningen lettere, sundere og mere bæredygtig.</p>",
         "video": "shopify://files/videos/lotuswarmlutvv2.230fps.mp4"
+      }
+    },
+    "cutom_video_left_nfXBpx": {
+      "type": "cutom_video_left",
+      "name": "Custom Video Section",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading": "Hvorfor undgå PFAS non-stick pander?",
+        "content": "<p>PFAS er en gruppe kemikalier, der kaldes “evighedskemikalier”, fordi de ikke nedbrydes i naturen. Når de bruges i non-stick belægninger, kan de sprede sig til miljøet, både fra produktionen og når panden opvarmes, eller hvis dele af overfladen over tid ridses af.</p><p>PFAS-stofferne ophobes i fødekæden, og undersøgelser har vist, at de kan findes i alt fra drikkevand til fugleæg og menneskekroppen. De mistænkes for at være hormonforstyrrende, kræftfremkaldende og skadelige for immunforsvaret.</p><p>Ved at vælge en pande uden PFAS (som f.eks. Lotus Cookware) beskytter du både dig selv, miljøet og kommende generationer mod skadelige stoffer, der ellers ville blive i naturen for altid.</p>",
+        "image": "shopify://shop_images/openart-image_7U5ewFnc_1748821372836_raw.jpg"
       }
     },
     "multi_column_BwtTnq": {
@@ -991,6 +1001,114 @@
         "text_color": "",
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "media_grid_nPBp9P": {
+      "type": "media-grid",
+      "blocks": {
+        "image_9N3wG9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5S1A8711-2_24bb236e-3fee-4454-86fb-e658134932e4.jpg",
+            "title": "Naturlig non-stick overflade",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_drrhch": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oilresist.jpg",
+            "title": "Vand- og olieafvisende",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_wrgBqC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ovn_3.5.1.jpg",
+            "title": "Ovnfast op til 260­°C",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_aFkg3y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hf99977685b574b32a5c9c4a0e642f8bcN_jpg.webp",
+            "title": "Tåler opvaskemaskine",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 29
+          }
+        }
+      },
+      "block_order": [
+        "image_9N3wG9",
+        "image_drrhch",
+        "image_wrgBqC",
+        "image_aFkg3y"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "custom_product_table_PNW6c3": {
@@ -1305,112 +1423,104 @@
         "text_color": ""
       }
     },
-    "media_grid_nPBp9P": {
-      "type": "media-grid",
+    "ss_video_with_text_qAe8zF": {
+      "type": "ss-video-with-text",
       "blocks": {
-        "image_9N3wG9": {
-          "type": "image",
+        "heading_VwE7dC": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/5S1A8711-2_24bb236e-3fee-4454-86fb-e658134932e4.jpg",
-            "title": "Naturlig non-stick overflade",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "heading": "Video with text",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "header_size": 32,
+            "font_weight": "600",
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_color": "#121212"
           }
         },
-        "image_drrhch": {
-          "type": "image",
+        "text_bcUCG4": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/oilresist.jpg",
-            "title": "Vand- og olieafvisende",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "text": "<p>Pair text with a video or an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 150,
+            "text_mt": 0,
+            "text_color": "#121212"
           }
         },
-        "image_wrgBqC": {
-          "type": "image",
+        "button_aX4zVq": {
+          "type": "button",
           "settings": {
-            "image": "shopify://shop_images/ovn_3.5.1.jpg",
-            "title": "Ovnfast op til 260­°C",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_custom": false,
+            "button_font": "assistant_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 32,
+            "button_padding_vertical": 16,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 12,
+            "use_arrow": true,
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "image_aFkg3y": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Hf99977685b574b32a5c9c4a0e642f8bcN_jpg.webp",
-            "title": "Tåler opvaskemaskine",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 29
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
           }
         }
       },
       "block_order": [
-        "image_9N3wG9",
-        "image_drrhch",
-        "image_wrgBqC",
-        "image_aFkg3y"
+        "heading_VwE7dC",
+        "text_bcUCG4",
+        "button_aX4zVq"
       ],
-      "name": "Media grid",
+      "disabled": true,
+      "name": "SS - Video with text #1",
       "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
+        "media": "video",
+        "image_height": "adapt",
+        "desktop_image_width": "50",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": true,
+        "video_autoplay": false,
+        "video_loop": false,
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "content_padding_top": 36,
+        "content_padding_bottom": 36,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 1.5,
+        "content_spacing": 18,
+        "wrapper_border": false,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "content_background_color": "#ffffff",
+        "content_border_color": "#D3D3D3",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -1422,12 +1532,14 @@
     "custom_two_coilum_video_RpGepk",
     "ss_video_with_text_HFQtyY",
     "cutom_video_left_ENMMmm",
+    "cutom_video_left_nfXBpx",
     "multi_column_BwtTnq",
     "multi_column_MnN4YJ",
+    "media_grid_nPBp9P",
     "custom_product_table_PNW6c3",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
     "175873529700477504",
-    "media_grid_nPBp9P"
+    "ss_video_with_text_qAe8zF"
   ]
 }
