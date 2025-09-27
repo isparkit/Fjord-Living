@@ -1028,6 +1028,7 @@
         },
         "faq_iWHre8": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Jeg er glad for mit stativ – kan jeg sende jer et billede til inspiration?",
             "answer": "Ja, meget gerne! Vi elsker at se autentiske billeder af, hvordan SmartRack bliver brugt hjemme hos jer. Vi samler billeder fra vores kunder og viser dem som inspiration. Det er altid fantastisk at se, hvordan stativet passer ind og bruges i virkeligheden rundt omkring i danske hjem 🧺✨\n\nBilleder kan sendes til info@fjordliving.dk"
@@ -1035,6 +1036,7 @@
         },
         "faq_LBBfyU": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Jeg vil give det som gave i weekenden. Kan det nå frem inden da?",
             "answer": "GLS leverer typisk fra dag til dag, men vi anbefaler at forvente 1-3 hverdage. DAO leverer normalt inden for 1-4 dage. Du vælger selv fragtfirma ved checkout."
@@ -1042,6 +1044,7 @@
         },
         "faq_3DRxfF": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan jeg justere antallet af arme på SmartRack?",
             "answer": "Ja, SmartRack er designet med fleksibilitet for øje. Du kan nemt justere antallet af arme i overensstemmelse med dine tørrebehov og pladsbegrænsninger."
@@ -1049,6 +1052,7 @@
         },
         "faq_tGbiDH": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Bør man tørre tøj indenfor?",
             "answer": "✅ Om vinteren anbefales det faktisk i mange boliger sammen med udluftning, da luften er meget tør. Tørring af tøj kan hjælpe med at beskytte trægulve, møbler og slimhinder mod udtørring.\n\n✅ Om sommeren kan du stadig tørre tøj inde, men husk at lufte godt ud, så du undgår for høj luftfugtighed.\n\nSmartRack er udviklet til at passe ind i hjemmet – og gør det nemt at tørre tøj med stil, uden rod og uden store metalstativer midt i stuen.\n\n🌀 God ventilation = sundt indeklima."
@@ -1056,6 +1060,7 @@
         },
         "faq_mLptFG": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Hvor meget fylder stativet?",
             "answer": "SmartRack er designet til at være både pladsbesparende og funktionel:\n\nSlået sammen: Højde 70 cm, diameter 15 cm – nem at opbevare i hjørner, skabe eller bag en dør\n\nSlået ud:  Højde 121 cm, diameter 110 cm – giver rigelig tørreplads uden at fylde unødigt i rummet."
