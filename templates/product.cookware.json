@@ -727,6 +727,119 @@
         "video": "shopify://files/videos/nemrenloop.mov"
       }
     },
+    "ss_video_with_text_HFQtyY": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_YdmG4Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video with text",
+            "heading_custom": false,
+            "heading_font": "assistant_n4",
+            "header_size": 32,
+            "font_weight": "600",
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_color": "#121212"
+          }
+        },
+        "text_BM6fkV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Udviklet med banebrydende mikrodottet overflade teknologi sætter Lotus Cookware en ny standard for non-stick madlavning og sikrer en sundere madlavning uden PFAS eller andre skadelige stoffer.</p><p></p><p>Stegepanden er fremstillet i en slidstærk flerlags konstruktion med en ydre i rustfri stål, en kerne af aluminium, som sikrer en   hurtig og jævn varmefordeling. Pandens ekstremt holdbare overflade sikrer nemme og professionelle madlavningsresultater og lang levetid.</p><p></p><p>Den hårdføre overflade er  ridsefast, næsten uopslidelig og i stand til at modstå høje temperaturer.</p><p></p><p>Panden fungerer på alle kogeoverflader, inklusiv induktion, gas og ovn, mens det ergonomiske håndtag forbliver køligt under madlavning.</p>",
+            "text_custom": false,
+            "text_font": "assistant_n4",
+            "text_size": 18,
+            "text_height": 150,
+            "text_mt": 0,
+            "text_color": "#121212"
+          }
+        },
+        "button_UWKMca": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Learn more",
+            "button_link": "",
+            "button_custom": false,
+            "button_font": "assistant_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 32,
+            "button_padding_vertical": 16,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 12,
+            "use_arrow": true,
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#121212",
+            "button_hover_color": "#121212",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YdmG4Q",
+        "text_BM6fkV",
+        "button_UWKMca"
+      ],
+      "disabled": true,
+      "name": "SS - Video with text #1",
+      "settings": {
+        "media": "video",
+        "image_height": "adapt",
+        "desktop_image_width": "50",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video": "shopify://files/videos/panloop30v2.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": false,
+        "video_autoplay": true,
+        "video_loop": true,
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "content_padding_top": 36,
+        "content_padding_bottom": 36,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 1.5,
+        "content_spacing": 18,
+        "wrapper_border": false,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#fcfaf6",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "content_background_color": "#fcfaf6",
+        "content_border_color": "#D3D3D3",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "cutom_video_left_ENMMmm": {
+      "type": "cutom_video_left",
+      "name": "Custom Video Section",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading": "Naturlig non-stick – inspireret af lotusblomsten",
+        "content": "<p>I naturen har lotusblomsten en helt særlig overflade, der afviser vand og snavs – en effekt kendt som lotuseffekten. Vanddråber perler sig og glider af uden at efterlade spor.</p><p></p><p></p><p>Denne unikke egenskab har inspireret Lotus Cookware til den revolutionerende non-stick overflade, der fungerer uden skadelige kemikalier. Mikroskopiske små huller i overfladen danner en fin struktur, der skaber en naturlig hinde mellem maden og panden. Dette reducerer kontaktfladen og danner en luftpudeeffekt.</p><p></p><p></p><p>Resultatet? En naturligt non-stick pande, der gør madlavningen lettere, sundere og mere bæredygtig.</p>",
+        "video": "shopify://files/videos/lotuswarmlutvv2.230fps.mp4"
+      }
+    },
     "multi_column_BwtTnq": {
       "type": "multi-column",
       "blocks": {
@@ -861,6 +974,7 @@
         "item_RLGjUJ",
         "item_V7tG9j"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "product-multi-col",
@@ -1194,6 +1308,8 @@
     "ss_slide_video_gyeaGk",
     "custom_two_coilum_video_NHxP9E",
     "custom_two_coilum_video_RpGepk",
+    "ss_video_with_text_HFQtyY",
+    "cutom_video_left_ENMMmm",
     "multi_column_BwtTnq",
     "multi_column_MnN4YJ",
     "custom_product_table_PNW6c3",
