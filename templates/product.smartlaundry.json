@@ -942,7 +942,7 @@
         "tag_1": "Fjordliving",
         "video_1": "https://cdn.shopify.com/s/files/1/0849/3842/4607/files/IMG_7032_800.jpg?v=1747437551",
         "tag_2": "",
-        "video_2": "https://cdn.shopify.com/videos/c/o/v/4ed243a9a61844ffa9065ebd00eb52e5.mov",
+        "video_2": "https://cdn.shopify.com/s/files/1/0849/3842/4607/files/IMG_7032_800.jpg?v=1747437551",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -953,33 +953,34 @@
         "faq_xF6QJm": {
           "type": "faq",
           "settings": {
-            "question": "Vil armene i træ modstå fugt? Smitter de af?",
-            "answer": "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+            "question": "Hvordan samler jeg SmartLaundry?",
+            "answer": "SmartLaundry har en enkel 9 trins samlingsguide, og tager omkring 5 minutter at samle. Der følger en et skrue værktøj med, som hjælper dig godt på vej.\n\nSamleguide findes her:\n\nhttps://fjordliving.dk/pages/smartlaundry-samleguide"
           }
         },
         "faq_LTdqJc": {
           "type": "faq",
           "settings": {
-            "question": "Hvordan samler jeg SmartRack?",
-            "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point"
+            "question": "Kan SmartLaundry poserne vaskes?",
+            "answer": "Ja, poserne kan maskinvaskes. Husk dog at fjerne plastikkanter eller andet tilbehør før vask, og følg vaskeanvisningen for længere holdbarhed."
           }
         },
         "faq_8VwCd7": {
           "type": "faq",
           "settings": {
-            "question": "Hvorfor vælge Fjordliving SmartRack?",
-            "answer": "the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+            "question": "Holder låget virkelig lugten inde?",
+            "answer": "Ja! Det tætsiddende låg hjælper med at holde lugten inde, hvilket mange kunder sætter pris på. Det gør den ideel til soveværelser og badeværelser, hvor man ønsker at undgå lugten af beskidt vasketøj."
           }
         },
         "faq_iWHre8": {
           "type": "faq",
           "settings": {
-            "question": "Jeg er glad for mit stativ – kan jeg sende jer et billede til inspiration?",
-            "answer": "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+            "question": "Er poserne nemme at tage ud og bære til vaskemaskinen?",
+            "answer": "Ja, poserne er designet med håndtag i både top og bund, hvilket gør dem nemme at tage ud og bære, selv når de er fyldt. Poserne selv-lokaliserer sig også tilbage i kurven uden besvær, når de sættes på plads igen."
           }
         },
         "faq_LBBfyU": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Jeg vil give det som gave i weekenden. Kan det nå frem inden da?",
             "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
@@ -987,6 +988,7 @@
         },
         "faq_3DRxfF": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan jeg justere antallet af arme på SmartRack?",
             "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected"
@@ -994,6 +996,7 @@
         },
         "faq_tGbiDH": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Bør man tørre tøj indenfor?",
             "answer": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the"
@@ -1001,6 +1004,7 @@
         },
         "faq_mLptFG": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Hvor meget fylder stativet?",
             "answer": "combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
@@ -1008,6 +1012,7 @@
         },
         "faq_TKRRbj": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Hvordan får jeg benene til at blive inde i stativet?",
             "answer": "voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -1015,6 +1020,7 @@
         },
         "faq_kknTFX": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan SmartRack bruges udendørs?",
             "answer": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
@@ -1022,6 +1028,7 @@
         },
         "faq_c9ckVE": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Kan jeg tørre kjoler på stativet?",
             "answer": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness"
@@ -1029,6 +1036,7 @@
         },
         "faq_DCnk4h": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Hvad vejer SmartRack?",
             "answer": "Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat"
