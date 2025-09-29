@@ -276,10 +276,24 @@
             "url": ""
           }
         },
+        "image_CXbwwd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAG_0788_1000h_jpg.webp",
+            "url": ""
+          }
+        },
         "image_6Q7hPp": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/summerhousev2_jpg.webp",
+            "url": ""
+          }
+        },
+        "image_8WRe8X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/billede-15_1000x1500_d1b27cca-d12b-4346-b41c-d3d5c351dbd4_jpg.webp",
             "url": ""
           }
         },
@@ -374,6 +388,13 @@
             "url": ""
           }
         },
+        "image_iNJAnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/userfjord_13_3_1.50.1_cf68fc2c-c438-4c78-8ff2-d305619c9201.jpg",
+            "url": ""
+          }
+        },
         "image_8MEpND": {
           "type": "image",
           "settings": {
@@ -409,13 +430,6 @@
             "url": ""
           }
         },
-        "image_CXbwwd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MAG_0788_1000h_jpg.webp",
-            "url": ""
-          }
-        },
         "image_AAexTf": {
           "type": "image",
           "settings": {
@@ -427,13 +441,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/sove_2_1_1_jpg.webp",
-            "url": ""
-          }
-        },
-        "image_8WRe8X": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/billede-15_1000x1500_d1b27cca-d12b-4346-b41c-d3d5c351dbd4_jpg.webp",
             "url": ""
           }
         },
@@ -576,18 +583,13 @@
             "image": "shopify://shop_images/userskov_e887e5f8-2d99-489b-aecb-53e37ab99885.jpg",
             "url": ""
           }
-        },
-        "image_iNJAnY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/userfjord_13_3_1.50.1_cf68fc2c-c438-4c78-8ff2-d305619c9201.jpg",
-            "url": ""
-          }
         }
       },
       "block_order": [
         "image_kMmgxn",
+        "image_CXbwwd",
         "image_6Q7hPp",
+        "image_8WRe8X",
         "image_EaXTWm",
         "image_M8hHe7",
         "image_xHBQB3",
@@ -601,15 +603,14 @@
         "image_czyrEL",
         "image_6H66YA",
         "image_rnK88E",
+        "image_iNJAnY",
         "image_8MEpND",
         "image_3qKRMF",
         "image_b83qwn",
         "image_Ypwf9j",
         "image_dkadHi",
-        "image_CXbwwd",
         "image_AAexTf",
         "image_rcfPey",
-        "image_8WRe8X",
         "image_MwH3hw",
         "image_kYYNxi",
         "image_KbMM4f",
@@ -629,8 +630,7 @@
         "image_X7MJAc",
         "image_bbAcwB",
         "image_fciaCX",
-        "image_d6NyKE",
-        "image_iNJAnY"
+        "image_d6NyKE"
       ],
       "name": "SS - Scrolling Images",
       "settings": {
