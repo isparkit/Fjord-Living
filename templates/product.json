@@ -542,13 +542,6 @@
             "url": ""
           }
         },
-        "image_QpLdxn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/rack_beige_39065880-567e-4189-a8d1-f533b9f68f3d.jpg",
-            "url": ""
-          }
-        },
         "image_HrAQwy": {
           "type": "image",
           "settings": {
@@ -632,7 +625,6 @@
         "image_cjWhYQ",
         "image_YEgb3W",
         "image_pDcYMN",
-        "image_QpLdxn",
         "image_HrAQwy",
         "image_X7MJAc",
         "image_bbAcwB",
