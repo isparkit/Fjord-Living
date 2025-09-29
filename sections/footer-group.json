@@ -14,21 +14,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text_VwY4HC": {
-          "type": "text",
-          "settings": {
-            "title": "Tilmeld dig vores nyhedsbrev",
-            "content": "<p>Bliv den første til at få besked omkring gode tilbud, nye produkter osv. Vi sender kun mails 1-2 gange om måneden og du kan altid afmelde dig igen.</p>",
-            "enable_follow_on_shop": true
-          }
-        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
             "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "content": "<p>tilmeld</p>"
           }
         },
         "text": {
@@ -46,13 +38,21 @@
             "show_menu_title": true,
             "menu_title": ""
           }
+        },
+        "text_VwY4HC": {
+          "type": "text",
+          "settings": {
+            "title": "Tilmeld dig vores nyhedsbrev",
+            "content": "<p>Bliv den første til at få besked omkring gode tilbud, nye produkter osv. Vi sender kun mails 1-2 gange om måneden og du kan altid afmelde dig igen.</p>",
+            "enable_follow_on_shop": true
+          }
         }
       },
       "block_order": [
-        "text_VwY4HC",
         "newsletter",
         "text",
-        "links"
+        "links",
+        "text_VwY4HC"
       ],
       "settings": {
         "show_social_media": true,
