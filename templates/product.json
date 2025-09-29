@@ -1039,7 +1039,7 @@
       "name": "Custom FAQ Section",
       "settings": {
         "heading": "Spørgsmål & svar",
-        "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30.Gennemsnitlig svartid: 4 timer</p>",
+        "subheading": "<p>Vores kundesupport er tilgængelig mandag til fredag: 8.00-20.30. Gennemsnitlig svartid: 4 timer</p>",
         "padding_top": 80,
         "padding_bottom": 80
       }
