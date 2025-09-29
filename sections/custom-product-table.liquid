@@ -52,7 +52,7 @@
         {% if section.settings.video_1 != blank %}
           <div class="media-wrapper">
             <span class="media-tag">{{ section.settings.tag_1 }}</span>
-            <video autoplay muted playsinline loop controls>
+            <video autoplay playsinline loop>
               <source src="{{ section.settings.video_1 }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -70,7 +70,7 @@
         {% if section.settings.video_2 != blank %}
           <div class="media-wrapper">
             <span class="media-tag">{{ section.settings.tag_2 }}</span>
-            <video autoplay muted playsinline loop controls>
+            <video autoplay playsinline loop>
               <source src="{{ section.settings.video_2 }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
