@@ -563,6 +563,12 @@
             "url": ""
           }
         },
+        "image_4tFjb6": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
         "image_bbAcwB": {
           "type": "image",
           "settings": {
@@ -628,6 +634,7 @@
         "image_pDcYMN",
         "image_HrAQwy",
         "image_X7MJAc",
+        "image_4tFjb6",
         "image_bbAcwB",
         "image_fciaCX",
         "image_d6NyKE"
@@ -1159,6 +1166,52 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_WbBwXM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_8dVRnP": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_kfC8eL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_tFKDpd": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8dVRnP",
+        "heading_kfC8eL",
+        "richtext_tFKDpd"
+      ],
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner2800x1000.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -1171,6 +1224,7 @@
     "custom_product_table_PNW6c3",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
-    "175873529700477504"
+    "175873529700477504",
+    "image_with_text_overlay_WbBwXM"
   ]
 }
