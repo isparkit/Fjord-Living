@@ -10442,16 +10442,7 @@ p,
   .cart-drawer__line-items .line-item{
     padding:15px 0;
   }
-    .product-card__quick-buy {
-    opacity: 1;
-    visibility: visible;
-    position: relative;
-    margin: 0;
-    transform: none;
-    width: 100%;
-    top:0;
-    left:0;
-}
+
 .product-card__quick-buy .button div {
     display: flex;
     align-items: center;
