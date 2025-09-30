@@ -10478,6 +10478,9 @@ p,
     font-weight: 700;
     color:#885f41;
   }
+  .product-list .product-card__quick-buy {
+    margin-top: 15px;
+}
 @media(max-width:767px){
   .cart-drawer__line-items .line-item .text-sm{
     font-size:14px;
