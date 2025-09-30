@@ -44,7 +44,7 @@
     "product_info_alignment": "start",
     "cart_type": "drawer",
     "cart_icon": "shopping_basket",
-    "cart_show_free_shipping_threshold": false,
+    "cart_show_free_shipping_threshold": true,
     "social_facebook": "https://www.facebook.com/fjordlivingdk",
     "social_instagram": "https://www.instagram.com/fjordliving.dk/",
     "favicon": "shopify://shop_images/10.png",
