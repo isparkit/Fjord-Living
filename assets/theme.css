@@ -2554,7 +2554,7 @@ model-media .shopify-model-viewer-ui {
 
 .quantity-input {
   width: var(--quantity-input-characters-count, 1ch);
-  border-radius: var(--rounded-input);
+  /* border-radius: var(--rounded-input); */
   text-align: center;
   min-width: 44px;
   font-size: var(--text-xs);
