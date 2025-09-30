@@ -801,6 +801,20 @@
             "link_style": "link"
           }
         },
+        "item_yzhXUK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/smartbrush.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Let udskiftelige hoveder",
+            "heading_tag": "h4",
+            "content": "<p>Hovederne klikkes let af og på, hvilket gør det enkelt at få fuld udbytte af demange brugsmuligheder de 7 forskellige karakter af børster giver.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_bGabMN": {
           "type": "item",
           "settings": {
@@ -832,6 +846,7 @@
       },
       "block_order": [
         "item_HJYpXE",
+        "item_yzhXUK",
         "item_bGabMN",
         "item_AEyDfz"
       ],
