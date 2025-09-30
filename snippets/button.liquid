@@ -103,7 +103,7 @@ Supported variables
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
-    {{- button_content -}} {% render 'card-arrow' %}
+  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }} {% if enable_arrow == true %}has-arrow="true"{% endif %}>
+    {{- button_content -}} {% if enable_arrow == true %}{% render 'card-arrow' %}{% endif %}
   </button>
 {%- endif -%}
