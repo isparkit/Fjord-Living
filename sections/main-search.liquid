@@ -76,9 +76,15 @@
       </template>
 
       {%- for search_type in search.types reversed -%}
-        <button slot="title" class="link-reversed subheading" aria-selected="{{ forloop.first }}" controlled-panel="main-search-results-{{ search_type }}">
+        <button
+          slot="title"
+          class="link-reversed subheading"
+          aria-selected="{{ forloop.first }}"
+          controlled-panel="main-search-results-{{ search_type }}"
+        >
           {%- assign translation_key = 'search.general.' | append: search_type | append: 's' -%}
-          {{- translation_key | t }} {% if search.types.size == 1 %}({{ search.results_count }}){% endif %}
+          {{- translation_key | t }}
+          {% if search.types.size == 1 %}({{ search.results_count }}){% endif %}
         </button>
       {%- endfor -%}
     </x-tabs>
@@ -100,13 +106,28 @@
 
                   <facet-drawer header-bordered id="facets-drawer" class="facets-drawer drawer" open-from="left">
                     <p class="h5" slot="title">{{ 'collection.faceting.filters' | t }}</p>
-                    {%- render 'facets-vertical', results: search, show_filters: show_filters, show_sort_by: section.settings.show_sort_by, update_on_change: false -%}
+                    {%- render 'facets-vertical',
+                      results: search,
+                      show_filters: show_filters,
+                      show_sort_by: section.settings.show_sort_by,
+                      update_on_change: false
+                    -%}
                   </facet-drawer>
 
                   {%- if section.settings.filter_layout == 'horizontal' -%}
-                    {%- render 'collection-top-bar', results: search, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+                    {%- render 'collection-top-bar',
+                      results: search,
+                      show_filters: show_filters,
+                      show_active_filters: show_filters,
+                      show_sort_by: section.settings.show_sort_by
+                    -%}
                   {%- else -%}
-                    {%- render 'collection-top-bar', results: search, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+                    {%- render 'collection-top-bar',
+                      results: search,
+                      show_filters: false,
+                      show_active_filters: show_filters,
+                      show_sort_by: section.settings.show_sort_by
+                    -%}
                   {%- endif -%}
 
                   {%- comment -%}We also need to render the button, that is floating on mobile{%- endcomment -%}
@@ -122,14 +143,27 @@
                     {%- endcapture -%}
 
                     {%- assign filter_label = content_key | t -%}
-                    {%- render 'button', size: 'xl', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
+                    {%- render 'button',
+                      size: 'xl',
+                      content: filter_label,
+                      icon: 'filter',
+                      style: 'fill',
+                      background: settings.text_color,
+                      text_color: settings.background,
+                      aria_controls: 'facets-drawer'
+                    -%}
                   </facet-floating-filter>
                 {%- endif -%}
 
                 {%- if show_filters and section.settings.filter_layout == 'sidebar' -%}
                   <div class="collection__facets">
                     <safe-sticky class="collection__facets-scroller">
-                      {%- render 'facets-vertical', results: search, show_filters: show_filters, show_sort_by: false, update_on_change: true -%}
+                      {%- render 'facets-vertical',
+                        results: search,
+                        show_filters: show_filters,
+                        show_sort_by: false,
+                        update_on_change: true
+                      -%}
                     </safe-sticky>
                   </div>
                 {%- endif -%}
@@ -146,7 +180,13 @@
                         <p class="h5">{{ 'collection.faceting.no_results' | t }}</p>
 
                         {%- assign button_content = 'collection.faceting.clear_filters' | t -%}
-                        {%- assign url = routes.search_url | append: '?q=' | append:  search.terms | append: '&sort_by=' | append: search.sort_by | append: '&type=product' -%}
+                        {%- assign url = routes.search_url
+                          | append: '?q='
+                          | append: search.terms
+                          | append: '&sort_by='
+                          | append: search.sort_by
+                          | append: '&type=product'
+                        -%}
                         {%- render 'button', href: url, is: 'facet-link', size: 'xl', content: button_content -%}
                       </div>
                     </div>
@@ -163,7 +203,12 @@
 
                           {%- for item in product_results -%}
                             {%- if item.object_type == 'product' -%}
-                              {%- render 'product-card', product: item, stacked: true, position: forloop.index, show_badges: true -%}
+                              {%- render 'product-card',
+                                product: item,
+                                stacked: true,
+                                position: forloop.index,
+                                show_badges: true
+                              -%}
                             {%- endif -%}
                           {%- endfor -%}
                         </product-list>
@@ -183,13 +228,13 @@
                   {%- for item in search.results -%}
                     {%- if item.object_type == 'article' -%}
                       {%- render 'blog-post-card',
-                          article: item,
-                          heading_size: 'h5',
-                          show_category: section.settings.show_category,
-                          show_date: section.settings.show_date,
-                          show_reading_time: false,
-                          show_excerpt: section.settings.show_excerpt,
-                          position: forloop.index
+                        article: item,
+                        heading_size: 'h5',
+                        show_category: section.settings.show_category,
+                        show_date: section.settings.show_date,
+                        show_reading_time: false,
+                        show_excerpt: section.settings.show_excerpt,
+                        position: forloop.index
                       -%}
                     {%- endif -%}
                   {%- endfor -%}
@@ -214,16 +259,26 @@
                 </ul>
               </div>
             {%- endpaginate -%}
-
         {%- endcase -%}
       </search-result-panel>
 
     {%- else -%}
       {%- comment -%}Otherwise, we have to do different Ajax requests for each resource type{%- endcomment -%}
       {%- for type in search.types reversed -%}
-        {%- assign search_url_for_type = routes.search_url | append: '?type=' | append: type | append: '&q=' | append: search.terms -%}
+        {%- assign search_url_for_type = routes.search_url
+          | append: '?type='
+          | append: type
+          | append: '&q='
+          | append: search.terms
+        -%}
 
-        <search-result-panel role="tabpanel" aria-labelledby="main-search-results-{{ type | escape }}" id="main-search-results-{{ type | escape }}" load-from-url="{{ search_url_for_type | escape }}" hidden>
+        <search-result-panel
+          role="tabpanel"
+          aria-labelledby="main-search-results-{{ type | escape }}"
+          id="main-search-results-{{ type | escape }}"
+          load-from-url="{{ search_url_for_type | escape }}"
+          hidden
+        >
         </search-result-panel>
       {%- endfor -%}
     {%- endif -%}
@@ -251,7 +306,7 @@
   "class": "shopify-section--main-search",
   "tag": "section",
   "settings": [
-      {
+    {
       "type": "range",
       "id": "products_per_page",
       "label": "Products per page",
@@ -340,6 +395,11 @@
       "id": "open_first_filter_group",
       "label": "Open first group by default",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_arrow",
+      "label": "Enable Arrow"
     }
   ]
 }
