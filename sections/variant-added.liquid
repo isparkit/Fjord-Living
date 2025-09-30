@@ -45,7 +45,7 @@ by the theme and is not meant to be included directly into a page.
     {%- assign view_cart_label = 'cart.general.view_cart' | t -%}
     {%- assign checkout_label = 'cart.general.checkout' | t -%}
 
-    {% comment %} {%- render 'button', href: routes.cart_url, secondary: true, content: view_cart_label -%} {% endcomment %}
+    {%- render 'button', href: routes.cart_url, secondary: true, content: view_cart_label -%}
     {%- render 'button', type: 'submit', name: 'checkout', content: checkout_label -%}
   </form>
 </div>
