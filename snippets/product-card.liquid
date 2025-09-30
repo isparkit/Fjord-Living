@@ -252,19 +252,12 @@
                   class="product-card__mobile-quick-buy-button"
                   aria-label="{{ quick_add_label | escape }}"
                 >
-                  {% render 'card-arrow' %}
+                  {%- render 'icon' with 'quick-buy-cart' -%}
                 </button>
               </div>
 
               <div class="pointer-coarse:hidden">
-                 <button
-                  type="submit"
-                  is="custom-button"
-                  class="product-card__mobile-quick-buy-button"
-                  aria-label="{{ quick_add_label | escape }}"
-                >
-                  {% render 'card-arrow' %}
-                </button>
+                {%- render 'button', type: 'submit', content: quick_add_label -%}
               </div>
             {%- endform -%}
           {%- else -%}
@@ -279,19 +272,12 @@
                 is="custom-button"
                 class="product-card__mobile-quick-buy-button"
               >
-                 {% render 'card-arrow' %}
+                {%- render 'icon' with 'quick-buy-cart' -%}
               </button>
             </div>
 
             <div class="pointer-coarse:hidden">
-                <button
-                  type="submit"
-                  is="custom-button"
-                  class="product-card__mobile-quick-buy-button"
-                  aria-label="{{ quick_add_label | escape }}"
-                >
-                  {% render 'card-arrow' %}
-                </button>
+              {%- render 'button', content: quick_add_label, aria_controls: quick_buy_id -%}
             </div>
 
             <quick-buy-drawer
