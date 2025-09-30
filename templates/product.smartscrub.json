@@ -632,6 +632,7 @@
         "image_fciaCX",
         "image_d6NyKE"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Images",
       "settings": {
         "rig_heading": "DET ULTIMATIVE TØRRESTATIV",
@@ -697,7 +698,7 @@
         "padding_bottom": 80,
         "heading": "MERE PLADS, MINDRE ROD.",
         "content": "<p>SmartRack folder nemt ud og giver dig et fleksibelt, pladsbesparende tørrestativ til hele hjemmet.<br/><br/>Det sikrer effektiv tørring med høj luftcirkulation – og ser samtidig godt ud.</p><p>Fremstillet i behandlet bøgetræ og aluminium – et design du gerne vil have stående fremme.<br/><br/>Glem plastikstativer og metalmonstre. SmartRack er en del af indretningen – ikke et kompromis.</p>",
-        "video": "shopify://files/videos/smartrackadloop_1200.mov"
+        "video": "shopify://files/videos/cleanbrushloopinuseshorter2.mp4"
       }
     },
     "multi_column_BwtTnq": {
