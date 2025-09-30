@@ -10488,7 +10488,10 @@ p,
   .mobile_quick-add{
     display:none;
   }
-
+.product-card__quick-buy{
+  opacity:1;
+  visibility:hidden;
+}
 @media(min-width:768px){
   .product-card__quick-buy {
     opacity: 1;
