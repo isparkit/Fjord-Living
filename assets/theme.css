@@ -10464,7 +10464,20 @@ p,
 .quick-buy-drawer__info .custom_variant_price {
     display: none;
 }
-
+.product-card__quick-buy .button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #885f41;
+    max-width: fit-content;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color: #b38b6d26;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    color:#885f41;
+  }
 @media(max-width:767px){
   .cart-drawer__line-items .line-item .text-sm{
     font-size:14px;
