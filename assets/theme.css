@@ -10433,7 +10433,7 @@ p,
       padding-top:0;
   }
   .cart-drawer__line-items .line-item:not(:first-child){
-    border-top:1px solid 
+    border-top:1px solid #B38B6D1A;
   }
   .cart-drawer__line-items .line-item{
     padding:10px 0;
