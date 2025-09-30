@@ -279,12 +279,19 @@
                 is="custom-button"
                 class="product-card__mobile-quick-buy-button"
               >
-                {%- render 'icon' with 'quick-buy-cart' -%}
+                 {% render 'card-arrow' %}
               </button>
             </div>
 
             <div class="pointer-coarse:hidden">
-              {%- render 'button', content: quick_add_label, aria_controls: quick_buy_id -%}
+                <button
+                  type="submit"
+                  is="custom-button"
+                  class="product-card__mobile-quick-buy-button"
+                  aria-label="{{ quick_add_label | escape }}"
+                >
+                  {% render 'card-arrow' %}
+                </button>
             </div>
 
             <quick-buy-drawer
