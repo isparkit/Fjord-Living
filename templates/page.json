@@ -38,14 +38,67 @@
       "settings": {
         "bg_color": "#fbeee6",
         "heading": "Om os",
-        "content": "<p>Velkommen til FjordLiving - din destination for praktiske og stilfulde løsninger til moderne livsstil. Vi er et dedikeret team af passionerede enkeltpersoner, der deler en vision om at gøre hverdagen lettere og mere behagelig for vores kunder. Hos FjordLiving stræber vi efter at tilbyde innovative produkter, der kombinerer funktionalitet, kvalitet og æstetik.</p><p>Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.</p><p>FjordLiving specialiserer sig i at tilbyde nøje udvalgte produkter, der kan forbedre din hverdag. Fra intelligente tørrestativer som SmartRack til smukke og funktionelle indretningsgenstande er vores sortiment nøje kurateret for at opfylde dine behov og berige dit hjem.</p><p><strong>Hvorfor vælge FjordLiving:</strong></p><p><strong>Kvalitet og holdbarhed:</strong> Vi fokuserer på at tilbyde produkter af høj kvalitet, der ikke kun er funktionelle, men også holdbare og pålidelige.</p><p><strong>Kundeservice:</strong> Vi sætter en ære i at levere en fremragende kundeservice. Vores dedikerede team er her for at besvare dine spørgsmål og sikre, at du er tilfreds med dit køb.</p><p><strong>Bæredygtighed:</strong> Hos FjordLiving er vi opmærksomme på vores miljømæssige ansvar. Vi stræber efter at tilbyde bæredygtige produkter og minimere vores påvirkning på planeten.</p><p><strong>Innovation:</strong> Vi holder os opdateret med de seneste trends og teknologier for at sikre, at vores sortiment altid afspejler det bedste inden for innovation og design.</p><p>Har du spørgsmål eller brug for assistance? Tøv ikke med at kontakte vores kundesupport. Vi er her for at gøre din shoppingoplevelse hos FjordLiving så glat og behagelig som muligt.</p><p>Tak fordi du valgte FjordLiving - din partner i at gøre hverdagen en smule mere enkel og elegant.</p>",
+        "content": "<p>Velkommen til FjordLiving - din destination for praktiske og stilfulde løsninger til moderne livsstil. Vi er et dedikeret team af passionerede enkeltpersoner, der deler en vision om at gøre hverdagen lettere og mere behagelig for vores kunder. Hos FjordLiving stræber vi efter at tilbyde innovative produkter, der kombinerer funktionalitet, kvalitet og æstetik.</p><p>Vores mission er at skabe en shoppingoplevelse, der går ud over blot at levere produkter. Vi ønsker at inspirere og opfylde dine behov ved at tilbyde smarte og bæredygtige løsninger, der passer ind i din daglige rutine. FjordLiving er ikke bare en webshop; det er et sted, hvor praktisk design møder skandinavisk elegance.</p><p>FjordLiving specialiserer sig i at tilbyde nøje udvalgte produkter, der kan forbedre din hverdag. Fra intelligente tørrestativer som SmartRack til smukke og funktionelle indretningsgenstande er vores sortiment nøje kurateret for at opfylde dine behov og berige dit hjem.</p><p></p><p><strong>Hvorfor vælge FjordLiving:</strong></p><p><strong>Kvalitet og holdbarhed:</strong> Vi fokuserer på at tilbyde produkter af høj kvalitet, der ikke kun er funktionelle, men også holdbare og pålidelige.</p><p><strong>Kundeservice:</strong> Vi sætter en ære i at levere en fremragende kundeservice. Vores dedikerede team er her for at besvare dine spørgsmål og sikre, at du er tilfreds med dit køb.</p><p><strong>Bæredygtighed:</strong> Hos FjordLiving er vi opmærksomme på vores miljømæssige ansvar. Vi stræber efter at tilbyde bæredygtige produkter og minimere vores påvirkning på planeten.</p><p><strong>Innovation:</strong> Vi holder os opdateret med de seneste trends og teknologier for at sikre, at vores sortiment altid afspejler det bedste inden for innovation og design.</p><p>Har du spørgsmål eller brug for assistance? Tøv ikke med at kontakte vores kundesupport. Vi er her for at gøre din shoppingoplevelse hos FjordLiving så glat og behagelig som muligt.</p><p>Tak fordi du valgte FjordLiving - din partner i at gøre hverdagen en smule mere enkel og elegant.</p>",
         "image": "shopify://shop_images/image_8.png"
+      }
+    },
+    "multi_column_AFAAR6": {
+      "type": "multi-column",
+      "blocks": {
+        "item_iQCXxq": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_KkNdJG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/image_8.png",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_iQCXxq",
+        "item_KkNdJG"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "",
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "<p>.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
   "order": [
     "main",
     "custom_image_with_text_iJjQ4H",
-    "about_custom_imgtext_JEQqcr"
+    "about_custom_imgtext_JEQqcr",
+    "multi_column_AFAAR6"
   ]
 }
