@@ -38,7 +38,7 @@
         "message_44w8Xc": {
           "type": "message",
           "settings": {
-            "text": "Fremragende",
+            "text": "★★★★★ Fremragende",
             "url": ""
           }
         },
@@ -59,11 +59,9 @@
       ],
       "settings": {
         "enable_sticky": false,
-        "navigation_mode": "scrolling",
-        "autoplay": false,
-        "cycle_speed": 4,
-        "scrolling_speed": 20,
         "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 15,
         "background": "#885f41",
         "background_gradient": "",
         "text_color": "#ffffff"
