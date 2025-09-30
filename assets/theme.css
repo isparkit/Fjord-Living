@@ -10411,3 +10411,12 @@ p,
 .text-sm{
   color:#000 !important;
 }
+.cart-drawer__line-items .quantity-input {
+    border: none;
+    min-width: 35px;
+}
+
+.cart-drawer__line-items .quantity-selector__button {
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
