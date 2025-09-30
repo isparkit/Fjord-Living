@@ -10423,6 +10423,7 @@ p,
 .cart-drawer__line-items .quantity-selector{
   background-color: #B38B6D1A;
   border-color: #885F41;
+  height:2.5rem;
 }
 .cart-drawer__line-items .quantity-selector__button[disabled] {
     opacity: 0.5;
