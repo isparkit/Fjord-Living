@@ -198,7 +198,8 @@
                     placeholder_image: placeholder_image,
                     background: section.settings.product_card_background,
                     text_color: section.settings.product_card_text_color,
-                    text_alignment: settings.product_info_alignment
+                    text_alignment: settings.product_info_alignment,
+                    enable_arrow
                   -%}
                 {%- endfor -%}
               {%- endfor -%}
@@ -325,6 +326,11 @@
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
+    },
+    {
+      "type": "checkbox",
+      "id":"enable_arrow",
+      "label": "Enable Arrow"
     },
     {
       "type": "text",
