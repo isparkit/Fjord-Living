@@ -71,7 +71,9 @@
         </div>
       {% endif %}
       <!-- VS Circle -->
+      {% if section.settings.video_1 != blank or section.settings.image_1 != blank or section.settings.video_2 != blank or section.settings.image_2 != blank %}
       <div class="vs-circle">VS</div>
+      {% endif %}
       {% if section.settings.video_2 != blank or section.settings.image_2 != blank %}
         <div class="comparison-img">
           {% if section.settings.video_2 != blank %}
