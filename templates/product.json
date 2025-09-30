@@ -283,13 +283,6 @@
             "url": ""
           }
         },
-        "image_6Q7hPp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/summerhousev2_jpg.webp",
-            "url": ""
-          }
-        },
         "image_8WRe8X": {
           "type": "image",
           "settings": {
@@ -458,6 +451,13 @@
             "url": ""
           }
         },
+        "image_6Q7hPp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/summerhousev2_jpg.webp",
+            "url": ""
+          }
+        },
         "image_KbMM4f": {
           "type": "image",
           "settings": {
@@ -588,7 +588,6 @@
       "block_order": [
         "image_kMmgxn",
         "image_CXbwwd",
-        "image_6Q7hPp",
         "image_8WRe8X",
         "image_EaXTWm",
         "image_M8hHe7",
@@ -613,6 +612,7 @@
         "image_rcfPey",
         "image_MwH3hw",
         "image_kYYNxi",
+        "image_6Q7hPp",
         "image_KbMM4f",
         "image_iDYnx3",
         "image_mGVRHk",
