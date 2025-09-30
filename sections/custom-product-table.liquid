@@ -48,7 +48,7 @@
     </div>
     <!-- Right Side Images -->
     <div class="comparison-images">
-      
+    {% if section.settings.video_1 != blank or section.settings.image_1 != blank %}
       <div class="comparison-img">
         {% if section.settings.video_1 != blank %}
           <div class="media-wrapper">
@@ -69,6 +69,7 @@
           </div>
         {% endif %}
       </div>
+    {% endif %}
       <!-- VS Circle -->
       <div class="vs-circle">VS</div>
       <div class="comparison-img">
