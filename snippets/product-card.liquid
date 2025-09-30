@@ -245,7 +245,7 @@
             {%- form 'product', product, is: 'product-form' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
-              <div class="pointer-fine:hidden">
+              {% comment %} <div class="pointer-fine:hidden">
                 <button
                   type="submit"
                   is="custom-button"
@@ -254,9 +254,9 @@
                 >
                   {%- render 'icon' with 'quick-buy-cart' -%}
                 </button>
-              </div>
+              </div> {% endcomment %}
 
-              <div class="pointer-coarse:hidden">
+              <div class="pointer-coarse">
                 {%- render 'button', type: 'submit', content: quick_add_label, enable_arrow:enable_arrow -%}
               </div>
             {%- endform -%}
