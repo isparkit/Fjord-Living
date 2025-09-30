@@ -104,6 +104,6 @@ Supported variables
   </a>
 {%- else -%}
   <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
-    {{- button_content -}}
+    {{- button_content -}} {% render 'card-arrow' %}
   </button>
 {%- endif -%}
