@@ -10428,3 +10428,8 @@ p,
     opacity: 0.5;
     cursor: not-allowed;
 }
+@media(max-width:767px){
+  .line-item__info{
+    
+  }
+}
