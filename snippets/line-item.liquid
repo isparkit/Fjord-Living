@@ -107,7 +107,7 @@ Supported variables
   </div>
 
   {%- if show_desktop_quantity -%}
-    <div class="line-item__actions text-subdued">
+    <div class="line-item__actions text-subdued hidden sm:block">
       <line-item-quantity class="v-stack gap-2">
         <quantity-selector class="quantity-selector">
               <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
