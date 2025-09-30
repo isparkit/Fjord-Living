@@ -207,7 +207,7 @@
           {% render 'card-arrow' %}
         </div> {% endcomment %}
            {%- if show_quick_buy and product.available -%}
-        <div class="product-card__quick-buy">
+        <div class="product-card__quick-buy desktop_quick-add">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
           {%- if product.variants.size >= 1 and product.selling_plan_groups.size == 0 -%}
@@ -225,7 +225,7 @@
                 </button>
               </div> 
 
-              <div class="pointer-coarse desktop_quick-add">
+              <div class="pointer-coarse ">
                 {%- render 'button', type: 'submit', content: quick_add_label, enable_arrow:enable_arrow -%}
               </div>
             {%- endform -%}
