@@ -922,6 +922,7 @@
         "row_tiLcVi",
         "row_9kqBtB"
       ],
+      "disabled": true,
       "name": " Custom Comparison Table",
       "settings": {
         "main_head": "",
@@ -1207,6 +1208,74 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "multi_column_Q9eXqH": {
+      "type": "multi-column",
+      "blocks": {
+        "item_HJYpXE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/heads7.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Syv udskiftelige rengøringshoveder",
+            "heading_tag": "h4",
+            "content": "<p>Denne elektriske børste er alsidig med sine syv unikke hoveder: en hård nylon og en blød børste for forskellige overflader, skuresvamp, et blødt svampehoved til skånsom rengøring, samt et kegleformet hoved til hjørner som ellers kan være svære at få rene. Dertil kommer et poleringshoved, der efterlader overflader skinnende.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bGabMN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/onepush.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "To gear",
+            "heading_tag": "h4",
+            "content": "<p>Den kraftfulde elektriske motor har to gear, der klarer skærene, hvor traditionelle rengøringsbørster og knofedt må give op – det er ren magi!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AEyDfz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/usbc_battery.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "USB-C opladning",
+            "heading_tag": "h4",
+            "content": "<p>Det indbyggede batteri oplades nemt med USB-C og holder strøm tili op til to timers skrubning.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_HJYpXE",
+        "item_bGabMN",
+        "item_AEyDfz"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "custom-multi": "",
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -1220,6 +1289,7 @@
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
     "175873529700477504",
-    "image_with_text_overlay_WbBwXM"
+    "image_with_text_overlay_WbBwXM",
+    "multi_column_Q9eXqH"
   ]
 }
