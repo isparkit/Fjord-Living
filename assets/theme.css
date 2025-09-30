@@ -10420,3 +10420,7 @@ p,
     padding-inline-start: 10px;
     padding-inline-end: 10px;
 }
+.cart-drawer__line-items .quantity-selector{
+  background-color: #B38B6D1A;
+  border-color: #885F41;
+}
