@@ -10494,10 +10494,15 @@ p,
   .product-card{
     border-radius: 25px;
   }
-  .mobile_quick-add
+  .mobile_quick-add{
+    display:none;
+  }
   desktop_quick-add
 @media(max-width:767px){
   .cart-drawer__line-items .line-item .text-sm{
     font-size:14px;
+  }
+  .mobile_quick-add{
+    display:block;
   }
 }
