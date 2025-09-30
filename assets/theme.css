@@ -10424,3 +10424,7 @@ p,
   background-color: #B38B6D1A;
   border-color: #885F41;
 }
+.cart-drawer__line-items .quantity-selector__button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
