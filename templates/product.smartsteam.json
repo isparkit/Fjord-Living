@@ -162,7 +162,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Beskrivelse",
-            "content": "<p>Din løsning til effektiv tørring af tøj, uanset om du bor i en lille lejlighed eller blot ønsker en pladsbesparende elegant løsning. Med vores innovative design kombinerer SmartRack både funktionalitet og stil, så du kan tørre dit tøj på en smart og bekvem måde. Gør dit hjem til et sted, hvor du føler dig godt tilpas og er stolt af at vise frem. </p><p><strong>Standard:</strong> SmartRack standard kommer med sølv top.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med en elegant gylden top samt praktisk opbevaringspose.</p>",
+            "content": "<p>Fjern hurtigt og effektivt krøller på tøjet med SmartSteam – den kompakte og lette håndholdte tøjsteamer. Den opvarmes på sekunder og leverer kraftig damp, der udjævner selv de mest genstridige krøller. Perfekt til både daglig brug og rejser, den er nem at opbevare og kommer med en praktisk rejsetaske. Den drejelige hoved og vægophæng gør den ekstra brugervenlig, hvilket gør den til et uundværligt redskab til både hjemme- og rejsebrug.</p>",
             "html_con": "",
             "page": ""
           }
@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Specifikationer",
-            "content": "<p><strong>Materialer:</strong> Arme i klasse 1 forbearbejdet og larkeret bøgetræ. Top i aluminiumslegering, hvilket sikrer både holdbarhed og en moderne æstetik.</p><p><strong>Vægt:</strong> 4.2kg</p><p><strong>Størrelse slået sammen: </strong>70 cm høj, diameter 15 cm</p><p><strong>Størrelse slået ud: </strong>121 cm høj, diameter 110 cm.</p><p><strong>Bæreevne:</strong> Kan bære op til 20 kg tøj, hvilket gør det ideelt til store vaskelæs.</p><p><strong>Samling:</strong> SmartRack kommer samlet og klar til brug.</p><p>Arme og ben slåes let ud og sammen igen.</p><p><strong>Justerbare arme:</strong> Tilpas antallet af arme for at imødekomme din tørringskapacitet og pladsbegrænsninger.</p><p><strong>Pladsbesparende design:</strong> Foldbart design gør det let at opbevare og ideelt til små rum.</p><p><strong>Indendørs og udendørs brug:</strong> Robust nok til udendørs brug og alligevel elegant nok til at passe indendørs. Den hvide cylinder er UV afvisende, og bliver ikke rigtig varm i solskin.</p><p><strong>Tøj:</strong> Velegnet til både trøjer, t-shirts skjorter, kjoler samt,delikate tøjstykker som undertøj og sokker. Kan også bruges til luftning af dyner mm.</p><p><strong>Stabilitet:</strong> Unik tripod-struktur sikrer optimal stabilitet selv i begrænsede pladsforhold.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med guld-look top og praktisk opbevaringspose. </p><p><strong>Standard edition: </strong>SmartRack standard kommer med sølv top.</p>",
+            "content": "",
             "html_con": "",
             "page": ""
           }
@@ -632,6 +632,7 @@
         "image_fciaCX",
         "image_d6NyKE"
       ],
+      "disabled": true,
       "name": "SS - Scrolling Images",
       "settings": {
         "rig_heading": "DET ULTIMATIVE TØRRESTATIV",
@@ -691,6 +692,7 @@
     },
     "custom_two_coilum_video_NHxP9E": {
       "type": "custom-two-coilum-video",
+      "disabled": true,
       "name": "Custom Video Section",
       "settings": {
         "padding_top": 80,
@@ -766,6 +768,7 @@
         "item_V6VtUG",
         "item_RcWUDR"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "custom-multi",
@@ -834,6 +837,7 @@
         "item_RLGjUJ",
         "item_V7tG9j"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "product-multi-col",
@@ -920,6 +924,7 @@
         "row_tiLcVi",
         "row_9kqBtB"
       ],
+      "disabled": true,
       "name": " Custom Comparison Table",
       "settings": {
         "main_head": "",
@@ -1036,6 +1041,7 @@
         "faq_c9ckVE",
         "faq_DCnk4h"
       ],
+      "disabled": true,
       "name": "Custom FAQ Section",
       "settings": {
         "heading": "Spørgsmål & svar",
@@ -1130,6 +1136,7 @@
         "testimonial_aAARXk",
         "testimonial_mkcwCm"
       ],
+      "disabled": true,
       "name": "Testimonial Slider",
       "settings": {
         "heading": "Kundeoplevelser",
@@ -1191,6 +1198,7 @@
         "heading_kfC8eL",
         "richtext_tFKDpd"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
