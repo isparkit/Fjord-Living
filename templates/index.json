@@ -62,9 +62,9 @@
             "image": "shopify://shop_images/smile.png",
             "show_controls": false,
             "column_size": "4",
-            "title": "Tilfredshedsgaranti",
+            "title": "Prøv risikofrit",
             "heading_tag": "h4",
-            "content": "<p>30 dages tilfredshedsgaranti</p>",
+            "content": "<p>Vi tilbyder 30 dages tilfredshedsgaranti</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
