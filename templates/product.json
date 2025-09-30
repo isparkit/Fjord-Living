@@ -634,7 +634,7 @@
       ],
       "name": "SS - Scrolling Images",
       "settings": {
-        "rig_heading": "Det Ultimative Tørrestativ",
+        "rig_heading": "DET ULTIMATIVE TØRRESTATIV",
         "rig_content": "<p>SmartRack er den ultimative tørreløsning til det moderne hjem. Med sit elegante design, pladsbesparende opbevaringsfunktion og imponerende kapacitet i forhold til størrelsen, er SmartRack ideel til selv de mest krævende tørrebehov.</p><p>Spar både plads, tid og energi med dette fleksible tørrestativ, der giver effektiv og luftig tørring – uanset om det er i vaskerummet, på balkonen, i haven, eller andre steder i hjemmet.</p>",
         "heading": "",
         "heading_custom": false,
@@ -695,7 +695,7 @@
       "settings": {
         "padding_top": 80,
         "padding_bottom": 80,
-        "heading": "Funktionelt og pladsbesparende design",
+        "heading": "MERE PLADS, MINDRE ROD.",
         "content": "<p>SmartRack folder nemt ud og giver dig et fleksibelt, pladsbesparende tørrestativ til hele hjemmet.<br/><br/>Det sikrer effektiv tørring med høj luftcirkulation – og ser samtidig godt ud.</p><p>Fremstillet i behandlet bøgetræ og aluminium – et design du gerne vil have stående fremme.<br/><br/>Glem plastikstativer og metalmonstre. SmartRack er en del af indretningen – ikke et kompromis.</p>",
         "video": "shopify://files/videos/smartrackadloop_1200.mov"
       }
@@ -737,7 +737,7 @@
             "image": "shopify://shop_images/smile.png",
             "show_controls": false,
             "column_size": "4",
-            "title": "Tilfredshedsgaranti",
+            "title": "Prøv risikofrit",
             "heading_tag": "h4",
             "content": "<p>30 dages tilfredshedsgaranti</p>",
             "link_url": "",
