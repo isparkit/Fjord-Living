@@ -2004,7 +2004,7 @@ class LineItemQuantity extends HTMLElement {
       }
     });
 
-    // Listen for cart changes to update input value only
+    // Listen for cart changes to update all inputs with same line-key
     document.addEventListener("cart:change", this._onCartChange.bind(this));
   }
 
@@ -2060,14 +2060,17 @@ class LineItemQuantity extends HTMLElement {
         return;
       }
 
-      // Only update input value, never replace HTML
-      const input = this.querySelector(".quantity-input");
+      // Update all inputs with same lineKey (desktop + mobile)
       const lineItemData = cartContent.items.find(item => item.key === lineKey);
-      input.value = lineItemData ? lineItemData.quantity : 0;
-      input.defaultValue = input.value;
+      const newQuantity = lineItemData ? lineItemData.quantity : 0;
+      const allInputs = document.querySelectorAll(`.quantity-input[data-line-key="${lineKey}"]`);
+      allInputs.forEach(input => {
+        input.value = newQuantity;
+        input.defaultValue = newQuantity;
+      });
 
       // Dispatch events
-      lineItem?.dispatchEvent(new CustomEvent("line-item:change", { bubbles: true, detail: { quantity: input.value, cart: cartContent } }));
+      lineItem?.dispatchEvent(new CustomEvent("line-item:change", { bubbles: true, detail: { quantity: newQuantity, cart: cartContent } }));
       document.documentElement.dispatchEvent(new CustomEvent("cart:change", { bubbles: true, detail: { baseEvent: "line-item:change", cart: cartContent } }));
 
       // Reload page only if on cart page
@@ -2096,18 +2099,19 @@ class LineItemQuantity extends HTMLElement {
 
   _onCartChange(event) {
     const cart = event.detail.cart;
-    const input = this.querySelector(".quantity-input");
-    if (!input) return;
 
-    const lineKey = input.getAttribute("data-line-key");
-    const lineItemData = cart.items.find(item => item.key === lineKey);
-    if (lineItemData) {
-      input.value = lineItemData.quantity;
-      input.defaultValue = lineItemData.quantity;
-    } else {
-      input.value = 0;
-      input.defaultValue = 0;
-    }
+    // Update all inputs for each lineKey
+    document.querySelectorAll(".quantity-input[data-line-key]").forEach(input => {
+      const lineKey = input.getAttribute("data-line-key");
+      const lineItemData = cart.items.find(item => item.key === lineKey);
+      if (lineItemData) {
+        input.value = lineItemData.quantity;
+        input.defaultValue = lineItemData.quantity;
+      } else {
+        input.value = 0;
+        input.defaultValue = 0;
+      }
+    });
   }
 }
 
@@ -2115,6 +2119,7 @@ class LineItemQuantity extends HTMLElement {
 if (!window.customElements.get("line-item-quantity")) {
   window.customElements.define("line-item-quantity", LineItemQuantity);
 }
+
 
 
 // js/common/cart/shipping-estimator.js
