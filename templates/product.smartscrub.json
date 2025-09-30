@@ -1132,27 +1132,27 @@
           "type": "testimonial",
           "settings": {
             "stars": 5,
-            "title": "Pænt tørrestativ",
-            "text": "Super fedt produkt! Det fylder ikke særligt meget i hjemmet, og er et virkelig pladsbesparende tørrestativ,",
-            "author": "Sussie G"
+            "title": "Let rengøring",
+            "text": "Denne powerscrubber har gjort min rengøring og opvask meget nemmere. Jeg har en jeg bruger til den ellers besværlige del af opvasken (man kan virkelig mærke motoren tager ved), samt en jeg bruger til husrengøring, sko og bilen :)",
+            "author": "Naja S."
           }
         },
         "testimonial_t7QhLb": {
           "type": "testimonial",
           "settings": {
             "stars": 5,
-            "title": "Smart tørrestativ",
-            "text": "Jeg er vild med, hvor alsidig SmartRack er. Jeg bruger den både indendørs og udendørs, og fungerer",
-            "author": "Jens J."
+            "title": "Fantastisk produkt",
+            "text": "De forskellige udskiftelige hoveder gør dette produkt meget alsidigt, og brugbart til så mange formål i mit hjem. Jeg får let skidt og snavs væk, hvor jeg ellers måtte sætte i blød i flere timer. Jeg kan klart anbefale SmartSrub.",
+            "author": "Hans J."
           }
         },
         "testimonial_qXeEtq": {
           "type": "testimonial",
           "settings": {
             "stars": 5,
-            "title": "God investering",
-            "text": "Det smarte design gør SmartRack til et must-have. Det har frigivet plads i mit vaskerum, og jeg elsker,",
-            "author": "Malene E."
+            "title": "Jeg bruger den nærmest hver dag",
+            "text": "Den gør opvasken meget nemmere og jeg får et renere resultat hurtigere✨. Hvorfor har jeg først opdaget den nu? Det er som at bruge en elektrisk tandbørste, eller boremaskine frem for manuel slid.",
+            "author": "Julie N."
           }
         },
         "testimonial_jXrxiV": {
@@ -1175,6 +1175,7 @@
         },
         "testimonial_JheppE": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "stars": 5,
             "title": "Smart investering",
@@ -1184,6 +1185,7 @@
         },
         "testimonial_aAARXk": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "stars": 5,
             "title": "Smart investering",
@@ -1193,6 +1195,7 @@
         },
         "testimonial_mkcwCm": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "stars": 5,
             "title": "Smart investering",
