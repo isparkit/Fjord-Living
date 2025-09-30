@@ -10490,7 +10490,7 @@ p,
   }
 .product-card__quick-buy{
   opacity:1;
-  visibility:hidden;
+  visibility:visible;
 }
 @media(min-width:768px){
   .product-card__quick-buy {
