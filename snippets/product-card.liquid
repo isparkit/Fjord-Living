@@ -241,7 +241,7 @@
         <div class="product-card__quick-buy">
           {%- assign quick_add_label = 'product.general.quick_add' | t -%}
 
-          {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
+          {%- if product.variants.size >= 1 and product.selling_plan_groups.size == 0 -%}
             {%- form 'product', product, is: 'product-form' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
@@ -260,7 +260,7 @@
                 {%- render 'button', type: 'submit', content: quick_add_label, enable_arrow:enable_arrow -%}
               </div>
             {%- endform -%}
-          {%- else -%}
+          {% comment %} {%- else -%}
             {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
             <div class="pointer-fine:hidden">
@@ -290,7 +290,7 @@
               class="quick-buy-drawer drawer"
             >
               {%- comment -%}Quick buy content is filled on demand for performance reasons {%- endcomment -%}
-            </quick-buy-drawer>
+            </quick-buy-drawer> {% endcomment %}
           {%- endif -%}
         </div>
       {%- endif -%}
