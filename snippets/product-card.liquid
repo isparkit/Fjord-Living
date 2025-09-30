@@ -260,7 +260,7 @@
                 {%- render 'button', type: 'submit', content: quick_add_label, enable_arrow:enable_arrow -%}
               </div>
             {%- endform -%}
-          {% comment %} {%- else -%}
+          {%- else -%}
             {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
             <div class="pointer-fine:hidden">
@@ -290,7 +290,7 @@
               class="quick-buy-drawer drawer"
             >
               {%- comment -%}Quick buy content is filled on demand for performance reasons {%- endcomment -%}
-            </quick-buy-drawer> {% endcomment %}
+            </quick-buy-drawer>
           {%- endif -%}
         </div>
       {%- endif -%}
