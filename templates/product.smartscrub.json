@@ -838,7 +838,7 @@
       "name": "Multi-column",
       "settings": {
         "custom-multi": "",
-        "full_width": true,
+        "full_width": false,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
@@ -1033,7 +1033,7 @@
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/cleanbrushloopinuse.mp4",
-        "mobile_video": "shopify://files/videos/scrubberloop169shorter.mp4",
+        "mobile_video": "shopify://files/videos/cleanbrushloopinuse.mp4",
         "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
