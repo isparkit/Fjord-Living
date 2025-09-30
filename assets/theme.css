@@ -10432,6 +10432,9 @@ p,
   .cart-drawer__line-items .line-item:first-child{
       padding-top:0;
   }
+  .cart-drawer__line-items .line-item:last-child{
+    padding-b
+  }
   .cart-drawer__line-items .line-item:not(:first-child){
     border-top:1px solid #B38B6D1A;
   }
