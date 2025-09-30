@@ -92,10 +92,10 @@ Supported variables
     <div class="text-with-icon justify-center" {% if enable_arrow == true %}has-arrow="true"{% endif %}>
       {%- render 'icon' with icon, width: 18, height: 18 -%}
       {{- content -}}
-      {% if enable_arrow == true %}{% render 'card-arrow' %}{% endif %}
+      
     </div>
   {%- else -%}
-    {{- content -}}
+    {{- content -}} {% if enable_arrow == true %}{% render 'card-arrow' %}{% endif %}
   {%- endif -%}
 {%- endcapture -%}
 
