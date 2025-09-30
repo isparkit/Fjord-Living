@@ -10430,6 +10430,6 @@ p,
 }
 @media(max-width:767px){
   .cart-drawer__line-items .line-item__info .text-sm:not(:first-child){
-      padding-top:10px;
+      padding-top:0;
   }
 }
