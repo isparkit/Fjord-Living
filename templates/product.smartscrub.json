@@ -162,7 +162,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Beskrivelse",
-            "content": "<p>Din løsning til effektiv tørring af tøj, uanset om du bor i en lille lejlighed eller blot ønsker en pladsbesparende elegant løsning. Med vores innovative design kombinerer SmartRack både funktionalitet og stil, så du kan tørre dit tøj på en smart og bekvem måde. Gør dit hjem til et sted, hvor du føler dig godt tilpas og er stolt af at vise frem. </p><p><strong>Standard:</strong> SmartRack standard kommer med sølv top.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med en elegant gylden top samt praktisk opbevaringspose.</p>",
+            "content": "<p>Denne elektriske rengøringsbørste vil gøre din hverdag lettere. Den er ideel til rengøring af køkkenet, badeværelset, vinduer samt til fjernelse af selv de mest indbrændte rester som motoriseret opvaskebørste.</p><p>Dets kraftfulde roterende hoved forvandler opvask og rengøring til en simpel opgave, samtidig med at det aflaster håndled og arme fra gentagen, anstrengende skrubning.</p><p>Med 7 nemt udskiftelige rengøringshoveder er den alsidig og dækker et bredt spektrum af rengøringsbehov.</p><p>Rengøringsbørsten er klassificeret IPX7 vandtæt for sikker rengøring i håndvaske eller badekar, og er anvendelig både indendørs og udendørs.</p><p>SmartScrubs' højkapacitetsbatteri oplades via USB-C og holder strøm i op til 2 timer pr. opladning.</p>",
             "html_con": "",
             "page": ""
           }
@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Specifikationer",
-            "content": "<p><strong>Materialer:</strong> Arme i klasse 1 forbearbejdet og larkeret bøgetræ. Top i aluminiumslegering, hvilket sikrer både holdbarhed og en moderne æstetik.</p><p><strong>Vægt:</strong> 4.2kg</p><p><strong>Størrelse slået sammen: </strong>70 cm høj, diameter 15 cm</p><p><strong>Størrelse slået ud: </strong>121 cm høj, diameter 110 cm.</p><p><strong>Bæreevne:</strong> Kan bære op til 20 kg tøj, hvilket gør det ideelt til store vaskelæs.</p><p><strong>Samling:</strong> SmartRack kommer samlet og klar til brug.</p><p>Arme og ben slåes let ud og sammen igen.</p><p><strong>Justerbare arme:</strong> Tilpas antallet af arme for at imødekomme din tørringskapacitet og pladsbegrænsninger.</p><p><strong>Pladsbesparende design:</strong> Foldbart design gør det let at opbevare og ideelt til små rum.</p><p><strong>Indendørs og udendørs brug:</strong> Robust nok til udendørs brug og alligevel elegant nok til at passe indendørs. Den hvide cylinder er UV afvisende, og bliver ikke rigtig varm i solskin.</p><p><strong>Tøj:</strong> Velegnet til både trøjer, t-shirts skjorter, kjoler samt,delikate tøjstykker som undertøj og sokker. Kan også bruges til luftning af dyner mm.</p><p><strong>Stabilitet:</strong> Unik tripod-struktur sikrer optimal stabilitet selv i begrænsede pladsforhold.</p><p><strong>Limited edition:</strong> SmartRack limited edition-udgaven kommer med guld-look top og praktisk opbevaringspose. </p><p><strong>Standard edition: </strong>SmartRack standard kommer med sølv top.</p>",
+            "content": "<p><strong>Dimensioner: </strong>216*155*73 mm</p><p><strong>Vægt: </strong>625 gram</p><p><strong>Batteri kapasitet: </strong>2000m Ah</p><p><strong>Arbejdstemperatur: -</strong>10 grader til +50 grader</p><p><strong>Volt: </strong>3.7V</p><p><strong>USB:</strong> Type-C Interface 5V/IA</p><p><strong>CE certificeret</strong></p>",
             "html_con": "",
             "page": ""
           }
@@ -835,6 +835,7 @@
         "item_RLGjUJ",
         "item_V7tG9j"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "custom-multi": "product-multi-col",
