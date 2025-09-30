@@ -137,6 +137,7 @@
         "subheading": "",
         "button_text": "Tilføj til kurv",
         "button_link": "",
+        "enable_arrow": true,
         "title": "FjordLiving Produkter",
         "content": "",
         "link_url": "",
