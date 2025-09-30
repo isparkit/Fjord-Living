@@ -1264,7 +1264,7 @@
       "settings": {
         "custom-multi": "",
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
