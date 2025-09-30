@@ -10442,3 +10442,8 @@ p,
   .cart-drawer__line-items .line-item{
     padding:15px 0;
   }
+@media(max-width:767px){
+  .cart-drawer__line-items .line-item .text-sm{
+    font
+  }
+}
