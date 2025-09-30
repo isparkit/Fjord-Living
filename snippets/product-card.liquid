@@ -239,7 +239,7 @@
         </div> {% endcomment %}
            {%- if show_quick_buy and product.available -%}
         <div class="product-card__quick-buy">
-          {%- assign quick_add_label = section.settings.button_text | t -%}
+          {%- assign quick_add_label = section.settings.button_text -%}
 
           {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
             {%- form 'product', product, is: 'product-form' -%}
