@@ -76,7 +76,7 @@ Supported variables
       </ul>
     {%- endunless -%}
 
-    <div class="text-sm text-subdued">
+    <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
           <quantity-selector class="quantity-selector">
@@ -106,7 +106,7 @@ Supported variables
     {%- endif -%}
   </div>
 
-  {% comment %} {%- if show_desktop_quantity -%}
+  {%- if show_desktop_quantity -%}
     <div class="line-item__actions text-subdued">
       <line-item-quantity class="v-stack gap-2">
         <quantity-selector class="quantity-selector">
@@ -121,5 +121,5 @@ Supported variables
         </span>
       </line-item-quantity>
     </div>
-  {%- endif -%} {% endcomment %}
+  {%- endif -%}
 </line-item>
