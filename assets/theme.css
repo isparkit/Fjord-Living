@@ -10431,6 +10431,7 @@ p,
   .cart-drawer__line-items .line-item__info .text-sm:not(:first-child){
       padding-top:0;
   }
+  .line-item
 @media(max-width:767px){
 
 }
