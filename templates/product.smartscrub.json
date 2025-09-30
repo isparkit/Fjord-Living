@@ -1005,6 +1005,41 @@
         "padding_bottom": 40
       }
     },
+    "video_38tHN4": {
+      "type": "video",
+      "blocks": {
+        "play_CBYxz3": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        },
+        "heading_BwnKch": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_CBYxz3",
+        "heading_BwnKch"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/cleanbrushloopinuse.mp4",
+        "mobile_video": "shopify://files/videos/scrubberloop169shorter.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_faq_DMQerW": {
       "type": "custom-faq",
       "blocks": {
@@ -1302,6 +1337,7 @@
     "multi_column_Q9eXqH",
     "multi_column_MnN4YJ",
     "custom_product_table_PNW6c3",
+    "video_38tHN4",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
     "175873529700477504",
