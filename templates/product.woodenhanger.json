@@ -993,13 +993,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "md",
+        "image_size": "sm",
         "image": "shopify://shop_images/smarthanger_1.5.1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 61
+        "overlay_opacity": 58
       }
     },
     "custom_faq_DMQerW": {
