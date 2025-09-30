@@ -10417,8 +10417,8 @@ p,
 }
 
 .cart-drawer__line-items .quantity-selector__button {
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
 }
 .cart-drawer__line-items .quantity-selector{
   background-color: #B38B6D1A;
