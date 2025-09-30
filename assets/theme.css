@@ -1337,7 +1337,7 @@ scroll-carousel {
   height: 100%;
   max-height: var(--drawer-content-max-height);
   border-radius: var(--rounded-sm);
-  background: rgb(var(--dialog-background));
+  background: #fff;
   color: rgb(var(--text-color));
   flex-direction: column;
   display: flex;
