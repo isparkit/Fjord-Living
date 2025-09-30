@@ -10488,7 +10488,19 @@ p,
   .mobile_quick-add{
     display:none;
   }
-  
+
+@media(min-width:768px){
+    .product-card__quick-buy {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    margin: 0;
+    transform: none;
+    width: 100%;
+    top:0;
+    left:0;
+}
+}
 @media(max-width:767px){
   .cart-drawer__line-items .line-item .text-sm{
     font-size:14px;
