@@ -10488,6 +10488,12 @@ p,
   .product-card__figure img {
     border-radius: 15px;
   }
+     .product-card .product-card__info {
+    padding: 20px 20px;
+  }
+  .product-card{
+    border-radius: 25px;
+  }
 @media(max-width:767px){
   .cart-drawer__line-items .line-item .text-sm{
     font-size:14px;
