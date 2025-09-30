@@ -297,13 +297,6 @@
             "url": ""
           }
         },
-        "image_M8hHe7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MAG_0710_1000h_jpg.webp",
-            "url": ""
-          }
-        },
         "image_xHBQB3": {
           "type": "image",
           "settings": {
@@ -332,6 +325,13 @@
             "url": ""
           }
         },
+        "image_b83qwn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bornholmugc_ca9231fb-27ed-400e-a46d-fe068c8553cc.jpg",
+            "url": ""
+          }
+        },
         "image_mRfrNr": {
           "type": "image",
           "settings": {
@@ -343,6 +343,13 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_4345_heic.webp",
+            "url": ""
+          }
+        },
+        "image_M8hHe7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAG_0710_1000h_jpg.webp",
             "url": ""
           }
         },
@@ -399,13 +406,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_9743_jpg.webp",
-            "url": ""
-          }
-        },
-        "image_b83qwn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bornholmugc_ca9231fb-27ed-400e-a46d-fe068c8553cc.jpg",
             "url": ""
           }
         },
@@ -590,13 +590,14 @@
         "image_CXbwwd",
         "image_8WRe8X",
         "image_EaXTWm",
-        "image_M8hHe7",
         "image_xHBQB3",
         "image_KcXpNX",
         "image_ag7Crf",
         "image_pkkHKr",
+        "image_b83qwn",
         "image_mRfrNr",
         "image_nQTcQj",
+        "image_M8hHe7",
         "image_RRwNrC",
         "image_npFcUp",
         "image_czyrEL",
@@ -605,7 +606,6 @@
         "image_iNJAnY",
         "image_8MEpND",
         "image_3qKRMF",
-        "image_b83qwn",
         "image_Ypwf9j",
         "image_dkadHi",
         "image_AAexTf",
