@@ -51,11 +51,15 @@
       <div class="comparison-img">
         {% if section.settings.video_1 != blank %}
           <div class="media-wrapper">
+            {% if section.settings.tag_1 != blank %}
             <span class="media-tag">{{ section.settings.tag_1 }}</span>
+            {% endif %}
+            {% if section.settings.video_1 != blank %}
             <video autoplay playsinline loop>
               <source src="{{ section.settings.video_1 }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
+            {% endif %}
           </div>
         {% elsif section.settings.image_1 != blank %}
           <div class="media-wrapper">
