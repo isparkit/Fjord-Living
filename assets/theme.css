@@ -10432,7 +10432,9 @@ p,
   .cart-drawer__line-items .line-item:first-child{
       padding-top:0;
   }
-  .cart-drawer__line-items .line-item:not:first-child{}
+  .cart-drawer__line-items .line-item:not(:first-child){
+    border-top:1px solid 
+  }
   .cart-drawer__line-items .line-item{
     padding:10px 0;
   }
