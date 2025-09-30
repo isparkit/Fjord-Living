@@ -37,7 +37,7 @@
       "settings": {
         "show_cart_note": false,
         "show_shipping_text": false,
-        "show_view_cart_button": true,
+        "show_view_cart_button": false,
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
         "products": [],
