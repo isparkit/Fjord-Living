@@ -188,7 +188,8 @@
                   position: forloop.index,
                   background: section.settings.product_card_background,
                   text_color: section.settings.product_card_text_color,
-                  show_badges: true
+                  show_badges: true,
+                  enable_arrow:section.settings.enable_arrow
                 -%}
               {%- else -%}
                 {%- for i in (1..section.settings.products_count) -%}
@@ -198,8 +199,7 @@
                     placeholder_image: placeholder_image,
                     background: section.settings.product_card_background,
                     text_color: section.settings.product_card_text_color,
-                    text_alignment: settings.product_info_alignment,
-                    enable_arrow:section.settings.enable_arrow
+                    text_alignment: settings.product_info_alignment
                   -%}
                 {%- endfor -%}
               {%- endfor -%}
