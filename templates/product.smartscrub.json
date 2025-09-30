@@ -1166,6 +1166,7 @@
         },
         "testimonial_dnrEqz": {
           "type": "testimonial",
+          "disabled": true,
           "settings": {
             "stars": 5,
             "title": "Smart investering",
