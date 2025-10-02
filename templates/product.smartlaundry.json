@@ -1159,6 +1159,41 @@
         "padding_bottom": 80
       }
     },
+    "video_nyiYpj": {
+      "type": "video",
+      "blocks": {
+        "play_BdD4px": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        },
+        "heading_kzHPaV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_BdD4px",
+        "heading_kzHPaV"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/smartlaundry.mp4",
+        "mobile_video": "shopify://files/videos/smartlaundry.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "175873529700477504": {
       "type": "apps",
       "blocks": {
@@ -1193,6 +1228,7 @@
     "custom_product_table_PNW6c3",
     "custom_faq_DMQerW",
     "custom_testimonial_slider_D3gCmh",
+    "video_nyiYpj",
     "175873529700477504"
   ]
 }
